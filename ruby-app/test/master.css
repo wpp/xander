@@ -1,0 +1,13 @@
+body {
+  font-size: 18px;
+  font-family: Georgia;
+}
+
+#content {
+  width: 720px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 30px;
+}

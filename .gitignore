@@ -1,0 +1,8 @@
+coverage
+.byebug_history
+.testbot
+dictionaries
+build.sh
+push.sh
+run.sh
+fixtures

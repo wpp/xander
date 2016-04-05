@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <link rel="stylesheet" type="text/css" media="screen" href="master.css" />
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="content">
+  <h1><%= @markov_chain.name.split('/')[1] %></h1>
+  <h2><%= @markov_chain.words_per_sentence.min %>..<%= @markov_chain.words_per_sentence.max %></h2>
+  <% 5.times do |i| %>
+    <p><%= @markov_chain.generate_sentence unless @markov_chain.dictionary.empty? %></p>
+  <% end %>
+  </div>
+</body>
+</html>
