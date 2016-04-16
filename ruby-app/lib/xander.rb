@@ -17,7 +17,7 @@ class Xander
   FACTION       = /faction/i
   CRUCIBLE      = /crucible|pvp/i
   STREAMERS     = /streamers|stream|twitch|twitch.tv/i
-  XUR_LOCATION  = /wher(.|\s)+xur.*/i
+  XUR_LOCATION  = /(wher([\w\s'])+xur.*|xur.s location)/i
   XUR_INVENTORY = /.*xur.*(selling|inventory|stuff).*/i
 
   def initialize(client)
