@@ -22,9 +22,17 @@ module Action
         doc = Nokogiri::HTML(open(@url))
         @date = doc.css(".col-xs-12>h2").first.children.first.text
 
-        # for example: '/assets/findxur/xur-location-speaker-north.png'
-        path = doc.css(".col-xs-12.col-sm-6>img").first.attributes['src'].value
-        @map = "#{@url.scheme}://#{@url.host}#{path}"
+        # first row with xurs inventory
+        row = doc.css(".col-xs-12.col-sm-6>h2").first.parent.parent
+        if row.css(".col-xs-12.col-sm-6>img").any?
+          # for example: '/assets/findxur/xur-location-speaker-north.png'
+          path = doc.css(".col-xs-12.col-sm-6>img").first.attributes['src'].value
+          @map = "#{@url.scheme}://#{@url.host}#{path}"
+        elsif row.css("p").any?
+          @map = row.css("p").text
+        else
+          @map = "Couldn't find him"
+        end
       end
   end
 end
