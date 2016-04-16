@@ -1,5 +1,7 @@
 module Action
   class MyElo
+    # TODO extract, cleanup
+    TABLE = '(╯°□°）╯︵ ┻━┻'
     attr_reader :message, :user, :client, :mode
 
     def initialize(message, user, client)
@@ -16,6 +18,10 @@ module Action
       else
         "Hi <@#{user}> I can't get your gamertag. Please add a profile title. #{change_instructions}"
       end
+    rescue => e
+      TABLE
+      puts e.message
+      puts e.user
     end
 
     private
