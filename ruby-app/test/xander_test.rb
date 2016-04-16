@@ -328,7 +328,9 @@ class XanderTest < Minitest::Test
       "#{@bot} where is xur?",
       "#{@bot} wher's xur",
       "#{@bot} where is xur at?",
-      "#{@bot} wheres xur???"
+      "#{@bot} wheres xur???",
+      "#{@bot} xur's location",
+      "#{@bot} where is xur located?"
     ].each do |msg|
       VCR.use_cassette('xur_location') do
         response = @xander.respond_to(msg, @user)
