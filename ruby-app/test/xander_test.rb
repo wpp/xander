@@ -339,6 +339,13 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_where_is_xur_reef
+    VCR.use_cassette('xur_location_reef') do
+      response = @xander.respond_to("#{@bot} where is xur", @user)
+      assert_equal "Xur's Location (Apr 15 – Apr 17, 2016): Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.", response
+    end
+  end
+
   def test_where_is_xur_error
     [
       "#{@bot} where is xur?",
