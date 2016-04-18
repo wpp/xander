@@ -15,5 +15,5 @@ VCR.configure do |config|
 end
 
 Slack.configure do |config|
-  config.token = 'asdf'
+  config.token = File.read('.testbot').chomp
 end
