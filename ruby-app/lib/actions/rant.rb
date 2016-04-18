@@ -1,7 +1,7 @@
 module Action
   class Rant
     def initialize
-      @dictionary = MarkovChain.new("lib/dictionaries/daily_challenge.txt")
+      @dictionary = MarkovChain.new("lib/dictionaries/rant.txt")
     end
 
     def response
