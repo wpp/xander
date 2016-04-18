@@ -57,25 +57,27 @@ module Action
 
       def get_elos
         elos = []
-        response = ''
         @gg_user.membership_ids.each do |mid|
           if @gg_user.get_elos(mid[:id]).select { |r| r['mode'] == GG::MODES[mode] }.empty?
-            response = "Hi <@#{user}> I couldn’t get a #{mode} elo for you on guardian.gg."
+            elos << { platform: mid[:platform_id], elo: 'couldn’t find one' }
           else
             elo = @gg_user.get_elos(mid[:id]).select { |r| r['mode'] == GG::MODES[mode] }.first['elo'].floor
             elos << { platform: mid[:platform_id], elo: elo }
-            if elos.length > 1
-              elo_str = ''
-              elos.each do |platform_elo|
-                elo_str += " *#{platform_elo[:elo]}* (#{GG::PLATFORMS[platform_elo[:platform]]})"
-              end
-              response = "Hi <@#{user}> your #{mode} elo is:#{elo_str}."
-            else
-              response = "Hi <@#{user}> your #{mode} elo is: *#{elos.first[:elo]}*."
-            end
           end
         end
-        response
+        if elos.length > 1
+          elo_str = ''
+          elos.each do |platform_elo|
+            elo_str += " *#{platform_elo[:elo]}* (#{GG::PLATFORMS[platform_elo[:platform]]})"
+          end
+          "Hi <@#{user}> your #{mode} elo is:#{elo_str}."
+        else
+          if elos.first[:elo] == 'couldn’t find one'
+            "Hi <@#{user}> I couldn’t get a #{mode} elo for you on guardian.gg."
+          else
+            "Hi <@#{user}> your #{mode} elo is: *#{elos.first[:elo]}*."
+          end
+        end
       end
 
       def change_instructions

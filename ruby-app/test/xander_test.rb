@@ -41,6 +41,13 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_my_elo_olly
+    VCR.use_cassette('elo_olly') do
+      response = @xander.respond_to("#{@bot} my elo", @user)
+      assert_equal "Hi <@U0TUWEY6R> your trials elo is: *1180* (PSN) *couldn’t find one* (XBOX).", response
+    end
+  end
+
   def test_my_elo_gamemode
     [
       { msg: "#{@bot} my control elo",     mode: 'control',     elo: 1267  },
@@ -164,8 +171,6 @@ class XanderTest < Minitest::Test
       response = @xander.respond_to("#{@bot} my elo", @user)
       assert_equal "Hi <@#{@user}> your trials elo is: *1579* (PSN) *1704* (XBOX).", response
     end
-
-    # TODO one is empty (ollyc92)
   end
 
   def test_trials_maps_regular
