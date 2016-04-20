@@ -24,7 +24,7 @@ class Xander
     @client = client
   end
 
-  def respond_to(message, user, dm=false)
+  def respond_to(message, user, dm=false, subtype='')
     @at_bot ||= /<@#{@client.self.id}>:?/
     if message =~ @at_bot
       message = message.gsub(@at_bot, '').lstrip.downcase
@@ -32,6 +32,9 @@ class Xander
       action.response
     elsif dm
       action = get_action(message.downcase, user)
+      action.response
+    elsif subtype == 'channel_join'
+      action = Action::Bungie.new
       action.response
     else
       nil

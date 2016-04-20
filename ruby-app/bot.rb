@@ -24,7 +24,7 @@ end
 
 client.on :message do |data|
   if data.respond_to?(:text) && !data.text.nil? && (data.user != client.self.id)
-    response = xander.respond_to(data.text, data.user, data.channel.first == 'D')
+    response = xander.respond_to(data.text, data.user, data.channel.first == 'D', data.subtype)
     if response
       logger.info data.user
       logger.info data.text
