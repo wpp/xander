@@ -384,4 +384,9 @@ _Legacy Chest Engram_: http://www.destinydb.com/items/27147831-exotic-engram"
       end
     end
   end
+
+  def test_channel_join
+    response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, false, 'channel_join')
+    assert_equal ':notes: _"We are programmed to receive. You can check-out any time you like, But you can never leave!"_ :notes:', response
+  end
 end
