@@ -25,7 +25,7 @@ class XanderTest < Minitest::Test
       'could be fun in void burn nightfalls',
       "Cool. What's 13 strange coins anyway. :)",
       'last week was heart of praxic fire, it’s a good time for warlocks'
-    ].each { |message| assert @xander.respond_to(message, @user, true) }
+    ].each { |message| assert @xander.respond_to(message, @user, 'D') }
   end
 
   def test_my_elo_default
@@ -386,7 +386,7 @@ _Legacy Chest Engram_: http://www.destinydb.com/items/27147831-exotic-engram"
   end
 
   def test_channel_join
-    response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, false, 'channel_join')
+    response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, 'C0CPS1MLH', 'channel_join')
     assert_equal ':notes: _"We are programmed to receive. You can check-out any time you like, But you can never leave!"_ :notes:', response
   end
 end

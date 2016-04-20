@@ -24,16 +24,16 @@ class Xander
     @client = client
   end
 
-  def respond_to(message, user, dm=false, subtype='')
+  def respond_to(message, user, channel='', subtype='')
     @at_bot ||= /<@#{@client.self.id}>:?/
     if message =~ @at_bot
       message = message.gsub(@at_bot, '').lstrip.downcase
       action = get_action(message, user)
       action.response
-    elsif dm
+    elsif channel.respond_to?(:first) && (channel.first == 'D')
       action = get_action(message.downcase, user)
       action.response
-    elsif subtype == 'channel_join'
+    elsif subtype == 'channel_join' && channel == 'C0CPS1MLH'
       action = Action::Bungie.new
       action.response
     else
