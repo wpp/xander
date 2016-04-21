@@ -34,7 +34,7 @@ class Xander
       action = get_action(message.downcase, user)
       action.response
     elsif subtype == 'channel_join' && channel == 'C0CPS1MLH'
-      action = Action::Bungie.new
+      action = Action::Bungie.new(user)
       action.response
     else
       nil
