@@ -114,6 +114,13 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_elo_error_response
+    VCR.use_cassette('membership_error') do
+      response = @xander.respond_to("#{@bot} elo for /", @user)
+      assert_equal "Hi <@#{@user}> I couldn’t find / on guardian.gg.", response
+    end
+  end
+
   def test_gamemode_elo_not_found
     VCR.use_cassette('elo_game_mode_not_found') do
       response = @xander.respond_to("rift elo for kurzinator #{@bot}", @user)
