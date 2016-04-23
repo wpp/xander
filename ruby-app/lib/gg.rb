@@ -37,6 +37,8 @@ module GG
       response = Net::HTTP.get_response(uri)
       body = JSON.parse(response.body)['Response']
       body.empty? ? {} : body[0]
+    rescue JSON::ParserError
+      []
     end
 
     def get_membership_ids
