@@ -1,10 +1,11 @@
 module Action
   class GamertagElo
-    attr_reader :message, :user
+    attr_reader :message, :user, :client
 
-    def initialize(message, user)
+    def initialize(message, user, client)
       @message = message
       @user = user
+      @client = client
       get_mode
       get_gamertag
     end
@@ -29,15 +30,24 @@ module Action
         if message.include?('iron banner')
           eloa, fora, @gamertag = message.gsub('iron banner', '').split(' ')
         end
+        if @gamertag =~ /<@\w{9}>/i
+          @slack_user = client.web_client.users_info(user: @gamertag.gsub(/\W+/i, '').upcase).user
+          @gamertag = Gamertag.parse(@slack_user.profile.title)
+        end
       end
 
       def get_membership_ids
-        @gg_user = GG::User.new(gamertag: @gamertag)
-        @gg_user.get_membership_ids
-        if @gg_user.membership_ids.empty?
-          "Hi <@#{user}> I couldn’t find #{@gamertag} on guardian.gg."
+        if @gamertag
+          @gg_user = GG::User.new(gamertag: @gamertag)
+          @gg_user.get_membership_ids
+          if @gg_user.membership_ids.empty?
+            "Hi <@#{user}> I couldn’t find #{@gamertag} on guardian.gg."
+          else
+            get_elos
+          end
         else
-          get_elos
+          title = @slack_user.profile.title.empty? ? 'empty' : "`#{@slack_user.profile.title}`"
+          "Hi <@#{user}> I can't get a gamertag for #{@slack_user.name}. Her/His title on slack is #{title}. #{change_instructions}"
         end
       end
 
@@ -60,6 +70,15 @@ module Action
         else
           "Hi <@#{user}> #{@gamertag}'s elo for #{@mode} is: *#{elos.first[:elo]}*."
         end
+      end
+
+      def change_instructions
+        if @client.respond_to?(:team) && @client.team.respond_to?(:domain)
+          domain = @client.team.domain
+        else
+          domain = 'testing'
+        end
+        "They need to visit https://#{domain}.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: gamertag` or `XB1: gamertag`)"
       end
   end
 end

@@ -90,6 +90,20 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_elo_at_slack_user
+    VCR.use_cassette('elo_for_@rorith') do
+      response = @xander.respond_to("#{@bot} elo for <@U0PCXGYJX>", @user)
+      assert_equal "Hi <@#{@user}> Rorith__'s elo for trials is: *1369*.", response
+    end
+  end
+
+  def test_elo_at_slack_user_no_gamertag
+    VCR.use_cassette('elo_for_@rorith_no_gamertag') do
+      response = @xander.respond_to("#{@bot} elo for <@U0PCXGYJX>", @user)
+      assert_equal "Hi <@U0TUWEY6R> I can't get a gamertag for rorith. Her/His title on slack is `aaa`. They need to visit https://testing.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: gamertag` or `XB1: gamertag`)", response
+    end
+  end
+
   def test_elo_gamertag_and_gametype
     VCR.use_cassette('elo_fo_samsymons') do
       response = @xander.respond_to("rumble elo for samsymons #{@bot}", @user)

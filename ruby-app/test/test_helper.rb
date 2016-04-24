@@ -15,5 +15,5 @@ VCR.configure do |config|
 end
 
 Slack.configure do |config|
-  config.token = File.read('.testbot').chomp
+  config.token = ENV['SLACK_API_TOKEN'] || File.read('.testbot').chomp
 end
