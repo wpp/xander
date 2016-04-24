@@ -49,7 +49,7 @@ class Xander
     when NICE           then Action::Nice.new
     when DAILY          then Action::Daily.new
     when MY_ELO         then Action::MyElo.new(message, user, @client)
-    when GT_ELO         then Action::GamertagElo.new(message, user)
+    when GT_ELO         then Action::GamertagElo.new(message, user, @client)
     when MORNING        then Action::Morning.new
     when FACTION        then Action::Faction.new
     when CRUCIBLE       then Action::Crucible.new
