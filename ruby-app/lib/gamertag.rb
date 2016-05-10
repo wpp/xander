@@ -5,7 +5,7 @@ module Gamertag
 
   def self.parse(title)
     case title
-    when /head of engineering at pinterest/i
+    when /slacker/i
       'kurzinator'
     when /psn: palefacex . i'm on gmt/i
       'PalefaceX'
