@@ -1,4 +1,4 @@
-module Action
+module Response
   class MyElo
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
@@ -12,7 +12,7 @@ module Action
       @slack_user = client.web_client.users_info(user: user).user
     end
 
-    def response
+    def text
       if slack_user_has_profile_title?
         get_gamertag
       else

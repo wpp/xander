@@ -1,4 +1,4 @@
-module Action
+module Response
   class Maps
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
@@ -8,7 +8,7 @@ module Action
       @trials_url  = 'http://destinytracker.com/destiny/trials-of-osiris-history'
     end
 
-    def response
+    def text
       scrape_trials_map
       "Map is _#{@map}_ (#{@date}) #{@map_url}. Callouts are here: #{@callout_url}. Good luck!"
     rescue => e

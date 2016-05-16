@@ -1,4 +1,4 @@
-module Action
+module Response
   class GamertagElo
     attr_reader :message, :user, :client
 
@@ -10,7 +10,7 @@ module Action
       get_gamertag
     end
 
-    def response
+    def text
       get_membership_ids
     end
 

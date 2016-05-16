@@ -1,4 +1,4 @@
-module Action
+module Response
   class Morning
     def initialize
       @dictionary = MarkovChain.new("lib/dictionaries/morning.txt")

@@ -1,4 +1,4 @@
-module Action
+module Response
   class XurLocation
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
@@ -7,7 +7,7 @@ module Action
       @url = URI('http://www.destinylfg.com/findxur/')
     end
 
-    def response
+    def text
       scrape_xur_location
       "Xur's Location (#{@date}): #{@map}"
     rescue => e

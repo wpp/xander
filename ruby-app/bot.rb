@@ -29,7 +29,10 @@ client.on :message do |data|
       logger.info data.user
       logger.info data.text
       logger.info response
-      client.web_client.chat_postMessage(channel: data.channel, text: response, as_user: true) if response
+      client.web_client.chat_postMessage(text: response.text,
+                                         attachments: response.attachments,
+                                         channel: data.channel,
+                                         as_user: true)
     end
   end
 end
