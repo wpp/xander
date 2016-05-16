@@ -7,7 +7,7 @@ make it better or change it.
 `ruby-app` is probably what you're interested in.
 
 * `bot.rb` - slack client (web and rtm) and xander are instantiated here.
-* `xander.rb` - decides which "action" from `actions` is taken, if any.
+* `xander.rb` - decides which "response" from `responses` is taken, if any.
 
 If not included the VCR cassets and dictionaries for the markov chains, since they contain some team specific
 data I'm not comfortable sharing atm. Ping me if you need help with that.
