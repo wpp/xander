@@ -28,7 +28,7 @@ client.on :message do |data|
     if response
       logger.info data.user
       logger.info data.text
-      logger.info response
+      logger.info response.text
       client.web_client.chat_postMessage(text: response.text,
                                          attachments: response.attachments,
                                          channel: data.channel,
