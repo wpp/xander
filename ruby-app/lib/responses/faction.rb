@@ -1,6 +1,6 @@
-module Action
+module Response
   class Faction
-    def response
+    def text
       'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:'
     end
   end
