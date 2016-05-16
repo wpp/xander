@@ -1,5 +1,5 @@
 module Response
-  class Bungie
+  class Bungie < Base
     def initialize(user)
       @user = user
     end

@@ -1,5 +1,5 @@
 module Response
-  class Crucible
+  class Crucible < Base
     def initialize
       @dictionary = MarkovChain.new("lib/dictionaries/crucible.txt")
     end

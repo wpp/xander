@@ -1,5 +1,5 @@
 module Response
-  class MyElo
+  class MyElo < Base
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
     attr_reader :message, :user, :client, :mode

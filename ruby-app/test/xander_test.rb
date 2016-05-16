@@ -32,6 +32,7 @@ class XanderTest < Minitest::Test
     VCR.use_cassette('elo_for_@rorith_no_gamertag') do
       response = @xander.respond_to("#{@bot} elo for <@U0PCXGYJX>", @user)
       assert_equal "Hi <@U0TUWEY6R> I can't get a gamertag for rorith. Her/His title on slack is `aaa`. They need to visit https://testing.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: gamertag` or `XB1: gamertag`)", response.text
+      assert_equal [], response.attachments
     end
   end
 
@@ -43,6 +44,7 @@ class XanderTest < Minitest::Test
     ].each do |msg|
       response = @xander.respond_to(msg, @user)
       assert_equal 'Here are some pretty cool streamers: https://usecanvas.com/imbriaco/low-sodium-streamers/4OuRsTOn8PithLvegHp3Df', response.text
+      assert_equal [], response.attachments
     end
   end
 
@@ -53,6 +55,7 @@ class XanderTest < Minitest::Test
     ].each do |msg|
       response = @xander.respond_to(msg, @user)
       assert_equal 'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:', response.text
+      assert_equal [], response.attachments
     end
   end
 

@@ -1,5 +1,5 @@
 module Response
-  class GamertagElo
+  class GamertagElo < Base
     attr_reader :message, :user, :client
 
     def initialize(message, user, client)

@@ -1,5 +1,5 @@
 module Response
-  class XurInventory
+  class XurInventory < Base
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
 

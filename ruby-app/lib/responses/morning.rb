@@ -1,5 +1,5 @@
 module Response
-  class Morning
+  class Morning < Base
     def initialize
       @dictionary = MarkovChain.new("lib/dictionaries/morning.txt")
     end

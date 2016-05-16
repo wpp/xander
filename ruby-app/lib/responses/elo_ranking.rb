@@ -1,5 +1,5 @@
 module Response
-  class EloRanking
+  class EloRanking < Base
     attr_reader :message, :user, :client
 
     COLORS = {

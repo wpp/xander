@@ -1,5 +1,5 @@
 module Response
-  class XurLocation
+  class XurLocation < Base
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
 

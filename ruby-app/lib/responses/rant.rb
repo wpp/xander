@@ -1,5 +1,5 @@
 module Response
-  class Rant
+  class Rant < Base
     def initialize
       @dictionary = MarkovChain.new("lib/dictionaries/rant.txt")
     end

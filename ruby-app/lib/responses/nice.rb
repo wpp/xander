@@ -1,5 +1,5 @@
 module Response
-  class Nice
+  class Nice < Base
     def initialize
       @dictionary = MarkovChain.new("lib/dictionaries/nice.txt")
     end

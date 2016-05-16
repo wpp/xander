@@ -1,5 +1,5 @@
 module Response
-  class Streamers
+  class Streamers < Base
     # TODO who is currently online? twitch api
     def initialize
       @url = "https://usecanvas.com/imbriaco/low-sodium-streamers/4OuRsTOn8PithLvegHp3Df"
