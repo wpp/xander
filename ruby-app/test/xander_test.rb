@@ -28,30 +28,6 @@ class XanderTest < Minitest::Test
     ].each { |message| assert @xander.respond_to(message, @user, 'D') }
   end
 
-  def test_elo_ranking
-    skip
-  end
-
-  def test_elo_rankings_gamemode
-    skip
-  end
-
-  def test_elo_ranking_with_missing_slack_title
-    skip
-  end
-
-  def test_elo_ranking_when_on_of_them_has_wrong_slack_title
-    skip
-  end
-
-  def test_elo_ranking_iron_banner
-    skip
-  end
-
-  def test_elo_ranking_at_slack_user_and_gamertag_mixed
-    skip
-  end
-
   def test_elo_at_slack_user_no_gamertag
     VCR.use_cassette('elo_for_@rorith_no_gamertag') do
       response = @xander.respond_to("#{@bot} elo for <@U0PCXGYJX>", @user)
