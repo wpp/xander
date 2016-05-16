@@ -1,5 +1,5 @@
 module Response
-  class Faction
+  class Faction < Base
     def text
       'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:'
     end

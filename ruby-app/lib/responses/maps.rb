@@ -1,5 +1,5 @@
 module Response
-  class Maps
+  class Maps < Base
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
 

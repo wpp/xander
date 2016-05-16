@@ -1,5 +1,5 @@
 module Response
-  class Default
+  class Default < Base
     def initialize
       @defaults = File.read('lib/dictionaries/defaults.txt').split("\n")
     end
