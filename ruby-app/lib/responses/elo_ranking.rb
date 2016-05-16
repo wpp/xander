@@ -108,15 +108,6 @@ module Response
             @elos << { gamertag: gamertag, platform: mid[:platform_id], elo: elo }
           end
         end
-        if @elos.length > 1
-          elo_str = ""
-          @elos.each do |platform_elo|
-            elo_str += " *#{platform_elo[:elo]}* (#{GG::PLATFORMS[platform_elo[:platform]]})"
-          end
-          "Hi <@#{user}> #{gamertag}'s elo for #{@mode} is:#{elo_str}."
-        else
-          "Hi <@#{user}> #{gamertag}'s elo for #{@mode} is: *#{@elos.first[:elo]}*."
-        end
       end
 
       def change_instructions
