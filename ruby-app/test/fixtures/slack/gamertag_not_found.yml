@@ -1,0 +1,133 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/asdfasdfasdfasdf/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - proxy.guardian.gg
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 21 Mar 2016 12:50:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d4beaf33a4a6b1f615d66b4566ec2f0261458564621; expires=Tue, 21-Mar-17
+        12:50:21 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=3131189388343436479; path=/
+      - bungledid=B3Udo6D4EClChWo1QMUS159M0tRdh1HTCAAA; expires=Sat, 21-Mar-2026 12:50:22
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OJAKHPAK; Expires=Mon, 21-Mar-2016 13:50:21 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '10'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/asdfasdfasdfasdf/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 287187740cb81fe2-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 21 Mar 2016 12:50:21 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/asdfasdfasdfasdf/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - proxy.guardian.gg
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 21 Mar 2016 12:50:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d4b6e7a32b4189a339a85417dc4ef8d6a1458564622; expires=Tue, 21-Mar-17
+        12:50:22 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5888249917490830608; path=/
+      - bungledid=BxQRNiCR+v5MpcHjRYZgqfWLae5dh1HTCAAA; expires=Sat, 21-Mar-2026 12:50:22
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Mon, 21-Mar-2016 13:50:22 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/asdfasdfasdfasdf/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 28718779048d1fc4-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 21 Mar 2016 12:50:22 GMT
+recorded_with: VCR 3.0.1
