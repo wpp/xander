@@ -22,7 +22,7 @@ class MyEloTest < Minitest::Test
     ].each do |msg|
       VCR.use_cassette('xur_location') do
         response = @xander.respond_to(msg, @user)
-        assert_equal "Hi <@#{@user}> you asked for Xur:", response.text
+        assert_equal "Hi <@#{@user}> you asked for Xur's location:", response.text
 
         expected_attachment = [
             {
@@ -43,7 +43,7 @@ class MyEloTest < Minitest::Test
   def test_where_is_xur_reef
     VCR.use_cassette('xur_location_reef') do
       response = @xander.respond_to("#{@bot} where is xur", @user)
-      assert_equal "Hi <@#{@user}> you asked for Xur:", response.text
+      assert_equal "Hi <@#{@user}> you asked for Xur's location:", response.text
 
       expected_attachment = [
           {

@@ -10,7 +10,7 @@ module Response
 
     def text
       scrape_xur_location
-      "Hi <@#{@user}> you asked for Xur:"
+      "Hi <@#{@user}> you asked for Xur's location:"
     rescue => e
       TABLE
     end
