@@ -1,0 +1,2610 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CTT9QUD
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:37:52 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 16a8156bb9e085b1e79a6bf5cb89d49e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Q9El1OuALpEGA-zVjbMxXtC_5u91rUSWaOKdosi2E7315SkXH_-1YA==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CTT9QUD","team_id":"T0CMWCLP8","name":"samsymons","deleted":false,"status":null,"color":"4bbe2e","real_name":"Sam
+        Symons","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Sam","last_name":"Symons","title":"PSN:
+        samsymons","phone":"","skype":"","avatar_hash":"g3216ad47dd2","real_name":"Sam
+        Symons","real_name_normalized":"Sam Symons","email":"sam@samsymons.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F0180%2Fimg%2Favatars%2Fava_0026-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F272a%2Fimg%2Favatars%2Fava_0026-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-512.png"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:52 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CN05BCH
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:37:53 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d2fa707728d9947a31db9f8dc3e9e56c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - QR2Tq57moTMAxki-IpK9hMfe5wwKEG5phu148h5hr2raOUzLRRECMA==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CN05BCH","team_id":"T0CMWCLP8","name":"rands","deleted":false,"status":null,"color":"9f69e7","real_name":"Michael
+        Lopp","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Michael","last_name":"Lopp","title":"Slacker","skype":"","phone":"","avatar_hash":"gd47acf619fe","real_name":"Michael
+        Lopp","real_name_normalized":"Michael Lopp","email":"michael@lopp.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:53 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0PCXGYJX
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:37:53 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f2cc6dbe7150e50a6bc010a2d6868e5f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - draH_h5AlJhACrs0OYQwzENNhy9jRTt4uOEkrxGQyJOengtCEmOrfQ==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0PCXGYJX","team_id":"T0CMWCLP8","name":"rorith","deleted":false,"status":null,"color":"235e5b","real_name":"Ed
+        Reeseg","tz":"America\/Chicago","tz_label":"Central Daylight Time","tz_offset":-18000,"profile":{"avatar_hash":"bf23254ca00c","first_name":"Ed","last_name":"Reeseg","title":"PSN:
+        Rorith__","skype":"","phone":"","image_24":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_24.png","image_32":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_32.png","image_48":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_48.png","image_72":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_72.png","image_192":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_192.png","image_512":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_512.png","image_1024":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_1024.png","image_original":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_original.png","real_name":"Ed
+        Reeseg","real_name_normalized":"Ed Reeseg","email":"edward.reeseg@gmail.com"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:53 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dfe1ce351023678a1b2c0fa0c1bce35621463423874; expires=Tue, 16-May-17
+        18:37:54 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=4416889120259176865; path=/
+      - bungledid=B1qwPoFk2AdHgsKAiMvHShi10TsyuX3TCAAA; expires=Sat, 16-May-2026 18:37:55
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JLAKHPAK; Expires=Mon, 16-May-2016 19:37:54 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '05'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f18ec9a403d0-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018429221417","displayName":"samsymons"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:54 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:54 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=ded5ad8b8fd11d17debef83a833700dca1463423874; expires=Tue, 16-May-17
+        18:37:54 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2823622978122479039; path=/
+      - bungledid=B7si3rVIGIxLmx5U4/bFTatClH4yuX3TCAAA; expires=Sat, 16-May-2026 18:37:55
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JLAKHPAK; Expires=Mon, 16-May-2016 19:37:54 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '05'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f191838d0944-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:55 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:37:55 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d1c269df94d88183edcaa2d201b20b3411463423875; expires=Tue, 16-May-17
+        18:37:55 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:37:55 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f193930c0557-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7316,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31231,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50997,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:55 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:37:55 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d977fec5451e883ba2866198fd0f77ab31463423875; expires=Tue, 16-May-17
+        18:37:55 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:37:55 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f196e8f51a72-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7316,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31231,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50997,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:56 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=deb10e23a6f7f9edf547f044ee88b1b8d1463423876; expires=Tue, 16-May-17
+        18:37:56 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=3260256186978608706; path=/
+      - bungledid=B2DTAlwaXq9Jt3/PMz1XPaDAVx4zuX3TCAAA; expires=Sat, 16-May-2026 18:37:56
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Mon, 16-May-2016 19:37:56 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f19b2f71095c-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018432464258","displayName":"kurzinator"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:56 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dda902b34d602143d1ace0b9cf22227341463423876; expires=Tue, 16-May-17
+        18:37:56 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1773287845517416852; path=/
+      - bungledid=B+Kuus//Z2hCquF0R3EXn+CG74UzuX3TCAAA; expires=Sat, 16-May-2026 18:37:57
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:37:57 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f19ef2ad1177-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:57 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:37:57 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d0c8a93221dc1590f85709a36138ab79b1463423877; expires=Tue, 16-May-17
+        18:37:57 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:37:57 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1a166c41a60-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:57 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:37:58 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d9eb501172d23cd73c1275761663f43571463423878; expires=Tue, 16-May-17
+        18:37:58 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:37:58 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1a5d1973976-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:58 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d7d48fce2159c1a8ccda88447260858351463423878; expires=Tue, 16-May-17
+        18:37:58 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=8141165798128014652; path=/
+      - bungledid=B2KzA5nVfKRAqi23M5Odcv3iRp80uX3TCAAA; expires=Sat, 16-May-2026 18:37:59
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:37:58 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1aa80961fee-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018450639070","displayName":"Rorith__"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:59 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:37:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=df0bcb78380c3fe9fb5ee7b1ec4c342281463423879; expires=Tue, 16-May-17
+        18:37:59 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=3517082725387377157; path=/
+      - bungledid=B+ejkAGl7BRNsGLNzY0C+3X0Lgg1uX3TCAAA; expires=Sat, 16-May-2026 18:38:00
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:37:59 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1aeefc61fd6-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:37:59 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:00 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d78e544fea4aa703736337269408bbdcb1463423879; expires=Tue, 16-May-17
+        18:37:59 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1b16d381a2a-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26071,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:00 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:00 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d79cd57cdb127424c32ae2ac002ccb27c1463423880; expires=Tue, 16-May-17
+        18:38:00 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:00 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1b5191d3964-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26071,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:00 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CTT9QUD
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:01 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 709dc82c12bfdfc2826d5d578d7721fa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 6j0xFOPMddNrYqA4zA0OasPY0aqokJR3SyiMPnDZL3EdRZRfjclF6g==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CTT9QUD","team_id":"T0CMWCLP8","name":"samsymons","deleted":false,"status":null,"color":"4bbe2e","real_name":"Sam
+        Symons","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Sam","last_name":"Symons","title":"PSN:
+        samsymons","phone":"","skype":"","avatar_hash":"g3216ad47dd2","real_name":"Sam
+        Symons","real_name_normalized":"Sam Symons","email":"sam@samsymons.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F0180%2Fimg%2Favatars%2Fava_0026-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F272a%2Fimg%2Favatars%2Fava_0026-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-512.png"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:01 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CN05BCH
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:01 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 09393f32f516ce23b0b6bbd4b022977b.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - T6L7VpfC7kXO-8ervTbIX3xlx33OVO-4pIGrF978hHgT-cggYEqz6g==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CN05BCH","team_id":"T0CMWCLP8","name":"rands","deleted":false,"status":null,"color":"9f69e7","real_name":"Michael
+        Lopp","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Michael","last_name":"Lopp","title":"Slacker","skype":"","phone":"","avatar_hash":"gd47acf619fe","real_name":"Michael
+        Lopp","real_name_normalized":"Michael Lopp","email":"michael@lopp.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:01 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0PCXGYJX
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:02 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d0c574ed517101bf0c21ed5df9b18342.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ued4KnZudENSWVrcuivdED316QDnEksQS1cO_eE-3pKZQvuJZTANng==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0PCXGYJX","team_id":"T0CMWCLP8","name":"rorith","deleted":false,"status":null,"color":"235e5b","real_name":"Ed
+        Reeseg","tz":"America\/Chicago","tz_label":"Central Daylight Time","tz_offset":-18000,"profile":{"avatar_hash":"bf23254ca00c","first_name":"Ed","last_name":"Reeseg","title":"PSN:
+        Rorith__","skype":"","phone":"","image_24":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_24.png","image_32":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_32.png","image_48":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_48.png","image_72":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_72.png","image_192":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_192.png","image_512":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_512.png","image_1024":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_1024.png","image_original":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_original.png","real_name":"Ed
+        Reeseg","real_name_normalized":"Ed Reeseg","email":"edward.reeseg@gmail.com"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:02 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d567727c295b2fcb8c1fefc9dd0b25d4c1463423882; expires=Tue, 16-May-17
+        18:38:02 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=4737670477032548192; path=/
+      - bungledid=Bx40nJlU4INHqYa/3Ps6/gIRkh83uX3TCAAA; expires=Sat, 16-May-2026 18:38:03
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JLAKHPAK; Expires=Mon, 16-May-2016 19:38:02 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '05'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1c212762024-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018429221417","displayName":"samsymons"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:03 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d6acae9ede3529f559f70a2dd314f8d321463423883; expires=Tue, 16-May-17
+        18:38:03 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=8523085086921321391; path=/
+      - bungledid=B5CCRkZaGYhOst78ZhLyOzHdPlw3uX3TCAAA; expires=Sat, 16-May-2026 18:38:04
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:03 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1c74383115f-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:03 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:04 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d09107aa88e6bf263668e7f7b258543cd1463423883; expires=Tue, 16-May-17
+        18:38:03 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:03 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1c917af0563-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7315,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31231,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50999,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:04 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:04 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d4f5605d9cf00d80346c9af13980e38641463423884; expires=Tue, 16-May-17
+        18:38:04 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:04 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1cc27e70563-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7315,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31231,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50999,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:04 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dd51e36c504782ddc2356b0100d9e286d1463423884; expires=Tue, 16-May-17
+        18:38:04 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=6445940726840387298; path=/
+      - bungledid=B/5yqbnbkPFDqpl1JtbccLNbYBA4uX3TCAAA; expires=Sat, 16-May-2026 18:38:05
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Mon, 16-May-2016 19:38:04 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1cf28a01f94-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018432464258","displayName":"kurzinator"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:04 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=da747a184ec8da1358e579ba08718dec41463423885; expires=Tue, 16-May-17
+        18:38:05 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2227294465381560357; path=/
+      - bungledid=B/DATfPeJGdJn5+ajknEkjd3DGw4uX3TCAAA; expires=Sat, 16-May-2026 18:38:05
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:05 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1d221991fb2-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:05 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:06 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d87a1e1ee6fc3b8ee3f1d7292d067ee301463423885; expires=Tue, 16-May-17
+        18:38:05 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:06 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1d740043964-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:06 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:06 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d82a65924acd29d372b7a7cb89c1d54151463423886; expires=Tue, 16-May-17
+        18:38:06 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:06 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1d8ea2e0563-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:06 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=da195f8501949230ede76573323c64ae91463423886; expires=Tue, 16-May-17
+        18:38:06 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1503450946349901333; path=/
+      - bungledid=B3gr7S3uNRBPpCkcwc+lYfcN71A5uX3TCAAA; expires=Sat, 16-May-2026 18:38:07
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:07 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1dbc9101fd0-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018450639070","displayName":"Rorith__"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:07 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d8983340ea8469fce2d9a3d21bdb5a4a41463423887; expires=Tue, 16-May-17
+        18:38:07 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=422832333210465278; path=/
+      - bungledid=BzI9OeLPk0xApYFDHRv/kzmzmt05uX3TCAAA; expires=Sat, 16-May-2026 18:38:08
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:08 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1e18bcd03d0-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:08 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:08 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=ddfe7d12912dabc91f90b82cdd7d943741463423888; expires=Tue, 16-May-17
+        18:38:08 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:08 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1e5c7bc3934-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26068,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:08 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:08 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=deb563a01ee060a1f61a77965b08bc5191463423888; expires=Tue, 16-May-17
+        18:38:08 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:08 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1e844bd3976-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26068,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:08 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CTT9QUD
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:09 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 002c7dd628aeaafbb16627d6bb5046c9.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - p7kgNlVGuOPb7gqop8DlFKHN2u_OMKl-uodBbcPle-e0PrqwAjIBKg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CTT9QUD","team_id":"T0CMWCLP8","name":"samsymons","deleted":false,"status":null,"color":"4bbe2e","real_name":"Sam
+        Symons","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Sam","last_name":"Symons","title":"PSN:
+        samsymons","phone":"","skype":"","avatar_hash":"g3216ad47dd2","real_name":"Sam
+        Symons","real_name_normalized":"Sam Symons","email":"sam@samsymons.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F0180%2Fimg%2Favatars%2Fava_0026-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F272a%2Fimg%2Favatars%2Fava_0026-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0026-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/3216ad47dd29322eb052dd249f7b1a8e.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0026-512.png"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:09 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0CN05BCH
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:09 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 16a8156bb9e085b1e79a6bf5cb89d49e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - wNUI5KQYlkzumiU_o_-CmmXaHanmZtasYo-MFqEZGPGP8mJ_y48x1w==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0CN05BCH","team_id":"T0CMWCLP8","name":"rands","deleted":false,"status":null,"color":"9f69e7","real_name":"Michael
+        Lopp","tz":"America\/Los_Angeles","tz_label":"Pacific Daylight Time","tz_offset":-25200,"profile":{"first_name":"Michael","last_name":"Lopp","title":"Slacker","skype":"","phone":"","avatar_hash":"gd47acf619fe","real_name":"Michael
+        Lopp","real_name_normalized":"Michael Lopp","email":"michael@lopp.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0012-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/d47acf619fe35304a3014e028ed19a5c.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0012-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:10 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=xoxb-28033470819-GLEFKOq0YgyhpmPxWFtH4AH1&user=U0PCXGYJX
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Mon, 16 May 2016 18:38:10 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 a418a5add122000ef61afe8a1637f885.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - LoDA5hls3DNgpNovojtaNNyBDZk9U4IDsUuYMjfiJUL-vymUKsf2JA==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0PCXGYJX","team_id":"T0CMWCLP8","name":"rorith","deleted":false,"status":null,"color":"235e5b","real_name":"Ed
+        Reeseg","tz":"America\/Chicago","tz_label":"Central Daylight Time","tz_offset":-18000,"profile":{"avatar_hash":"bf23254ca00c","first_name":"Ed","last_name":"Reeseg","title":"PSN:
+        Rorith__","skype":"","phone":"","image_24":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_24.png","image_32":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_32.png","image_48":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_48.png","image_72":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_72.png","image_192":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_192.png","image_512":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_512.png","image_1024":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_1024.png","image_original":"https:\/\/avatars.slack-edge.com\/2016-05-02\/39634438661_bf23254ca00c4b49382a_original.png","real_name":"Ed
+        Reeseg","real_name_normalized":"Ed Reeseg","email":"edward.reeseg@gmail.com"},"is_admin":false,"is_owner":false,"is_primary_owner":false,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:10 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dfe0d82288d1d75f4b19f3d8c7dd00d5a1463423890; expires=Tue, 16-May-17
+        18:38:10 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5844230853197801129; path=/
+      - bungledid=B9a1+BfbTvpLomFaM9/j2LKs1bw7uX3TCAAA; expires=Sat, 16-May-2026 18:38:11
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:11 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1f53d7f1177-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018429221417","displayName":"samsymons"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:10 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d185479ba8cd69ce025489c2e8e3a26581463423891; expires=Tue, 16-May-17
+        18:38:11 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5874474858682334189; path=/
+      - bungledid=B6jEFXDUI/ZMmSQ69XEsLx9LSBA8uX3TCAAA; expires=Sat, 16-May-2026 18:38:11
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:12 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/samsymons/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1f897f203ee-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:11 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:11 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=dd400ddfcb72f62d7d7eea23a5bc1e3721463423891; expires=Tue, 16-May-17
+        18:38:11 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:11 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1fa507d1a72-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7314,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31230,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50998,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:11 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429221417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:11 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d70859b19dd97c1e6489a044fb563edfa1463423891; expires=Tue, 16-May-17
+        18:38:11 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:11 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f1fbc19a0557-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":22,"gamesPlayedSolo":0,"mode":9,"elo":1278.6358139375145,"eloSolo":1200,"rank":17110,"rankSolo":-1},{"gamesPlayed":23,"gamesPlayedSolo":0,"mode":10,"elo":1344.9742359036813,"eloSolo":1200,"rank":7314,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":11,"elo":1232.4917917955931,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":1,"mode":12,"elo":1365.0587236473837,"eloSolo":1211.658462121137,"rank":31230,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1269.9665093255453,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":65,"gamesPlayedSolo":0,"mode":14,"elo":1362.6551093110397,"eloSolo":1200,"rank":50998,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":0,"mode":23,"elo":1236.550063541088,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":7,"gamesPlayedSolo":0,"mode":24,"elo":1210.6090663390992,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:11 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=da077dcb57f0acdf1872422737f61597c1463423892; expires=Tue, 16-May-17
+        18:38:12 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5935507988639151254; path=/
+      - bungledid=B/1c+GjVimdAsyZ6ezTs8XmZ36g8uX3TCAAA; expires=Sat, 16-May-2026 18:38:12
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:13 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f1feda8c1fd0-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018432464258","displayName":"kurzinator"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:12 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d371f1377c9bc78b793bedb4b407529461463423892; expires=Tue, 16-May-17
+        18:38:12 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1762213833820107235; path=/
+      - bungledid=B+/t2XeJiOdEgbdrSOR+uc8bVu88uX3TCAAA; expires=Sat, 16-May-2026 18:38:13
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Mon, 16-May-2016 19:38:13 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/kurzinator/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f20212f62617-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:12 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:13 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d24e8b26724d97b7ad8c02fffdcf4ed0b1463423893; expires=Tue, 16-May-17
+        18:38:13 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:13 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f203af6e3922-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:13 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018432464258
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:13 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d6fcac35bca1110529e91625159b8117d1463423893; expires=Tue, 16-May-17
+        18:38:13 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:13 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f2051f7e0563-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":9,"elo":1189.6993384953598,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":16,"gamesPlayedSolo":3,"mode":10,"elo":1139.2536134933985,"eloSolo":1184.886748898252,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":11,"elo":1180.7952904771153,"eloSolo":1180.2602207769676,"rank":-1,"rankSolo":-1},{"gamesPlayed":124,"gamesPlayedSolo":17,"mode":12,"elo":1113.9337133819085,"eloSolo":1158.795017726077,"rank":523077,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1168.9408799201728,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":14,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":4,"gamesPlayedSolo":1,"mode":24,"elo":1225.744186072041,"eloSolo":1185.783032532825,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:13 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d2ce60b1bd470a119b8652693a55709dc1463423893; expires=Tue, 16-May-17
+        18:38:13 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5857123744578283114; path=/
+      - bungledid=B8yYVmecDcpFgYHn0yna/RlKZH49uX3TCAAA; expires=Sat, 16-May-2026 18:38:14
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Mon, 16-May-2016 19:38:14 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f2080eca1f9a-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018450639070","displayName":"Rorith__"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:14 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Mon, 16 May 2016 18:38:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dc14795c90657e0b83627046280ddc5d31463423894; expires=Tue, 16-May-17
+        18:38:14 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=9107547750686383785; path=/
+      - bungledid=B8U9JrHk+SREmgLsiaFt7ZvaRTI+uX3TCAAA; expires=Sat, 16-May-2026 18:38:15
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JKAKHPAK; Expires=Mon, 16-May-2016 19:38:15 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '04'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/Rorith__/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 2a40f20ef19a2617-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:15 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:15 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d70c7647b7a60c10d7eea369b2d53f46e1463423895; expires=Tue, 16-May-17
+        18:38:15 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:15 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f210b7c63976-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26068,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:15 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018450639070
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 May 2016 18:38:15 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d0fb9123bc61f6e7a08d5bd875af7437d1463423895; expires=Tue, 16-May-17
+        18:38:15 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Mon, 16 May 2016 18:38:15 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a40f2123ed73916-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":27,"gamesPlayedSolo":7,"mode":9,"elo":1360.8598221055095,"eloSolo":1241.3293256477293,"rank":3795,"rankSolo":-1},{"gamesPlayed":13,"gamesPlayedSolo":1,"mode":10,"elo":1247.4134995302795,"eloSolo":1185.324988284654,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":11,"elo":1241.796043861348,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":82,"gamesPlayedSolo":0,"mode":12,"elo":1419.1214254758036,"eloSolo":1200,"rank":8980,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":0,"mode":13,"elo":1224.4614016546254,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":70,"gamesPlayedSolo":0,"mode":14,"elo":1455.9320373207004,"eloSolo":1200,"rank":26068,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":15,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":23,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":6,"gamesPlayedSolo":1,"mode":24,"elo":1226.6051390970097,"eloSolo":1214.9655596891032,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 16 May 2016 18:38:15 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,308 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/users.info
+    body:
+      encoding: UTF-8
+      string: token=asdf
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Slack Ruby Client/0.7.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Sun, 20 Mar 2016 12:19:04 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - users:read,read
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 da44a033908207250002410c047e8764.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - yHl1AdoFLnVwP9Xku-dlW8Qxb8qWgLEvqes2_DBg3P7Gu6ZoTHgfkg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"user":{"id":"U0TUWEY6R","team_id":"T0TUWCNF9","name":"wpp","deleted":false,"status":null,"color":"9f69e7","real_name":"Philipp
+        Wei\u00dfensteiner","tz":"Europe\/Amsterdam","tz_label":"Central European
+        Time","tz_offset":3600,"profile":{"first_name":"Philipp","last_name":"Wei\u00dfensteiner","avatar_hash":"gb22e5a796f1","title":"PSN
+        wpp31","phone":"","skype":"","real_name":"Philipp Wei\u00dfensteiner","real_name_normalized":"Philipp
+        Weisensteiner","email":"mail@philippweissensteiner.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
+    http_version:
+  recorded_at: Sun, 20 Mar 2016 12:19:04 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Sun, 20 Mar 2016 12:19:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dfcaf5b716e57b2d708ac913ee0ea2e8e1458476344; expires=Mon, 20-Mar-17
+        12:19:04 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2407480703162602252; path=/
+      - bungledid=B7WjwN1VDfZDm7M6QuXF9H5WWXnUuVDTCAAA; expires=Fri, 20-Mar-2026 12:19:05
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JJAKHPAK; Expires=Sun, 20-Mar-2016 13:19:04 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - '03'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 28691c4239e71fca-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sun, 20 Mar 2016 12:19:04 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Sun, 20 Mar 2016 12:19:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=dcd4340147e27c75c9e869f2576ca1bd21458476345; expires=Mon, 20-Mar-17
+        12:19:05 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2259283046191931187; path=/
+      - bungledid=B1Viw3XgmmVHlzAZVhM15fWLENXUuVDTCAAA; expires=Fri, 20-Mar-2026 12:19:05
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Sun, 20-Mar-2016 13:19:05 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 28691c45e5572036-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sun, 20 Mar 2016 12:19:05 GMT
+- request:
+    method: get
+    uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.4.6 (Ubuntu)
+      Date:
+      - Sun, 20 Mar 2016 12:20:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - __cfduid=d4779bd03c62be267de95563df7afff741458476441; expires=Mon, 20-Mar-17
+        12:20:41 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=37109417166501095; path=/
+      - bungledid=B2c8IdluLRNJlbG2hvG3hTjVKBMOulDTCAAA; expires=Fri, 20-Mar-2026 12:20:41
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OIAKHPAK; Expires=Sun, 20-Mar-2016 13:20:41 GMT;
+        Path=/
+      Cache-Control:
+      - private
+      Expires:
+      - "-1"
+      X-Bungienext-Mid2:
+      - 09
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      X-Selfurl:
+      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cf-Ray:
+      - 28691e9e29f90107-DFW
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018429229422","displayName":"wpp31"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sun, 20 Mar 2016 12:20:41 GMT
+- request:
+    method: get
+    uri: http://api.guardian.gg/elo/4611686018429229422
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 20 Mar 2016 12:20:42 GMT
+      Content-Type:
+      - application/json
+      Set-Cookie:
+      - __cfduid=d6c06e5913ebb96d6b77f2cd21d4d39c51458476441; expires=Mon, 20-Mar-17
+        12:20:41 GMT; path=/; domain=.guardian.gg; HttpOnly
+      Access-Control-Allow-Headers:
+      - Authorization, Content-Type
+      Cache-Control:
+      - max-age:0, private, no-store, no-cache
+      Last-Modified:
+      - Sun, 20 Mar 2016 12:20:42 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28691ea107fc0a2a-VIE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        [{"gamesPlayed":31,"gamesPlayedSolo":1,"mode":9,"elo":1119.889360569719,"eloSolo":1193.0039031119911,"rank":269343,"rankSolo":-1},{"gamesPlayed":91,"gamesPlayedSolo":0,"mode":10,"elo":1267.1376197394923,"eloSolo":1200,"rank":152629,"rankSolo":-1},{"gamesPlayed":15,"gamesPlayedSolo":2,"mode":11,"elo":1204.993653305643,"eloSolo":1229.5807316042246,"rank":-1,"rankSolo":-1},{"gamesPlayed":131,"gamesPlayedSolo":1,"mode":12,"elo":1230.303718950939,"eloSolo":1185.0414759641935,"rank":336820,"rankSolo":-1},{"gamesPlayed":39,"gamesPlayedSolo":0,"mode":13,"elo":1259.4673771037315,"eloSolo":1200,"rank":102345,"rankSolo":-1},{"gamesPlayed":301,"gamesPlayedSolo":0,"mode":14,"elo":1214.789429455032,"eloSolo":1200,"rank":258578,"rankSolo":-1},{"gamesPlayed":52,"gamesPlayedSolo":0,"mode":19,"elo":1235,"eloSolo":1200,"rank":213239,"rankSolo":-1},{"gamesPlayed":21,"gamesPlayedSolo":0,"mode":23,"elo":1142.2678159731863,"eloSolo":1200,"rank":183834,"rankSolo":-1},{"gamesPlayed":75,"gamesPlayedSolo":0,"mode":24,"elo":1128.5911536741164,"eloSolo":1200,"rank":642961,"rankSolo":-1},{"gamesPlayed":8,"gamesPlayedSolo":0,"mode":28,"elo":1181.8137973753996,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":20,"gamesPlayedSolo":0,"mode":29,"elo":1152,"eloSolo":1200,"rank":-2,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":0,"mode":523,"elo":1145,"eloSolo":1200,"rank":600291,"rankSolo":-1}]
+    http_version:
+  recorded_at: Sun, 20 Mar 2016 12:20:42 GMT
+recorded_with: VCR 3.0.1
