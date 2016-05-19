@@ -22,7 +22,20 @@ class MyEloTest < Minitest::Test
     ].each do |msg|
       VCR.use_cassette('xur_location') do
         response = @xander.respond_to(msg, @user)
-        assert_equal "Xur's Location (Apr 1 – Apr 3, 2016): http://www.destinylfg.com/assets/findxur/xur-location-speaker-north.png", response.text
+        assert_equal "Hi <@#{@user}> you asked for Xur:", response.text
+
+        expected_attachment = [
+            {
+                "fallback" => "Xur's Location (Apr 1 – Apr 3, 2016): http://www.destinylfg.com/assets/findxur/xur-location-speaker-north.png",
+                "title" => "Xur's Location (Apr 1 – Apr 3, 2016)",
+                "title_link" => "http://www.destinylfg.com/findxur/",
+                "text" => "According to destinylfg Xur should be here:",
+                "image_url" => "http://www.destinylfg.com/assets/findxur/xur-location-speaker-north.png",
+                "color" => "#CCA827"
+            }
+        ]
+
+        assert_equal expected_attachment, response.attachments
       end
     end
   end
@@ -30,7 +43,20 @@ class MyEloTest < Minitest::Test
   def test_where_is_xur_reef
     VCR.use_cassette('xur_location_reef') do
       response = @xander.respond_to("#{@bot} where is xur", @user)
-      assert_equal "Xur's Location (Apr 15 – Apr 17, 2016): Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.", response.text
+      assert_equal "Hi <@#{@user}> you asked for Xur:", response.text
+
+      expected_attachment = [
+          {
+              "fallback" => "Xur's Location (Apr 15 – Apr 17, 2016): Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.",
+              "title" => "Xur's Location (Apr 15 – Apr 17, 2016)",
+              "title_link" => "http://www.destinylfg.com/findxur/",
+              "text" => "According to destinylfg Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.",
+              "image_url" => "",
+              "color" => "#CCA827"
+          }
+      ]
+
+      assert_equal expected_attachment, response.attachments
     end
   end
 

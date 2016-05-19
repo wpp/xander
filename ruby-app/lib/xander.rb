@@ -53,7 +53,7 @@ class Xander
     when CRUCIBLE       then Response::Crucible.new
     when STREAMERS      then Response::Streamers.new
     when ELO_RANKING    then Response::EloRanking.new(message, user, @client)
-    when XUR_LOCATION   then Response::XurLocation.new
+    when XUR_LOCATION   then Response::XurLocation.new(user)
     when XUR_INVENTORY  then Response::XurInventory.new
     else Response::Default.new
     end
