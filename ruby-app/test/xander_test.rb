@@ -160,26 +160,6 @@ class XanderTest < Minitest::Test
     end
   end
 
-  def test_xur_inventory
-    [
-      "#{@bot} what is xur selling?",
-      "#{@bot} xurs inventory?",
-      "#{@bot} xurs stuff",
-      "#{@bot} whats xur selling?"
-    ].each do |msg|
-      VCR.use_cassette('xur_inventory') do
-          response = @xander.respond_to(msg, @user)
-          a = "Xur's Inventory (Apr 1 – Apr 3, 2016):
-_The Taikonaut_: http://www.destinydb.com/items/591060261-the-taikonaut
-_Sealed Ahamkara Grasps_: http://www.destinydb.com/items/2217280775-sealed-ahamkara-grasps
-_Apotheosis Veil_: http://www.destinydb.com/items/1519376145-apotheosis-veil
-_Exotic Gauntlet Engram_: http://www.destinydb.com/items/111626780-exotic-engram
-_Legacy Chest Engram_: http://www.destinydb.com/items/27147831-exotic-engram"
-        assert_equal a, response.text
-      end
-    end
-  end
-
   def test_channel_join
     response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, 'C0CPS1MLH', 'channel_join')
     assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text

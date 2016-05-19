@@ -54,7 +54,7 @@ class Xander
     when STREAMERS      then Response::Streamers.new
     when ELO_RANKING    then Response::EloRanking.new(message, user, @client)
     when XUR_LOCATION   then Response::XurLocation.new(user)
-    when XUR_INVENTORY  then Response::XurInventory.new
+    when XUR_INVENTORY  then Response::XurInventory.new(user)
     else Response::Default.new
     end
   end
