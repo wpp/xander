@@ -3,15 +3,37 @@ module Response
     # TODO extract, cleanup
     TABLE = '(╯°□°）╯︵ ┻━┻'
 
-    def initialize
+    def initialize(user)
       @url = URI('http://www.destinylfg.com/findxur/')
+      @user = user
     end
 
     def text
       scrape_xur_location
-      "Xur's Location (#{@date}): #{@map}"
+      "Hi <@#{@user}> you asked for Xur:"
     rescue => e
       TABLE
+    end
+
+    def attachments
+      if uri?(@map)
+        text = 'According to destinylfg Xur should be here:'
+        image_url = @map
+      else
+        text = "According to destinylfg #{@map}"
+        image_url = ''
+      end
+
+      [
+        {
+          "fallback" => "Xur's Location (#{@date}): #{@map}",
+          "title" => "Xur's Location (#{@date})",
+          "title_link" => "http://www.destinylfg.com/findxur/",
+          "text" => text,
+          "image_url" => image_url,
+          "color" => "#CCA827"
+        }
+      ]
     end
 
     private
@@ -33,6 +55,17 @@ module Response
         else
           @map = "Couldn't find him"
         end
+      end
+
+      # Thanks Simone Carletti
+      # http://stackoverflow.com/a/5331096/980524
+      def uri?(string)
+        uri = URI.parse(string)
+        %w( http https ).include?(uri.scheme)
+      rescue URI::BadURIError
+        false
+      rescue URI::InvalidURIError
+        false
       end
   end
 end
