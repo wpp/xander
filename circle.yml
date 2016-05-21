@@ -1,0 +1,22 @@
+## Customize the test machine
+machine:
+
+  # Version of ruby to use
+  ruby:
+    version:
+      2.2.3-p173
+
+## Customize dependencies
+dependencies:
+  pre:
+    - gem install bundler --pre
+
+## Customize test commands
+test:
+  override:
+    - cd ruby-app && rake test
+  post:
+    - bundle exec rake jasmine:ci: # add an extra test type
+        environment:
+          RAILS_ENV: test
+          RACK_ENV: test
