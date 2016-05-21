@@ -4,7 +4,7 @@ machine:
   # Version of ruby to use
   ruby:
     version:
-      2.2.3-p173
+      2.2.3p173
 
 ## Customize dependencies
 dependencies:
