@@ -6,6 +6,10 @@ machine:
     version:
       2.2.5
 
+  # Add some environment variables
+  environment:
+    SLACK_API_TOKEN: asdf
+
 ## Customize dependencies
 dependencies:
   pre:
