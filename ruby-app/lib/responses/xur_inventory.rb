@@ -24,6 +24,7 @@ module Response
           'short' => true
         }
       end
+
       [
         {
           'fallback' => 'Xur\'s Inventory: http://www.destinylfg.com/findxur/',
