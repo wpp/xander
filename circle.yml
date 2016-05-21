@@ -11,12 +11,13 @@ dependencies:
   pre:
     - gem install bundler --pre
 
+  override:
+    - bundle install: # note ':' here
+        timeout: 180 # fail if command has no output for 3 minutes
+        pwd:
+          ruby-app
+
 ## Customize test commands
 test:
   override:
     - cd ruby-app && rake test
-  post:
-    - bundle exec rake jasmine:ci: # add an extra test type
-        environment:
-          RAILS_ENV: test
-          RACK_ENV: test
