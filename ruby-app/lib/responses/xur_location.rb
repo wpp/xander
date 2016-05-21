@@ -29,6 +29,7 @@ module Response
           "fallback" => "Xur's Location (#{@date}): #{@map}",
           "title" => "Xur's Location (#{@date})",
           "title_link" => "http://www.destinylfg.com/findxur/",
+          "thumb_url" => "https://pbs.twimg.com/profile_images/525558766180118528/hyDrezNf_400x400.png",
           "text" => text,
           "image_url" => image_url,
           "color" => "#FFCE1F"
