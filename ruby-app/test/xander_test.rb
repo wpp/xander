@@ -25,7 +25,12 @@ class XanderTest < Minitest::Test
       'could be fun in void burn nightfalls',
       "Cool. What's 13 strange coins anyway. :)",
       'last week was heart of praxic fire, it’s a good time for warlocks'
-    ].each { |message| assert @xander.respond_to(message, @user, 'D') }
+    ].each do |message|
+      response = mock('default')
+      Response::Default.expects(:new).returns(response)
+
+      assert @xander.respond_to(message, @user, 'D')
+    end
   end
 
   def test_elo_at_slack_user_no_gamertag
