@@ -29,9 +29,10 @@ class MyEloTest < Minitest::Test
                 "fallback" => "Xur's Location (Apr 1 – Apr 3, 2016): http://www.destinylfg.com/assets/findxur/xur-location-speaker-north.png",
                 "title" => "Xur's Location (Apr 1 – Apr 3, 2016)",
                 "title_link" => "http://www.destinylfg.com/findxur/",
-                "text" => "According to destinylfg Xur should be here:",
+                "thumb_url"=>"https://pbs.twimg.com/profile_images/525558766180118528/hyDrezNf_400x400.png",
+                "text" => "According to DestinyLFG, Xur should be here:",
                 "image_url" => "http://www.destinylfg.com/assets/findxur/xur-location-speaker-north.png",
-                "color" => "#CCA827"
+                "color" => "#FFCE1F"
             }
         ]
 
@@ -50,9 +51,10 @@ class MyEloTest < Minitest::Test
               "fallback" => "Xur's Location (Apr 15 – Apr 17, 2016): Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.",
               "title" => "Xur's Location (Apr 15 – Apr 17, 2016)",
               "title_link" => "http://www.destinylfg.com/findxur/",
-              "text" => "According to destinylfg Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.",
+              "thumb_url"=>"https://pbs.twimg.com/profile_images/525558766180118528/hyDrezNf_400x400.png",
+              "text" => "According to DestinyLFG Xur is in the Reef. After arrival: turn right, go down the stairs, look right and he is through the open door.",
               "image_url" => "",
-              "color" => "#CCA827"
+              "color" => "#FFCE1F"
           }
       ]
 

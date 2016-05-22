@@ -11,16 +11,16 @@ module Response
     def text
       scrape_xur_location
       "Hi <@#{@user}> you asked for Xur's location:"
-    rescue => e
+    rescue
       TABLE
     end
 
     def attachments
       if uri?(@map)
-        text = 'According to destinylfg Xur should be here:'
+        text = 'According to DestinyLFG, Xur should be here:'
         image_url = @map
       else
-        text = "According to destinylfg #{@map}"
+        text = "According to DestinyLFG #{@map}"
         image_url = ''
       end
 
@@ -29,9 +29,10 @@ module Response
           "fallback" => "Xur's Location (#{@date}): #{@map}",
           "title" => "Xur's Location (#{@date})",
           "title_link" => "http://www.destinylfg.com/findxur/",
+          "thumb_url" => "https://pbs.twimg.com/profile_images/525558766180118528/hyDrezNf_400x400.png",
           "text" => text,
           "image_url" => image_url,
-          "color" => "#CCA827"
+          "color" => "#FFCE1F"
         }
       ]
     end
