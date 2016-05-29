@@ -64,7 +64,7 @@ class MyEloTest < Minitest::Test
   def test_slack_profile_empty
     VCR.use_cassette('slack_profile_empty') do
       response = @xander.respond_to("my elo #{@bot}", @user)
-      assert_equal "Hi <@#{@user}> I can't get your gamertag. Please add a profile title. Visit https://testing.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: yourgamertag` or `XB1: yourgamertag`)", response.text
+      assert_response "Hi <@#{@user}>! I can't get your gamertag. Please add a profile title. Visit https://testing.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: yourgamertag` or `XB1: yourgamertag`)", response.text
     end
   end
 
