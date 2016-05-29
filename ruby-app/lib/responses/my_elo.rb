@@ -16,7 +16,7 @@ module Response
       if slack_user_has_profile_title?
         get_gamertag
       else
-        "Hi <@#{user}> I can't get your gamertag. Please add a profile title. #{change_instructions}"
+        respond user, "I can't get your gamertag. Please add a profile title. #{change_instructions}"
       end
     rescue => e
       TABLE
