@@ -11,7 +11,6 @@ module MiniTest::Assertions
   private
 
   def remove_greeting(message)
-    greeting = message.partition '! '
-    return greeting
+     message.partition '! '
   end
 end
