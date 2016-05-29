@@ -40,7 +40,7 @@ module Response
           get_membership_ids
         else
           title = @slack_user.profile.title.empty? ? 'empty' : "`#{@slack_user.profile.title}`"
-          "Hi <@#{user}> I don't know your gamertag. Your profile title on slack is #{title}. #{change_instructions}"
+          respond user, "I don't know your gamertag. Your profile title on slack is #{title}. #{change_instructions}"
         end
       end
 
@@ -49,7 +49,7 @@ module Response
         @gg_user.get_membership_ids
 
         if @gg_user.membership_ids.empty?
-          "Hi <@#{user}> I couldn’t find you on guardian.gg. Make sure your gamertag is correct."
+          respond user, "I couldn’t find you on guardian.gg. Make sure your gamertag is correct."
         else
           get_elos
         end
@@ -86,6 +86,7 @@ module Response
         else
           domain = 'testing'
         end
+
         "Visit https://#{domain}.slack.com/account/profile, click 'Edit' and change it in the 'What I do section'. (`PSN: yourgamertag` or `XB1: yourgamertag`)"
       end
   end
