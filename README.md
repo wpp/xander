@@ -1,4 +1,4 @@
-# Xander
++# Xander
 
 [![CircleCI](https://circleci.com/gh/wpp/xander/tree/master.svg?style=svg)](https://circleci.com/gh/wpp/xander/tree/master)
 
@@ -39,6 +39,18 @@ Those 2 are called when replying via `client.web_client.chat_postMessage` in bot
 ### `config/`
 
 Contains deployment/docker-related configuration files.
+
+
+## Adding a new response
+
+So in summary, if you want to add a new response:
+
+1. Create a new test `test/responses/my_new_response_test.rb`
+2. Create a new response `lib/responses/`
+3. Add regex and case to `xander.rb`
+4. Run tests `rake test`
+5. Commit
+6. Push
 
 
 ## Other notes
