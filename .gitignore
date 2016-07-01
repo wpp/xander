@@ -1,6 +1,8 @@
 coverage
 .byebug_history
 .testbot
+.bungie_token
+cache
 dictionaries
 build.sh
 push.sh
