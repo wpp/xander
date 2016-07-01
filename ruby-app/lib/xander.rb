@@ -11,6 +11,7 @@ class Xander
   RANT          = /rant|problem|fault|blame|salt/i
   NICE          = /apologi(s|z)e|behave|nice|sorry|sry/i
   DAILY         = /daily/i
+  TABLE         = /┸━┸|┻━┻/i
   MY_ELO        = /^my *(\w|\s)* elo/i
   GT_ELO        = /elo for *\w*/i
   MORNING       = /(good\s)?morning?.*|yo slack-peeps/
@@ -34,6 +35,8 @@ class Xander
       get_response_for(message.downcase, user)
     elsif subtype == 'channel_join' && channel == 'C0CPS1MLH'
       Response::Bungie.new(user)
+    elsif message =~ TABLE
+      Response::Table.new
     else
       nil
     end
