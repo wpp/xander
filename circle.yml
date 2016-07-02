@@ -9,6 +9,7 @@ machine:
   # Add some environment variables
   environment:
     SLACK_API_TOKEN: asdf
+    BUNGIE_API_TOKEN: aaaa
 
 ## Customize dependencies
 dependencies:
