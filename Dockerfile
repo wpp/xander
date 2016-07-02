@@ -14,7 +14,7 @@ RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selectio
     apt-get -y upgrade &&\
     apt-get -y install software-properties-common &&\
     apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev nodejs &&\
-    apt-get -y install wget curl vim-tiny git supervisor &&\
+    apt-get -y install wget curl vim-tiny git supervisor libsqlite3-dev &&\
     apt-get -y install nginx libpq-dev &&\
     apt-get -y update &&\
     apt-get clean
