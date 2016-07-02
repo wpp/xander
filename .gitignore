@@ -8,3 +8,4 @@ build.sh
 push.sh
 run.sh
 *result.html
+*.content
