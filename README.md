@@ -67,3 +67,4 @@ at the `Dockerfile` to see what's included. (In case you want timing/cron relate
 - [Bungie API docs](http://destinyapi.wiki/)
 - [Slack API docs](https://api.slack.com/rtm)
 - [CircleCI](https://circleci.com/docs/gettingstarted/)
+- [How to Read the Manifest (Reference)](https://www.bungie.net/en/Clan/Post/39966/105901734/0/0)

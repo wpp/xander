@@ -1,3 +1,4 @@
+require 'sqlite3'
 require 'nokogiri'
 require 'open-uri'
 require_relative 'markov_chain'
@@ -10,6 +11,7 @@ class Xander
   MAPS          = /maps?/i
   RANT          = /rant|problem|fault|blame|salt/i
   NICE          = /apologi(s|z)e|behave|nice|sorry|sry/i
+  PERK          = /perk/i
   DAILY         = /daily/i
   TABLE         = /┸━┸|┻━┻/i
   MY_ELO        = /^my *(\w|\s)* elo/i
@@ -48,6 +50,7 @@ class Xander
     when MAPS           then Response::Maps.new
     when RANT           then Response::Rant.new
     when NICE           then Response::Nice.new
+    when PERK           then Response::Perk.new(message, user)
     when DAILY          then Response::Daily.new
     when MY_ELO         then Response::MyElo.new(message, user, @client)
     when GT_ELO         then Response::GamertagElo.new(message, user, @client)
