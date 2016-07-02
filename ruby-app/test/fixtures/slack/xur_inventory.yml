@@ -23,7 +23,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 02 Jul 2016 11:14:25 GMT
+      - Sat, 02 Jul 2016 11:29:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,24 +31,24 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=da6dd2abac257bbbdbffca2c7da1261d21467458065; expires=Sun, 02-Jul-17
-        11:14:25 GMT; path=/; domain=.bungie.net; HttpOnly
-      - bungled=9124565249586070682; path=/
-      - bungledid=BwiYvOY3T/dMtW0f+uQlAs8L768HaqLTCAAA; expires=Thu, 02-Jul-2026 11:14:26
+      - __cfduid=d4d1c1d9db3a2d062f60fececbe022b601467458964; expires=Sun, 02-Jul-17
+        11:29:24 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=7742584896938768176; path=/
+      - bungledid=ByuqW3X0YKxLqvFVFIWPPbKWvD4fbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:25
         GMT; path=/; HttpOnly
-      - sto-id-sg_www.bungie.net=JOAKHPAK; Expires=Sat, 02-Jul-2016 12:14:26 GMT;
+      - sto-id-sg_www.bungie.net=JNAKHPAK; Expires=Sat, 02-Jul-2016 12:29:24 GMT;
         Path=/
       Cache-Control:
       - public, no-cache="Set-Cookie", max-age=60
       Expires:
-      - Sat, 02 Jul 2016 11:15:26 GMT
+      - Sat, 02 Jul 2016 11:30:25 GMT
       Last-Modified:
-      - Sat, 02 Jul 2016 11:14:26 GMT
+      - Sat, 02 Jul 2016 11:29:25 GMT
       Vary:
       - "*"
       - Accept-encoding
       X-Bungienext-Mid2:
-      - 08
+      - '07'
       X-Bungienext-Renderer:
       - Frog Blast the Ventcore
       X-Ua-Compatible:
@@ -68,12 +68,999 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 2bc1ac8ecf6e3946-VIE
+      - 2bc1c27e947d1a24-VIE
     body:
       encoding: ASCII-8BIT
       string: '{"Response":{"data":{"vendorHash":2796397637,"nextRefreshDate":"2016-07-08T09:00:00Z","enabled":true,"saleItemCategories":[{"categoryIndex":36,"categoryTitle":"Curios","saleItems":[{"item":{"itemHash":1880070441,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":1,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":294,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":23}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":1880070440,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":1,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":295,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":23}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":211861343,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":3,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":298,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":1}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":417308266,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":5,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":454,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":7}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":2633085824,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":3,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":455,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":3},{"itemHash":937555249,"value":3},{"itemHash":452597397,"value":1}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]}]},{"categoryIndex":38,"categoryTitle":"Material
         Exchange","saleItems":[{"item":{"itemHash":937555249,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":1,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":299,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":2}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]}]},{"categoryIndex":44,"categoryTitle":"Exotic
         Gear","saleItems":[{"item":{"itemHash":3921595523,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":48,"stackSize":1,"qualityLevel":0,"stats":[{"statHash":144602215,"value":44,"maximumValue":0},{"statHash":1735777505,"value":45,"maximumValue":0},{"statHash":4244567218,"value":0,"maximumValue":0}],"primaryStat":{"statHash":3897883278,"value":280,"maximumValue":0},"canEquip":true,"equipRequiredLevel":40,"unlockFlagHashRequiredToEquip":2166136261,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"progression":{"dailyProgress":0,"weeklyProgress":0,"currentProgress":0,"level":0,"step":0,"progressToNextLevel":0,"nextLevelAt":0,"progressionHash":2043912351},"talentGridHash":4252925374,"nodes":[{"isActivated":true,"stepIndex":0,"state":10,"hidden":false,"nodeHash":0},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":1},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":2},{"isActivated":true,"stepIndex":2,"state":13,"hidden":true,"nodeHash":3},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":4},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":5},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":6},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":7},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":8},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":9}],"useCustomDyes":false,"artRegions":{},"isEquipment":true,"isGridComplete":false,"perks":[{"iconPath":"/common/destiny_content/icons/b3553e33088f23764810d835d0083f0b.png","perkHash":3389346365,"isActive":true},{"iconPath":"/common/destiny_content/icons/dacf6360f222024178bd985169b920f3.png","perkHash":2556279843,"isActive":false},{"iconPath":"/common/destiny_content/icons/d7b2d74d5e475350c4471d6e6c374f7f.png","perkHash":1028572792,"isActive":false},{"iconPath":"/common/destiny_content/icons/c08b47d2f8ec8821b449639a06bf471d.png","perkHash":2586594178,"isActive":false},{"iconPath":"/common/destiny_content/icons/c08b47d2f8ec8821b449639a06bf471d.png","perkHash":2426858846,"isActive":false}],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":382,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":13}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":1520434779,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":48,"stackSize":1,"qualityLevel":0,"stats":[{"statHash":144602215,"value":58,"maximumValue":0},{"statHash":1735777505,"value":0,"maximumValue":0},{"statHash":4244567218,"value":0,"maximumValue":0}],"primaryStat":{"statHash":3897883278,"value":280,"maximumValue":0},"canEquip":true,"equipRequiredLevel":40,"unlockFlagHashRequiredToEquip":3720682193,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"progression":{"dailyProgress":0,"weeklyProgress":0,"currentProgress":0,"level":0,"step":0,"progressToNextLevel":0,"nextLevelAt":0,"progressionHash":2043912351},"talentGridHash":1516555424,"nodes":[{"isActivated":true,"stepIndex":0,"state":10,"hidden":false,"nodeHash":0},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":1},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":2},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":3},{"isActivated":true,"stepIndex":2,"state":13,"hidden":true,"nodeHash":4},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":5},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":6},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":7},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":8}],"useCustomDyes":false,"artRegions":{},"isEquipment":true,"isGridComplete":false,"perks":[{"iconPath":"/common/destiny_content/icons/5e86ada58a19075dfb0687ecb638ed0a.png","perkHash":321363893,"isActive":true},{"iconPath":"/common/destiny_content/icons/4d5739cd9b9400ea56d40cf3a8bb3880.png","perkHash":707792617,"isActive":false},{"iconPath":"/common/destiny_content/icons/a2e5a4bc27d39abdc50a78974a44c9b5.png","perkHash":2664229771,"isActive":false},{"iconPath":"/common/destiny_content/icons/3bfa89aab3df42b4c02d7ac5757a6fae.png","perkHash":1101818187,"isActive":false}],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":407,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":13}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":1519376145,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":48,"stackSize":1,"qualityLevel":0,"stats":[{"statHash":144602215,"value":65,"maximumValue":0},{"statHash":1735777505,"value":0,"maximumValue":0},{"statHash":4244567218,"value":0,"maximumValue":0}],"primaryStat":{"statHash":3897883278,"value":280,"maximumValue":0},"canEquip":true,"equipRequiredLevel":40,"unlockFlagHashRequiredToEquip":2726639978,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"progression":{"dailyProgress":0,"weeklyProgress":0,"currentProgress":0,"level":0,"step":0,"progressToNextLevel":0,"nextLevelAt":0,"progressionHash":2043912351},"talentGridHash":1531428518,"nodes":[{"isActivated":true,"stepIndex":0,"state":10,"hidden":false,"nodeHash":0},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":1},{"isActivated":false,"stepIndex":1,"state":0,"hidden":false,"nodeHash":2},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":3},{"isActivated":true,"stepIndex":2,"state":13,"hidden":true,"nodeHash":4},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":5},{"isActivated":false,"stepIndex":2,"state":0,"hidden":false,"nodeHash":6},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":7},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":8}],"useCustomDyes":false,"artRegions":{},"isEquipment":true,"isGridComplete":false,"perks":[{"iconPath":"/common/destiny_content/icons/e14dbcd72a7cc1b80487c2568003474f.png","perkHash":1569097303,"isActive":true},{"iconPath":"/common/destiny_content/icons/4a0a699b7c844f2cf1a60658f1140f0a.png","perkHash":2661061678,"isActive":false},{"iconPath":"/common/destiny_content/icons/9a5fe7721c6f140d7a624f22234e98c5.png","perkHash":3302053862,"isActive":false},{"iconPath":"/common/destiny_content/icons/ffee61e18b51690f9d92e9febea72f3b.png","perkHash":2131801999,"isActive":false}],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":423,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":13}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":1177550374,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":48,"stackSize":1,"qualityLevel":0,"stats":[{"statHash":4284893193,"value":73,"maximumValue":100},{"statHash":4043523819,"value":7,"maximumValue":100},{"statHash":1240592695,"value":39,"maximumValue":100},{"statHash":155624089,"value":58,"maximumValue":100},{"statHash":4188031367,"value":65,"maximumValue":100},{"statHash":3871231066,"value":24,"maximumValue":100}],"primaryStat":{"statHash":368428387,"value":280,"maximumValue":0},"canEquip":true,"equipRequiredLevel":40,"unlockFlagHashRequiredToEquip":2166136261,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"progression":{"dailyProgress":0,"weeklyProgress":0,"currentProgress":0,"level":0,"step":0,"progressToNextLevel":0,"nextLevelAt":0,"progressionHash":3025482627},"talentGridHash":932175511,"nodes":[{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":0},{"isActivated":true,"stepIndex":0,"state":10,"hidden":false,"nodeHash":1},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":2},{"isActivated":true,"stepIndex":0,"state":13,"hidden":true,"nodeHash":3},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":4},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":5},{"isActivated":false,"stepIndex":0,"state":0,"hidden":false,"nodeHash":6},{"isActivated":false,"stepIndex":0,"state":7,"hidden":false,"nodeHash":7},{"isActivated":true,"stepIndex":0,"state":10,"hidden":false,"nodeHash":8},{"isActivated":false,"stepIndex":0,"state":7,"hidden":false,"nodeHash":9},{"isActivated":true,"stepIndex":0,"state":0,"hidden":false,"nodeHash":10},{"isActivated":true,"stepIndex":0,"state":13,"hidden":true,"nodeHash":11}],"useCustomDyes":true,"artRegions":{},"isEquipment":true,"isGridComplete":false,"perks":[{"iconPath":"/common/destiny_content/icons/80d4c55d70ef1b23e06d1900a79e8100.png","perkHash":164606820,"isActive":false},{"iconPath":"/common/destiny_content/icons/c2a97dc9e39f61817330eab9ff9a2505.png","perkHash":2814215427,"isActive":false}],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":433,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":23}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]},{"item":{"itemHash":3149602403,"bindStatus":0,"isEquipped":false,"itemInstanceId":"0","itemLevel":0,"stackSize":1,"qualityLevel":0,"stats":[],"canEquip":true,"equipRequiredLevel":0,"unlockFlagHashRequiredToEquip":0,"cannotEquipReason":0,"damageType":0,"damageTypeHash":0,"damageTypeNodeIndex":-1,"damageTypeStepIndex":-1,"talentGridHash":0,"nodes":[],"useCustomDyes":false,"artRegions":{},"isEquipment":false,"isGridComplete":false,"perks":[],"location":3,"transferStatus":0,"locked":false,"lockable":false,"objectives":[],"state":0},"vendorItemIndex":450,"itemStatus":0,"costs":[{"itemHash":1738186005,"value":29}],"requiredUnlockFlags":[],"unlockStatuses":[],"failureIndexes":[]}]}],"canPurchase":false,"currencies":{}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
     http_version:
-  recorded_at: Sat, 02 Jul 2016 11:14:26 GMT
+  recorded_at: Sat, 02 Jul 2016 11:29:24 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/1880070441/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6de3d1eba609dfcee633317baff8b7b51467458964; expires=Sun, 02-Jul-17
+        11:29:24 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=6700427618779509759; path=/
+      - bungledid=B+r1DAwRCVZOrumSPbPSntEjvuofbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:26
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:25 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:46 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:26 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/1880070441/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c280c20c0a30-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":1880070441,"inventoryItem":{"itemHash":1880070441,"itemName":"Plasma
+        Drive","itemDescription":"Permanently upgrades an equipped Rare Sparrow to
+        improve overall speed and durability.","icon":"/common/destiny_content/icons/0b91f5ad418f8a386bc0f6f263a1243c.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Use","hasAction":true,"deleteOnAction":true,"tierTypeName":"Legendary","tierType":5,"itemTypeName":"Vehicle
+        Upgrade","bucketTypeHash":1469714392,"primaryBaseStatHash":0,"stats":{},"perkHashes":[],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[],"qualityLevel":0,"equippable":false,"instanced":false,"rewardItemHash":0,"values":{},"itemType":0,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":0,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[941581325],"spawnIndexes":[0]}],"itemCategoryHashes":[],"sourceHashes":[941581325],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":1880070441,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:26 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/1880070440/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=ddf884df990428914bec08369ad3c92ac1467458966; expires=Sun, 02-Jul-17
+        11:29:26 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1668279443583728311; path=/
+      - bungledid=B+pk9XuL34BNqU7JjdYrEFB7aXcgbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:27
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:26 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:47 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:27 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/1880070440/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c28ae0931a24-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":1880070440,"inventoryItem":{"itemHash":1880070440,"itemName":"\"Emerald
+        Coil\"","itemDescription":"A strangely tuned drive that produces a greenish
+        contrail under boost.\n\nPermanently upgrades an equipped Rare Sparrow to
+        improve speed and durability.","icon":"/common/destiny_content/icons/cfdd785d0d100ff6e02f3fa5d93bac46.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Use","hasAction":true,"deleteOnAction":true,"tierTypeName":"Legendary","tierType":5,"itemTypeName":"Vehicle
+        Upgrade","bucketTypeHash":1469714392,"primaryBaseStatHash":0,"stats":{},"perkHashes":[],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[],"qualityLevel":0,"equippable":false,"instanced":false,"rewardItemHash":0,"values":{},"itemType":0,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":0,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[941581325],"spawnIndexes":[0]}],"itemCategoryHashes":[],"sourceHashes":[941581325],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":1880070440,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:26 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/211861343/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=ddf884df990428914bec08369ad3c92ac1467458966; expires=Sun, 02-Jul-17
+        11:29:26 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2673314361419628177; path=/
+      - bungledid=B3eWz6lR8P1Hkgcb+uUdhgQgesggbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:27
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:26 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:47 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:27 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/211861343/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c28e30991a24-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":211861343,"inventoryItem":{"itemHash":211861343,"itemName":"Heavy
+        Ammo Synthesis","itemDescription":"Single-use Ghost manufacturing package.
+        Instantly replenish heavy weapon ammunition.","icon":"/common/destiny_content/icons/b67087079a950013dfbdf6e0ebaeb245.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Use","hasAction":true,"deleteOnAction":true,"tierTypeName":"Common","tierType":2,"itemTypeName":"Consumable","bucketTypeHash":1469714392,"primaryBaseStatHash":0,"stats":{},"perkHashes":[],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[],"qualityLevel":0,"equippable":false,"instanced":false,"rewardItemHash":0,"values":{},"itemType":9,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":0,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[1396812895,36493462,541934873,3551688287,3739898362,941581325,299200664,1662396737,3523074641,1920307024],"spawnIndexes":[0]}],"itemCategoryHashes":[35,52],"sourceHashes":[1396812895,36493462,541934873,3551688287,3739898362,941581325,299200664,1662396737,3523074641,1920307024],"nonTransferrable":false,"exclusive":0,"maxStackSize":100,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":211861343,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:27 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/417308266/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0a2a3e4ad8f70de304f75037f76277e71467458967; expires=Sun, 02-Jul-17
+        11:29:27 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=6244207452233900467; path=/
+      - bungledid=ByuxiR9uZTtKqyQ5MUwlB2NR0togbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:28
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OJAKHPAK; Expires=Sat, 02-Jul-2016 12:29:27 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=1933703
+      Expires:
+      - Sun, 24 Jul 2016 20:37:51 GMT
+      Last-Modified:
+      - Fri, 01 Jul 2016 17:04:31 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '10'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/417308266/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29010893910-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":417308266,"inventoryItem":{"itemHash":417308266,"itemName":"Three
+        of Coins","itemDescription":"Stackable effect that increases the chances the
+        next Ultra you defeat or Crucible match you complete will award an Exotic
+        Engram.","icon":"/common/destiny_content/icons/6cdc038404d0954270877c87a33208f5.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Use","hasAction":true,"deleteOnAction":true,"tierTypeName":"Rare","tierType":4,"itemTypeName":"Consumable","bucketTypeHash":1469714392,"primaryBaseStatHash":0,"stats":{},"perkHashes":[],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[],"qualityLevel":0,"equippable":false,"instanced":false,"rewardItemHash":0,"values":{},"itemType":9,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":0,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[113998144,941581325,460228854],"spawnIndexes":[0]}],"itemCategoryHashes":[35,52],"sourceHashes":[113998144,941581325,460228854],"nonTransferrable":false,"exclusive":0,"maxStackSize":200,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":417308266,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:27 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/2633085824/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dec0553644b94277fd917cda2dd15b97e1467458967; expires=Sun, 02-Jul-17
+        11:29:27 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=4344731311474351570; path=/
+      - bungledid=B2pJSlNDgtxHoPhtoQW39lDGbRYhbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:28
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OJAKHPAK; Expires=Sat, 02-Jul-2016 12:29:27 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=1933533
+      Expires:
+      - Sun, 24 Jul 2016 20:35:01 GMT
+      Last-Modified:
+      - Fri, 01 Jul 2016 17:01:41 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '10'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/2633085824/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29280151a24-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJSZXNwb25zZSI6eyJkYXRhIjp7InJlcXVlc3RlZElkIjoyNjMzMDg1ODI0
+        LCJpbnZlbnRvcnlJdGVtIjp7Iml0ZW1IYXNoIjoyNjMzMDg1ODI0LCJpdGVt
+        TmFtZSI6IkdsYXNzIE5lZWRsZXMiLCJpdGVtRGVzY3JpcHRpb24iOiJTbGl2
+        ZXJzIG9mIGdsYXNzeSBtYXRlcmlhbCB0aGF0IGFwcGVhciB0byBhbHRlciB0
+        aGUgZmxvdyBvZiB0aW1lIGFyb3VuZCB0aGVtLlxuXG5TYWlkIHRvIGJlIHVz
+        ZWQgYnkgdGhlIE5pbmUgdG8gdHJhbnNmb3JtIHRoZSBwcm9wZXJ0aWVzIG9m
+        IEV4b3RpYyBnZWFyLiIsImljb24iOiIvY29tbW9uL2Rlc3RpbnlfY29udGVu
+        dC9pY29ucy9mM2U1Njg4NWYwZmU5MGQ3YzIxMzFhYWNlYjU4NzZlNy5qcGci
+        LCJoYXNJY29uIjp0cnVlLCJzZWNvbmRhcnlJY29uIjoiL2ltZy9taXNjL21p
+        c3NpbmdfaWNvbi5wbmciLCJkaXNwbGF5U291cmNlIjoiT2J0YWluZWQgZnJv
+        bSBYw7tyLCBBZ2VudCBvZiB0aGUgTmluZS4iLCJhY3Rpb25OYW1lIjoiRGlz
+        Y2FyZCIsImhhc0FjdGlvbiI6dHJ1ZSwiZGVsZXRlT25BY3Rpb24iOnRydWUs
+        InRpZXJUeXBlTmFtZSI6IlJhcmUiLCJ0aWVyVHlwZSI6NCwiaXRlbVR5cGVO
+        YW1lIjoiTWF0ZXJpYWwiLCJidWNrZXRUeXBlSGFzaCI6Mzg2NTMxNDYyNiwi
+        cHJpbWFyeUJhc2VTdGF0SGFzaCI6MCwic3RhdHMiOnt9LCJwZXJrSGFzaGVz
+        IjpbXSwic3BlY2lhbEl0ZW1UeXBlIjowLCJ0YWxlbnRHcmlkSGFzaCI6MCwi
+        aGFzR2VvbWV0cnkiOmZhbHNlLCJzdGF0R3JvdXBIYXNoIjowLCJpdGVtTGV2
+        ZWxzIjpbXSwicXVhbGl0eUxldmVsIjowLCJlcXVpcHBhYmxlIjpmYWxzZSwi
+        aW5zdGFuY2VkIjpmYWxzZSwicmV3YXJkSXRlbUhhc2giOjAsInZhbHVlcyI6
+        e30sIml0ZW1UeXBlIjowLCJpdGVtU3ViVHlwZSI6MCwiY2xhc3NUeXBlIjoz
+        LCJzb3VyY2VzIjpbeyJleHBhbnNpb25JbmRleCI6MCwibGV2ZWwiOjAsIm1p
+        blF1YWxpdHkiOjAsIm1heFF1YWxpdHkiOjAsIm1pbkxldmVsUmVxdWlyZWQi
+        OjAsIm1heExldmVsUmVxdWlyZWQiOjAsImV4Y2x1c2l2aXR5IjowLCJjb21w
+        dXRlZFN0YXRzIjp7fSwic291cmNlSGFzaGVzIjpbXSwic3Bhd25JbmRleGVz
+        IjpbMF19XSwiaXRlbUNhdGVnb3J5SGFzaGVzIjpbNDAsNTJdLCJzb3VyY2VI
+        YXNoZXMiOltdLCJub25UcmFuc2ZlcnJhYmxlIjpmYWxzZSwiZXhjbHVzaXZl
+        IjowLCJtYXhTdGFja1NpemUiOjUwLCJpdGVtSW5kZXgiOjAsInNldEl0ZW1I
+        YXNoZXMiOltdLCJ0b29sdGlwU3R5bGUiOiIiLCJxdWVzdGxpbmVJdGVtSGFz
+        aCI6MCwibmVlZHNGdWxsQ29tcGxldGlvbiI6ZmFsc2UsIm9iamVjdGl2ZUhh
+        c2hlcyI6W10sImFsbG93QWN0aW9ucyI6dHJ1ZSwicXVlc3RUcmFja2luZ1Vu
+        bG9ja1ZhbHVlSGFzaCI6MCwiYm91bnR5UmVzZXRVbmxvY2tIYXNoIjowLCJ1
+        bmlxdWVuZXNzSGFzaCI6MCwic2hvd0FjdGl2ZU5vZGVzSW5Ub29sdGlwIjpm
+        YWxzZSwiaGFzaCI6MjYzMzA4NTgyNCwiaW5kZXgiOjB9fX0sIkVycm9yQ29k
+        ZSI6MSwiVGhyb3R0bGVTZWNvbmRzIjowLCJFcnJvclN0YXR1cyI6IlN1Y2Nl
+        c3MiLCJNZXNzYWdlIjoiT2siLCJNZXNzYWdlRGF0YSI6e319
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:27 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/937555249/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2981ef4756a154de563adea545b5c5221467458967; expires=Sun, 02-Jul-17
+        11:29:27 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1836814719871691319; path=/
+      - bungledid=B7Z5gZd+gz9FmNqL1EZW117onWMhbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:28
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:28 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:48 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:28 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/937555249/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29494633952-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":937555249,"inventoryItem":{"itemHash":937555249,"itemName":"Mote
+        of Light","itemDescription":"A brilliant spark of the Traveler''s Light.\n\nCan
+        be consumed to apply experience to your equipped gear.","icon":"/common/destiny_content/icons/2e026fc67d445e5b2630277aa794b4b1.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","displaySource":"Obtained
+        from Weekly Heroics, Public Events and dismantling upgraded gear.","actionName":"Use","hasAction":true,"deleteOnAction":true,"tierTypeName":"Rare","tierType":4,"itemTypeName":"Consumable","bucketTypeHash":3865314626,"primaryBaseStatHash":0,"stats":{},"perkHashes":[],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[],"qualityLevel":0,"equippable":false,"instanced":false,"rewardItemHash":0,"values":{},"itemType":9,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":20,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[3080587303,2859308742,1963381593,3496730577,1882189853,1141011754,299200664,36493462,478645002,344892955,3870113141,113998144,541934873,1557240522,3551688287,3739898362,941581325,3498761033,846654930,3413298620],"spawnIndexes":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]}],"itemCategoryHashes":[35,52],"sourceHashes":[3080587303,2859308742,1963381593,3496730577,1882189853,1141011754,299200664,36493462,478645002,344892955,3870113141,113998144,541934873,1557240522,3551688287,3739898362,941581325,3498761033,846654930,3413298620],"nonTransferrable":false,"exclusive":0,"maxStackSize":999999,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":937555249,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:28 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/3921595523/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4720ab8a66a11bb91b98a78b89743b301467458968; expires=Sun, 02-Jul-17
+        11:29:28 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=4478837158206367122; path=/
+      - bungledid=B0OAqPo0MD5Dr8ESrmgm8jFCuIEhbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:29
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OJAKHPAK; Expires=Sat, 02-Jul-2016 12:29:28 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=1933534
+      Expires:
+      - Sun, 24 Jul 2016 20:35:03 GMT
+      Last-Modified:
+      - Fri, 01 Jul 2016 17:01:43 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '10'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/3921595523/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c296feaa3910-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":3921595523,"inventoryItem":{"itemHash":3921595523,"itemName":"Twilight
+        Garrison","itemDescription":"\"One day the Last City will be known as the
+        First City.\"","icon":"/common/destiny_content/icons/85d652ff6efd5b96625d308cb4a60f2c.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Dismantle","hasAction":true,"deleteOnAction":true,"tierTypeName":"Exotic","tierType":6,"itemTypeName":"Chest
+        Armor","bucketTypeHash":14239492,"primaryBaseStatHash":3897883278,"stats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":280,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":44,"minimum":44,"maximum":86},"1735777505":{"statHash":1735777505,"value":44,"minimum":44,"maximum":86},"144602215":{"statHash":144602215,"value":44,"minimum":44,"maximum":86}},"perkHashes":[],"specialItemType":0,"talentGridHash":4252925374,"equippingBlock":{"weaponSandboxPatternIndex":-1,"gearArtArrangementIndex":2943,"defaultDyes":[],"lockedDyes":[{"channelHash":662199250,"dyeHash":2137766732},{"channelHash":1367384683,"dyeHash":2886787513},{"channelHash":218592586,"dyeHash":3207104432}],"customDyes":[],"customDyeExpression":{"steps":[{"stepOperator":1,"flagHash":1680320212,"valueHash":0,"value":2313}]},"weaponPatternHash":0,"arrangements":[{"classHash":0,"gearArtArrangementIndex":2943}]},"hasGeometry":true,"statGroupHash":363072480,"itemLevels":[0],"qualityLevel":0,"equippable":true,"instanced":true,"rewardItemHash":0,"values":{},"itemType":2,"itemSubType":0,"classType":0,"sources":[{"expansionIndex":0,"level":50,"minQuality":0,"maxQuality":35,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":300,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":44,"minimum":44,"maximum":86},"1735777505":{"statHash":1735777505,"value":44,"minimum":44,"maximum":86},"144602215":{"statHash":144602215,"value":44,"minimum":44,"maximum":86}},"sourceHashes":[113998144,3551688287,3413298620,460228854],"spawnIndexes":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]},{"expansionIndex":0,"level":48,"minQuality":0,"maxQuality":0,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":280,"minimum":280,"maximum":280},"2391494160":{"statHash":2391494160,"value":28,"minimum":28,"maximum":28},"4244567218":{"statHash":4244567218,"value":41,"minimum":41,"maximum":69},"1735777505":{"statHash":1735777505,"value":41,"minimum":41,"maximum":69},"144602215":{"statHash":144602215,"value":41,"minimum":41,"maximum":69}},"sourceHashes":[941581325,460228854],"spawnIndexes":[36]}],"itemCategoryHashes":[22,47,20],"sourceHashes":[113998144,3551688287,3413298620,460228854,941581325],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":517554803,"showActiveNodesInTooltip":false,"hash":3921595523,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:28 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/1520434779/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2f097e333a05f79fdf48904519b6d1b41467458968; expires=Sun, 02-Jul-17
+        11:29:28 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=2481966607382601431; path=/
+      - bungledid=B0K/ITTeBMpJorgz1L0NBQM91NohbKLTCAAA; expires=Thu, 02-Jul-2026 11:29:29
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:28 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:49 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:29 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/1520434779/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c2996239391c-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":1520434779,"inventoryItem":{"itemHash":1520434779,"itemName":"Mask
+        of the Third Man","itemDescription":"\"It wasn''t me. It was the Third Man.\"","icon":"/common/destiny_content/icons/c5e1fe1d3d7227be295dc17e6bf92d07.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Dismantle","hasAction":true,"deleteOnAction":true,"tierTypeName":"Exotic","tierType":6,"itemTypeName":"Helmet","bucketTypeHash":3448274439,"primaryBaseStatHash":3897883278,"stats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":280,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":33,"minimum":33,"maximum":67},"144602215":{"statHash":144602215,"value":33,"minimum":33,"maximum":106},"1735777505":{"statHash":1735777505,"value":33,"minimum":33,"maximum":67}},"perkHashes":[],"specialItemType":0,"talentGridHash":1516555424,"equippingBlock":{"weaponSandboxPatternIndex":-1,"gearArtArrangementIndex":2745,"defaultDyes":[{"channelHash":1367384683,"dyeHash":1884213905},{"channelHash":218592586,"dyeHash":1089543032}],"lockedDyes":[{"channelHash":662199250,"dyeHash":3909521172}],"customDyes":[],"customDyeExpression":{"steps":[{"stepOperator":1,"flagHash":1680320212,"valueHash":0,"value":2313}]},"weaponPatternHash":0,"arrangements":[{"classHash":0,"gearArtArrangementIndex":2745}]},"hasGeometry":true,"statGroupHash":1116828683,"itemLevels":[0],"qualityLevel":0,"equippable":true,"instanced":true,"rewardItemHash":0,"values":{},"itemType":2,"itemSubType":0,"classType":1,"sources":[{"expansionIndex":0,"level":50,"minQuality":0,"maxQuality":35,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":300,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":33,"minimum":33,"maximum":67},"144602215":{"statHash":144602215,"value":33,"minimum":33,"maximum":106},"1735777505":{"statHash":1735777505,"value":33,"minimum":33,"maximum":67}},"sourceHashes":[113998144,3551688287,3413298620,460228854],"spawnIndexes":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]},{"expansionIndex":0,"level":48,"minQuality":0,"maxQuality":0,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":280,"minimum":280,"maximum":280},"2391494160":{"statHash":2391494160,"value":28,"minimum":28,"maximum":28},"4244567218":{"statHash":4244567218,"value":31,"minimum":31,"maximum":53},"144602215":{"statHash":144602215,"value":31,"minimum":31,"maximum":84},"1735777505":{"statHash":1735777505,"value":31,"minimum":31,"maximum":53}},"sourceHashes":[941581325,460228854],"spawnIndexes":[36]}],"itemCategoryHashes":[23,45,20],"sourceHashes":[113998144,3551688287,3413298620,460228854,941581325],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":517554803,"showActiveNodesInTooltip":false,"hash":1520434779,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:28 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/1519376145/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7d1360d3af58caffa5567a8c0c6e64461467458968; expires=Sun, 02-Jul-17
+        11:29:28 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5468786811715915854; path=/
+      - bungledid=B74HHt9iVjdOkMY9hl84LAfagwoibKLTCAAA; expires=Thu, 02-Jul-2026 11:29:30
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:29 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:50 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:30 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/1519376145/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29b62bd0a30-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":1519376145,"inventoryItem":{"itemHash":1519376145,"itemName":"Apotheosis
+        Veil","itemDescription":"Most helmets protect the mind from the universe.
+        Not this one.","icon":"/common/destiny_content/icons/580f0e75513671b7190cb98a3306fa08.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Dismantle","hasAction":true,"deleteOnAction":true,"tierTypeName":"Exotic","tierType":6,"itemTypeName":"Helmet","bucketTypeHash":3448274439,"primaryBaseStatHash":3897883278,"stats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":280,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":33,"minimum":33,"maximum":67},"144602215":{"statHash":144602215,"value":33,"minimum":33,"maximum":106},"1735777505":{"statHash":1735777505,"value":33,"minimum":33,"maximum":67}},"perkHashes":[],"specialItemType":0,"talentGridHash":1531428518,"equippingBlock":{"weaponSandboxPatternIndex":-1,"gearArtArrangementIndex":3164,"defaultDyes":[{"channelHash":662199250,"dyeHash":4274066954},{"channelHash":1367384683,"dyeHash":68959987},{"channelHash":218592586,"dyeHash":1764089538}],"lockedDyes":[],"customDyes":[],"customDyeExpression":{"steps":[{"stepOperator":1,"flagHash":1680320212,"valueHash":0,"value":2313}]},"weaponPatternHash":0,"arrangements":[{"classHash":0,"gearArtArrangementIndex":3164}]},"hasGeometry":true,"statGroupHash":1116828683,"itemLevels":[0],"qualityLevel":0,"equippable":true,"instanced":true,"rewardItemHash":0,"values":{},"itemType":2,"itemSubType":0,"classType":2,"sources":[{"expansionIndex":0,"level":50,"minQuality":0,"maxQuality":35,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":300,"minimum":300,"maximum":335},"2391494160":{"statHash":2391494160,"value":30,"minimum":30,"maximum":33},"4244567218":{"statHash":4244567218,"value":33,"minimum":33,"maximum":67},"144602215":{"statHash":144602215,"value":33,"minimum":33,"maximum":106},"1735777505":{"statHash":1735777505,"value":33,"minimum":33,"maximum":67}},"sourceHashes":[113998144,3551688287,3413298620,460228854],"spawnIndexes":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]},{"expansionIndex":0,"level":48,"minQuality":0,"maxQuality":0,"minLevelRequired":40,"maxLevelRequired":40,"exclusivity":0,"computedStats":{"3897883278":{"statHash":3897883278,"value":280,"minimum":280,"maximum":280},"2391494160":{"statHash":2391494160,"value":28,"minimum":28,"maximum":28},"4244567218":{"statHash":4244567218,"value":31,"minimum":31,"maximum":53},"144602215":{"statHash":144602215,"value":31,"minimum":31,"maximum":84},"1735777505":{"statHash":1735777505,"value":31,"minimum":31,"maximum":53}},"sourceHashes":[941581325,460228854],"spawnIndexes":[36]}],"itemCategoryHashes":[21,45,20],"sourceHashes":[113998144,3551688287,3413298620,460228854,941581325],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":517554803,"showActiveNodesInTooltip":false,"hash":1519376145,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:29 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/1177550374/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d6c116540fa488012442ef48484bf94dc1467458969; expires=Sun, 02-Jul-17
+        11:29:29 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=7762829697984293542; path=/
+      - bungledid=B3kydy6SztRLt0UgNni9cfM7lTwibKLTCAAA; expires=Thu, 02-Jul-2026 11:29:30
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=JMAKHPAK; Expires=Sat, 02-Jul-2016 12:29:29 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=2000000
+      Expires:
+      - Mon, 25 Jul 2016 15:02:50 GMT
+      Last-Modified:
+      - Sat, 02 Jul 2016 11:29:30 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '06'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/1177550374/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29d70ed1a24-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJSZXNwb25zZSI6eyJkYXRhIjp7InJlcXVlc3RlZElkIjoxMTc3NTUwMzc0
+        LCJpbnZlbnRvcnlJdGVtIjp7Iml0ZW1IYXNoIjoxMTc3NTUwMzc0LCJpdGVt
+        TmFtZSI6IkJhZCBKdWp1IiwiaXRlbURlc2NyaXB0aW9uIjoiXCJJZiB5b3Ug
+        YmVsaWV2ZSB5b3VyIHdlYXBvbiB3YW50cyB0byBlbmQgYWxsIGV4aXN0ZW5j
+        ZSwgdGhlbiBzbyBpdCB3aWxsLlwiIOKAlFRvbGFuZCwgdGhlIFNoYXR0ZXJl
+        ZCIsImljb24iOiIvY29tbW9uL2Rlc3RpbnlfY29udGVudC9pY29ucy82NzBk
+        NTExZTg3N2VmNmJlODFkOTNmYTBlNWQ0MWZkNy5qcGciLCJoYXNJY29uIjp0
+        cnVlLCJzZWNvbmRhcnlJY29uIjoiL2ltZy9taXNjL21pc3NpbmdfaWNvbi5w
+        bmciLCJhY3Rpb25OYW1lIjoiRGlzbWFudGxlIiwiaGFzQWN0aW9uIjp0cnVl
+        LCJkZWxldGVPbkFjdGlvbiI6dHJ1ZSwidGllclR5cGVOYW1lIjoiRXhvdGlj
+        IiwidGllclR5cGUiOjYsIml0ZW1UeXBlTmFtZSI6IlB1bHNlIFJpZmxlIiwi
+        YnVja2V0VHlwZUhhc2giOjE0OTg4NzY2MzQsInByaW1hcnlCYXNlU3RhdEhh
+        c2giOjM2ODQyODM4Nywic3RhdHMiOnsiMzY4NDI4Mzg3Ijp7InN0YXRIYXNo
+        IjozNjg0MjgzODcsInZhbHVlIjozMDAsIm1pbmltdW0iOjI4MCwibWF4aW11
+        bSI6MzM1fSwiMjM5MTQ5NDE2MCI6eyJzdGF0SGFzaCI6MjM5MTQ5NDE2MCwi
+        dmFsdWUiOjM2LCJtaW5pbXVtIjozNiwibWF4aW11bSI6NDB9LCIzNTU1MjY5
+        MzM4Ijp7InN0YXRIYXNoIjozNTU1MjY5MzM4LCJ2YWx1ZSI6MTcsIm1pbmlt
+        dW0iOjE3LCJtYXhpbXVtIjoxN30sIjQyODQ4OTMxOTMiOnsic3RhdEhhc2gi
+        OjQyODQ4OTMxOTMsInZhbHVlIjo3MywibWluaW11bSI6NzMsIm1heGltdW0i
+        OjczfSwiNDA0MzUyMzgxOSI6eyJzdGF0SGFzaCI6NDA0MzUyMzgxOSwidmFs
+        dWUiOjcsIm1pbmltdW0iOjYsIm1heGltdW0iOjl9LCIxMjQwNTkyNjk1Ijp7
+        InN0YXRIYXNoIjoxMjQwNTkyNjk1LCJ2YWx1ZSI6MzMsIm1pbmltdW0iOjI3
+        LCJtYXhpbXVtIjo1N30sIjE1NTYyNDA4OSI6eyJzdGF0SGFzaCI6MTU1NjI0
+        MDg5LCJ2YWx1ZSI6NjIsIm1pbmltdW0iOjU4LCJtYXhpbXVtIjo4NH0sIjM4
+        NzEyMzEwNjYiOnsic3RhdEhhc2giOjM4NzEyMzEwNjYsInZhbHVlIjoyNCwi
+        bWluaW11bSI6MjQsIm1heGltdW0iOjI0fSwiNDE4ODAzMTM2NyI6eyJzdGF0
+        SGFzaCI6NDE4ODAzMTM2NywidmFsdWUiOjY1LCJtaW5pbXVtIjo2NSwibWF4
+        aW11bSI6NjV9LCIxOTMxNjc1MDg0Ijp7InN0YXRIYXNoIjoxOTMxNjc1MDg0
+        LCJ2YWx1ZSI6MzAsIm1pbmltdW0iOjE1LCJtYXhpbXVtIjozMH0sIjk0MzU0
+        OTg4NCI6eyJzdGF0SGFzaCI6OTQzNTQ5ODg0LCJ2YWx1ZSI6NTAsIm1pbmlt
+        dW0iOjM1LCJtYXhpbXVtIjo1MH0sIjEzNDU2MDk1ODMiOnsic3RhdEhhc2gi
+        OjEzNDU2MDk1ODMsInZhbHVlIjo2MCwibWluaW11bSI6NjAsIm1heGltdW0i
+        OjcwfSwiMjcxNTgzOTM0MCI6eyJzdGF0SGFzaCI6MjcxNTgzOTM0MCwidmFs
+        dWUiOjg1LCJtaW5pbXVtIjo4NSwibWF4aW11bSI6MTA1fX0sInBlcmtIYXNo
+        ZXMiOltdLCJpdGVtSWRlbnRpZmllciI6IiIsInNwZWNpYWxJdGVtVHlwZSI6
+        MCwidGFsZW50R3JpZEhhc2giOjkzMjE3NTUxMSwiZXF1aXBwaW5nQmxvY2si
+        Onsid2VhcG9uU2FuZGJveFBhdHRlcm5JbmRleCI6MjMsImdlYXJBcnRBcnJh
+        bmdlbWVudEluZGV4IjozNDgyLCJkZWZhdWx0RHllcyI6W10sImxvY2tlZER5
+        ZXMiOlt7ImNoYW5uZWxIYXNoIjoxNjY3NDMzMjc5LCJkeWVIYXNoIjo0MTE4
+        Mzc0MTkwfSx7ImNoYW5uZWxIYXNoIjoxNjY3NDMzMjc4LCJkeWVIYXNoIjox
+        ODcyMzg5MTA5fV0sImN1c3RvbUR5ZXMiOltdLCJjdXN0b21EeWVFeHByZXNz
+        aW9uIjp7InN0ZXBzIjpbXX0sIndlYXBvblBhdHRlcm5IYXNoIjoxMzkzMzQ0
+        NzE1LCJhcnJhbmdlbWVudHMiOlt7ImNsYXNzSGFzaCI6MCwiZ2VhckFydEFy
+        cmFuZ2VtZW50SW5kZXgiOjM0ODJ9XX0sImhhc0dlb21ldHJ5Ijp0cnVlLCJz
+        dGF0R3JvdXBIYXNoIjoxMjYzNzc3NTAwLCJpdGVtTGV2ZWxzIjpbMF0sInF1
+        YWxpdHlMZXZlbCI6MCwiZXF1aXBwYWJsZSI6dHJ1ZSwiaW5zdGFuY2VkIjp0
+        cnVlLCJyZXdhcmRJdGVtSGFzaCI6MCwidmFsdWVzIjp7fSwiaXRlbVR5cGUi
+        OjMsIml0ZW1TdWJUeXBlIjoxMywiY2xhc3NUeXBlIjozLCJzb3VyY2VzIjpb
+        eyJleHBhbnNpb25JbmRleCI6MCwibGV2ZWwiOjUwLCJtaW5RdWFsaXR5Ijow
+        LCJtYXhRdWFsaXR5IjozNSwibWluTGV2ZWxSZXF1aXJlZCI6NDAsIm1heExl
+        dmVsUmVxdWlyZWQiOjQwLCJleGNsdXNpdml0eSI6MCwiY29tcHV0ZWRTdGF0
+        cyI6eyIzNjg0MjgzODciOnsic3RhdEhhc2giOjM2ODQyODM4NywidmFsdWUi
+        OjMwMCwibWluaW11bSI6MzAwLCJtYXhpbXVtIjozMzV9LCIyMzkxNDk0MTYw
+        Ijp7InN0YXRIYXNoIjoyMzkxNDk0MTYwLCJ2YWx1ZSI6MzYsIm1pbmltdW0i
+        OjM2LCJtYXhpbXVtIjo0MH0sIjM1NTUyNjkzMzgiOnsic3RhdEhhc2giOjM1
+        NTUyNjkzMzgsInZhbHVlIjoxNywibWluaW11bSI6MTcsIm1heGltdW0iOjE3
+        fSwiNDI4NDg5MzE5MyI6eyJzdGF0SGFzaCI6NDI4NDg5MzE5MywidmFsdWUi
+        OjczLCJtaW5pbXVtIjo3MywibWF4aW11bSI6NzN9LCI0MDQzNTIzODE5Ijp7
+        InN0YXRIYXNoIjo0MDQzNTIzODE5LCJ2YWx1ZSI6NywibWluaW11bSI6Niwi
+        bWF4aW11bSI6OX0sIjEyNDA1OTI2OTUiOnsic3RhdEhhc2giOjEyNDA1OTI2
+        OTUsInZhbHVlIjozMywibWluaW11bSI6MjcsIm1heGltdW0iOjU3fSwiMTU1
+        NjI0MDg5Ijp7InN0YXRIYXNoIjoxNTU2MjQwODksInZhbHVlIjo2MiwibWlu
+        aW11bSI6NTgsIm1heGltdW0iOjg0fSwiMzg3MTIzMTA2NiI6eyJzdGF0SGFz
+        aCI6Mzg3MTIzMTA2NiwidmFsdWUiOjI0LCJtaW5pbXVtIjoyNCwibWF4aW11
+        bSI6MjR9LCI0MTg4MDMxMzY3Ijp7InN0YXRIYXNoIjo0MTg4MDMxMzY3LCJ2
+        YWx1ZSI6NjUsIm1pbmltdW0iOjY1LCJtYXhpbXVtIjo2NX0sIjE5MzE2NzUw
+        ODQiOnsic3RhdEhhc2giOjE5MzE2NzUwODQsInZhbHVlIjozMCwibWluaW11
+        bSI6MTUsIm1heGltdW0iOjMwfSwiOTQzNTQ5ODg0Ijp7InN0YXRIYXNoIjo5
+        NDM1NDk4ODQsInZhbHVlIjo1MCwibWluaW11bSI6MzUsIm1heGltdW0iOjUw
+        fSwiMTM0NTYwOTU4MyI6eyJzdGF0SGFzaCI6MTM0NTYwOTU4MywidmFsdWUi
+        OjYwLCJtaW5pbXVtIjo2MCwibWF4aW11bSI6NzB9LCIyNzE1ODM5MzQwIjp7
+        InN0YXRIYXNoIjoyNzE1ODM5MzQwLCJ2YWx1ZSI6ODUsIm1pbmltdW0iOjg1
+        LCJtYXhpbXVtIjoxMDV9fSwic291cmNlSGFzaGVzIjpbMTEzOTk4MTQ0LDM1
+        NTE2ODgyODcsMzQxMzI5ODYyMCw0NjAyMjg4NTRdLCJzcGF3bkluZGV4ZXMi
+        OlswLDEsMiwzLDQsNSw2LDcsOCw5LDEwLDExLDEyLDEzLDE0LDE1LDE2LDE3
+        LDE4LDE5LDIwLDIxLDIyLDIzLDI0LDI1LDI2LDI3LDI4LDI5LDMwLDMxLDMy
+        LDMzLDM0LDM1XX0seyJleHBhbnNpb25JbmRleCI6MCwibGV2ZWwiOjQ4LCJt
+        aW5RdWFsaXR5IjowLCJtYXhRdWFsaXR5IjowLCJtaW5MZXZlbFJlcXVpcmVk
+        Ijo0MCwibWF4TGV2ZWxSZXF1aXJlZCI6NDAsImV4Y2x1c2l2aXR5IjowLCJj
+        b21wdXRlZFN0YXRzIjp7IjM2ODQyODM4NyI6eyJzdGF0SGFzaCI6MzY4NDI4
+        Mzg3LCJ2YWx1ZSI6MjgwLCJtaW5pbXVtIjoyODAsIm1heGltdW0iOjI4MH0s
+        IjIzOTE0OTQxNjAiOnsic3RhdEhhc2giOjIzOTE0OTQxNjAsInZhbHVlIjoz
+        MywibWluaW11bSI6MzMsIm1heGltdW0iOjMzfSwiMzU1NTI2OTMzOCI6eyJz
+        dGF0SGFzaCI6MzU1NTI2OTMzOCwidmFsdWUiOjE3LCJtaW5pbXVtIjoxNywi
+        bWF4aW11bSI6MTd9LCI0Mjg0ODkzMTkzIjp7InN0YXRIYXNoIjo0Mjg0ODkz
+        MTkzLCJ2YWx1ZSI6NzMsIm1pbmltdW0iOjczLCJtYXhpbXVtIjo3M30sIjQw
+        NDM1MjM4MTkiOnsic3RhdEhhc2giOjQwNDM1MjM4MTksInZhbHVlIjo3LCJt
+        aW5pbXVtIjo2LCJtYXhpbXVtIjo5fSwiMTI0MDU5MjY5NSI6eyJzdGF0SGFz
+        aCI6MTI0MDU5MjY5NSwidmFsdWUiOjMzLCJtaW5pbXVtIjoyNywibWF4aW11
+        bSI6NTd9LCIxNTU2MjQwODkiOnsic3RhdEhhc2giOjE1NTYyNDA4OSwidmFs
+        dWUiOjYyLCJtaW5pbXVtIjo1OCwibWF4aW11bSI6ODR9LCIzODcxMjMxMDY2
+        Ijp7InN0YXRIYXNoIjozODcxMjMxMDY2LCJ2YWx1ZSI6MjQsIm1pbmltdW0i
+        OjI0LCJtYXhpbXVtIjoyNH0sIjQxODgwMzEzNjciOnsic3RhdEhhc2giOjQx
+        ODgwMzEzNjcsInZhbHVlIjo2NSwibWluaW11bSI6NjUsIm1heGltdW0iOjY1
+        fSwiMTkzMTY3NTA4NCI6eyJzdGF0SGFzaCI6MTkzMTY3NTA4NCwidmFsdWUi
+        OjMwLCJtaW5pbXVtIjoxNSwibWF4aW11bSI6MzB9LCI5NDM1NDk4ODQiOnsi
+        c3RhdEhhc2giOjk0MzU0OTg4NCwidmFsdWUiOjUwLCJtaW5pbXVtIjozNSwi
+        bWF4aW11bSI6NTB9LCIxMzQ1NjA5NTgzIjp7InN0YXRIYXNoIjoxMzQ1NjA5
+        NTgzLCJ2YWx1ZSI6NjAsIm1pbmltdW0iOjYwLCJtYXhpbXVtIjo3MH0sIjI3
+        MTU4MzkzNDAiOnsic3RhdEhhc2giOjI3MTU4MzkzNDAsInZhbHVlIjo4NSwi
+        bWluaW11bSI6ODUsIm1heGltdW0iOjEwNX19LCJzb3VyY2VIYXNoZXMiOls5
+        NDE1ODEzMjUsNDYwMjI4ODU0XSwic3Bhd25JbmRleGVzIjpbMzZdfV0sIml0
+        ZW1DYXRlZ29yeUhhc2hlcyI6WzEsMiw3XSwic291cmNlSGFzaGVzIjpbMTEz
+        OTk4MTQ0LDM1NTE2ODgyODcsMzQxMzI5ODYyMCw0NjAyMjg4NTQsOTQxNTgx
+        MzI1XSwibm9uVHJhbnNmZXJyYWJsZSI6ZmFsc2UsImV4Y2x1c2l2ZSI6MCwi
+        bWF4U3RhY2tTaXplIjoxLCJpdGVtSW5kZXgiOjAsInNldEl0ZW1IYXNoZXMi
+        OltdLCJ0b29sdGlwU3R5bGUiOiIiLCJxdWVzdGxpbmVJdGVtSGFzaCI6MCwi
+        bmVlZHNGdWxsQ29tcGxldGlvbiI6ZmFsc2UsIm9iamVjdGl2ZUhhc2hlcyI6
+        W10sImFsbG93QWN0aW9ucyI6dHJ1ZSwicXVlc3RUcmFja2luZ1VubG9ja1Zh
+        bHVlSGFzaCI6MCwiYm91bnR5UmVzZXRVbmxvY2tIYXNoIjowLCJ1bmlxdWVu
+        ZXNzSGFzaCI6MzY3MTEzNTU0Miwic2hvd0FjdGl2ZU5vZGVzSW5Ub29sdGlw
+        IjpmYWxzZSwiaGFzaCI6MTE3NzU1MDM3NCwiaW5kZXgiOjB9fX0sIkVycm9y
+        Q29kZSI6MSwiVGhyb3R0bGVTZWNvbmRzIjowLCJFcnJvclN0YXR1cyI6IlN1
+        Y2Nlc3MiLCJNZXNzYWdlIjoiT2siLCJNZXNzYWdlRGF0YSI6e319
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:29 GMT
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Manifest/6/3149602403/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - aaaa
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 02 Jul 2016 11:29:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dcca476350a620f6c89fad5cbf4df39eb1467458969; expires=Sun, 02-Jul-17
+        11:29:29 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=1157334398015835144; path=/
+      - bungledid=B1Qz9+hU0B1LkFsimNhfa7MAvVgibKLTCAAA; expires=Thu, 02-Jul-2026 11:29:30
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OJAKHPAK; Expires=Sat, 02-Jul-2016 12:29:29 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=1933534
+      Expires:
+      - Sun, 24 Jul 2016 20:35:04 GMT
+      Last-Modified:
+      - Fri, 01 Jul 2016 17:01:44 GMT
+      Vary:
+      - "*"
+      - Accept-encoding
+      X-Bungienext-Mid2:
+      - '10'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '1'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - http://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Manifest/6/3149602403/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2bc1c29fc0a61a36-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Response":{"data":{"requestedId":3149602403,"inventoryItem":{"itemHash":3149602403,"itemName":"Legacy
+        Engram","itemDescription":"An engram with remarkable but familiar markers.
+        A Cryptarch would be pleased to decode it.","icon":"/common/destiny_content/icons/c258450c38d0aaaea7f6d2e4b6310509.jpg","hasIcon":true,"secondaryIcon":"/img/misc/missing_icon.png","actionName":"Discard","hasAction":true,"deleteOnAction":true,"tierTypeName":"Exotic","tierType":6,"itemTypeName":"Helmet
+        Engram","bucketTypeHash":3448274439,"primaryBaseStatHash":0,"stats":{},"perkHashes":[697322909,3244637588],"specialItemType":0,"talentGridHash":0,"hasGeometry":false,"statGroupHash":0,"itemLevels":[0],"qualityLevel":0,"equippable":false,"instanced":true,"rewardItemHash":0,"values":{"3138007126":0},"itemType":8,"itemSubType":0,"classType":3,"sources":[{"expansionIndex":0,"level":0,"minQuality":0,"maxQuality":0,"minLevelRequired":0,"maxLevelRequired":0,"exclusivity":0,"computedStats":{},"sourceHashes":[941581325,460228854],"spawnIndexes":[0]}],"itemCategoryHashes":[34],"sourceHashes":[941581325,460228854],"nonTransferrable":false,"exclusive":0,"maxStackSize":1,"itemIndex":0,"setItemHashes":[],"tooltipStyle":"package","questlineItemHash":0,"needsFullCompletion":false,"objectiveHashes":[],"allowActions":true,"questTrackingUnlockValueHash":0,"bountyResetUnlockHash":0,"uniquenessHash":0,"showActiveNodesInTooltip":false,"hash":3149602403,"index":0}}},"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
+    http_version:
+  recorded_at: Sat, 02 Jul 2016 11:29:29 GMT
 recorded_with: VCR 3.0.1
