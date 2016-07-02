@@ -12,6 +12,7 @@ class Xander
   RANT          = /rant|problem|fault|blame|salt/i
   NICE          = /apologi(s|z)e|behave|nice|sorry|sry/i
   PERK          = /perk/i
+  LORE          = /lore/i
   DAILY         = /daily/i
   TABLE         = /┸━┸|┻━┻/i
   MY_ELO        = /^my *(\w|\s)* elo/i
@@ -50,6 +51,7 @@ class Xander
     when MAPS           then Response::Maps.new
     when RANT           then Response::Rant.new
     when NICE           then Response::Nice.new
+    when LORE           then Response::Lore.new(message, user)
     when PERK           then Response::Perk.new(message, user)
     when DAILY          then Response::Daily.new
     when MY_ELO         then Response::MyElo.new(message, user, @client)
