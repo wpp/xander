@@ -1,4 +1,4 @@
-+# Xander
+# Xander
 
 [![CircleCI](https://circleci.com/gh/wpp/xander/tree/master.svg?style=svg)](https://circleci.com/gh/wpp/xander/tree/master)
 
