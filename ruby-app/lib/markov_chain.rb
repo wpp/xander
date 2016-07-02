@@ -78,14 +78,3 @@ class MarkovChain
     sentences.join(' ')
   end
 end
-
-if ENV['DEBUG']
-  erb = ERB.new(File.read("test.html.erb"))
-  File.open('result.html', 'w') do |f|
-    Dir['dictionaries/*'].each do |dictionary|
-      puts "#{dictionary}"
-      @markov_chain = MarkovChain.new(dictionary)
-      f.write(erb.result binding)
-    end
-  end
-end

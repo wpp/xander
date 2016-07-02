@@ -10,7 +10,7 @@
 </head>
 <body>
   <div id="content">
-  <h1><%= @markov_chain.name.split('/')[1] %></h1>
+  <h1><%= @markov_chain.name.split('/')[-1] %></h1>
   <h2><%= @markov_chain.words_per_sentence.min %>..<%= @markov_chain.words_per_sentence.max %></h2>
   <% 5.times do |i| %>
     <p><%= @markov_chain.generate_sentence unless @markov_chain.dictionary.empty? %></p>
