@@ -59,7 +59,8 @@ module Response
 
         xur_inventory = get('https://www.bungie.net/Platform/Destiny/Advisors/Xur/')
 
-        if xur_inventory['Response'].empty?
+        # The Vendor you requested was not found
+        if xur_inventory['ErrorCode'] == 1627
           return
         else
           @xur_gone = false
