@@ -5,6 +5,7 @@ require_relative 'markov_chain'
 require_relative 'gg'
 require_relative 'gamertag'
 require_relative 'responses'
+require_relative 'greeting'
 
 class Xander
   THX           = /thanks?|thx/i

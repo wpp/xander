@@ -33,7 +33,7 @@ http_interactions:
       Content-Security-Policy:
       - referrer no-referrer;
       Date:
-      - Sun, 20 Mar 2016 11:23:49 GMT
+      - Mon, 11 Jul 2016 09:53:05 GMT
       Expires:
       - Mon, 26 Jul 1997 05:00:00 GMT
       Pragma:
@@ -49,20 +49,22 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Oauth-Scopes:
-      - identify,read,post,client
+      - identify,read,post,client,apps
+      X-Slack-Req-Id:
+      - 3f158f86-513b-4aec-b3c4-e022b1b26e75
       X-Xss-Protection:
       - '0'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 bd5652a800046ffa43683320c0e731b4.cloudfront.net (CloudFront)
+      - 1.1 cf3ffea5523fa0e26f61fb9ed1c78961.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - os7Oqhmdu40x5Ezq2XAKVcQOdQcIBQTI-BWyJFi-e7TKwMfhebr4pQ==
+      - 5qTywVS5tI6w8d-1tF92NbjnMYUr0oe86t7cdNbogRw2TfbAYFrT0Q==
     body:
       encoding: ASCII-8BIT
       string: '{"ok":true,"user":{"id":"U0TUWEY6R","team_id":"T0TUWCNF9","name":"wpp","deleted":false,"status":null,"color":"9f69e7","real_name":"Philipp
         Wei\u00dfensteiner","tz":"Europe\/Amsterdam","tz_label":"Central European
-        Time","tz_offset":3600,"profile":{"first_name":"Philipp","last_name":"Wei\u00dfensteiner","avatar_hash":"gb22e5a796f1","title":"","phone":"","skype":"","real_name":"Philipp Wei\u00dfensteiner","real_name_normalized":"Philipp
+        Summer Time","tz_offset":7200,"profile":{"first_name":"Philipp","last_name":"Wei\u00dfensteiner","avatar_hash":"gb22e5a796f1","title":"","phone":"","skype":"","real_name":"Philipp Wei\u00dfensteiner","real_name_normalized":"Philipp
         Weisensteiner","email":"mail@philippweissensteiner.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 11:23:49 GMT
+    http_version: 
+  recorded_at: Mon, 11 Jul 2016 09:53:05 GMT
