@@ -11,6 +11,6 @@ class GreetingTest < MiniTest::Test
     username = "@samsymons"
     greeting = Greeting.greet username
 
-    assert greeting.end_with?(username + "!")
+    assert greeting.end_with?("<@#{username}>" + "!")
   end
 end
