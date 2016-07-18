@@ -2,8 +2,6 @@ FROM ubuntu:14.04
 
 MAINTAINER Philipp Weissensteiner <mail@philippweissensteiner.com>
 
-# VERSION: 0.0.1
-
 # To avoid a lot of "debconf: unable to initialize frontend: Dialog"
 # https://github.com/phusion/baseimage-docker/issues/58
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections &&\
@@ -35,11 +33,11 @@ WORKDIR /ruby-app
 ADD ruby-app/Gemfile Gemfile
 ADD ruby-app/Gemfile.lock Gemfile.lock
 RUN bundle install
-ADD ruby-app/ /ruby-app
+VOLUME /ruby-app
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
-ENTRYPOINT ["supervisord"]
+CMD ["supervisord"]
