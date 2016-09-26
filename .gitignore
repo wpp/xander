@@ -7,5 +7,6 @@ dictionaries
 build.sh
 push.sh
 run.sh
+deploy.sh
 *result.html
 *.content
