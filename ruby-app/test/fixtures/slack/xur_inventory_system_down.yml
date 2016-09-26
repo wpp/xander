@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.bungie.net/Platform/Destiny/Advisors/Xur/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.bungie.net
+      X-Api-Key:
+      - f2f08a11ba194938b0fd6ff451ef1e6b
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 09 Sep 2016 13:55:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df26ee958b1385753702623d0b95b17981473429347; expires=Sat, 09-Sep-17
+        13:55:47 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=6466859111090372264; expires=Mon, 09-Sep-2019 13:55:48 GMT; path=/
+      - bungledid=B7x/P+P1ExJFsO0X46bRKpBS3AEBudjTCAAA; expires=Wed, 09-Sep-2026 13:55:48
+        GMT; path=/; HttpOnly
+      - sto-id-sg_www.bungie.net=OLAKHPAK; Expires=Fri, 09-Sep-2016 14:55:48 GMT;
+        Path=/
+      Cache-Control:
+      - public, no-cache="Set-Cookie", max-age=60
+      Expires:
+      - Fri, 09 Sep 2016 13:56:48 GMT
+      Last-Modified:
+      - Fri, 09 Sep 2016 13:55:48 GMT
+      Vary:
+      - "*"
+      X-Bungienext-Mid2:
+      - '12'
+      X-Bungienext-Renderer:
+      - Frog Blast the Ventcore
+      X-Ua-Compatible:
+      - IE=edge
+      X-Ventcore-Status:
+      - '5'
+      P3p:
+      - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
+      Access-Control-Allow-Origin:
+      - https://www.bungie.net
+      X-Selfurl:
+      - https://www.bungie.net/Platform/Destiny/Advisors/Xur/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2dfb23ce70873916-VIE
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ErrorCode":5,"ThrottleSeconds":0,"ErrorStatus":"SystemDisabled","Message":"This
+        system is temporarily disabled for maintenance.","MessageData":{}}'
+    http_version: 
+  recorded_at: Fri, 09 Sep 2016 13:55:47 GMT
+recorded_with: VCR 3.0.1

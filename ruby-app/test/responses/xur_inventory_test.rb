@@ -19,6 +19,14 @@ class MyEloTest < Minitest::Test
     end
   end
 
+  def test_xur_inventory_when_maintenance
+    VCR.use_cassette('xur_inventory_system_down') do
+      response = @xander.respond_to("#{@bot} xurs inventory?", @user)
+      assert_equal "Hi <@#{@user}> bungie's API is down for maintenance. Sorry.", response.text
+      assert_equal [], response.attachments
+    end
+  end
+
   def test_xur_inventory_when_he_is_there
     [
       "#{@bot} what is xur selling?",

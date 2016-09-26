@@ -10,8 +10,10 @@ module Response
     end
 
     def text
-      get_xur_inventory
-      if @xur_gone
+      case get_xur_inventory
+      when 5
+        "Hi <@#{@user}> bungie's API is down for maintenance. Sorry."
+      when 1627
         "Hi <@#{@user}> Xur hasn't arrived yet."
       else
         "Hi <@#{@user}> you asked for Xur's inventory:"
@@ -57,21 +59,20 @@ module Response
       def get_xur_inventory
         @inventory = []
 
-        xur_inventory = get('https://www.bungie.net/Platform/Destiny/Advisors/Xur/')
+        response = get('https://www.bungie.net/Platform/Destiny/Advisors/Xur/')
 
-        # The Vendor you requested was not found
-        if xur_inventory['ErrorCode'] == 1627
-          return
+        if response['ErrorStatus'] != 'Success'
+          return response['ErrorCode']
         else
           @xur_gone = false
         end
 
-        nr = Time.parse(xur_inventory['Response']['data']['nextRefreshDate'])
+        nr = Time.parse(response['Response']['data']['nextRefreshDate'])
         cache_name = "cache/#{nr}.json"
         if File.exists?(cache_name)
           @inventory = JSON.parse(File.read(cache_name))
         else
-          sale_items = xur_inventory['Response']['data']['saleItemCategories']
+          sale_items = response['Response']['data']['saleItemCategories']
                         .map { |sic| sic['saleItems'] }
                         .flatten
                         .map { |s| s['item']['itemHash'] }
