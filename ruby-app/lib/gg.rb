@@ -13,16 +13,18 @@ module GG
   }
 
   MODES = {
-    'skirmish'    => 9,
-    'control'     => 10,
-    'salvage'     => 11,
-    'clash'       => 12,
-    'rumble'      => 13,
-    'trials'      => 14,
-    'doubles'     => 15,
-    'iron banner' => 19,
-    'elimination' => 23,
-    'rift'        => 24
+    'skirmish'         => 9,
+    'control'          => 10,
+    'salvage'          => 11,
+    'clash'            => 12,
+    'rumble'           => 13,
+    'trials'           => 14,
+    'doubles'          => 15,
+    'iron banner'      => 19,
+    'elimination'      => 23,
+    'rift'             => 24,
+    'supremacy'        => 31,
+    'rumble supremacy' => 531
   }
 
   class User
@@ -44,7 +46,7 @@ module GG
     def get_membership_ids
       @membership_ids = []
 
-      unless (psn_user  = get_user_for(PSN)).empty?
+      unless (psn_user = get_user_for(PSN)).empty?
         @membership_ids << { id: psn_user['membershipId'], platform_id: PSN }
       end
 

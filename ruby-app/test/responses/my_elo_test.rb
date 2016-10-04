@@ -40,16 +40,18 @@ class MyEloTest < Minitest::Test
 
   def test_my_elo_gamemode
     [
-      { msg: "#{@bot} my control elo",     mode: 'control',     elo: 1267  },
-      { msg: "#{@bot} My skirmish elo",    mode: 'skirmish',    elo: 1119  },
-      { msg: "#{@bot} MY SALVAGE ELO",     mode: 'salvage',     elo: 1204  },
-      { msg: "#{@bot} my RIFT elo",        mode: 'rift',        elo: 1128  },
-      { msg: "#{@bot} my elimination elo", mode: 'elimination', elo: 1142  },
-      { msg: "#{@bot} my iron banner elo", mode: 'iron banner', elo: 1235  }
+      { msg: "#{@bot} my control elo",          mode: 'control'          },
+      { msg: "#{@bot} My skirmish elo",         mode: 'skirmish'         },
+      { msg: "#{@bot} MY SALVAGE ELO",          mode: 'salvage'          },
+      { msg: "#{@bot} my RIFT elo",             mode: 'rift'             },
+      { msg: "#{@bot} my elimination elo",      mode: 'elimination'      },
+      { msg: "#{@bot} my iron banner elo",      mode: 'iron banner'      },
+      { msg: "#{@bot} my supremacy elo",        mode: 'supremacy'        },
+      { msg: "#{@bot} my rumble supremacy elo", mode: 'rumble supremacy' }
     ].each do |expected|
       VCR.use_cassette('elo') do
         response = @xander.respond_to(expected[:msg], @user)
-        assert_equal "Hi <@#{@user}> your #{expected[:mode]} elo is: *#{expected[:elo]}*.", response.text
+        assert_match /hi <@U0TUWEY6R> your #{expected[:mode]} elo is: \*\d+\*./i, response.text
       end
     end
   end
