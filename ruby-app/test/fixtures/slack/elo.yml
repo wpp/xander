@@ -22,8 +22,8 @@ http_interactions:
     headers:
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
+      Content-Length:
+      - '527'
       Connection:
       - keep-alive
       Access-Control-Allow-Origin:
@@ -33,7 +33,7 @@ http_interactions:
       Content-Security-Policy:
       - referrer no-referrer;
       Date:
-      - Sun, 20 Mar 2016 11:23:49 GMT
+      - Mon, 03 Oct 2016 18:44:50 GMT
       Expires:
       - Mon, 26 Jul 1997 05:00:00 GMT
       Pragma:
@@ -49,24 +49,28 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Oauth-Scopes:
-      - identify,read,post,client
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 79a489ee-263a-4309-8a74-e5921e9f2a0b
       X-Xss-Protection:
       - '0'
       X-Cache:
       - Miss from cloudfront
       Via:
-      - 1.1 bd5652a800046ffa43683320c0e731b4.cloudfront.net (CloudFront)
+      - 1.1 d0c574ed517101bf0c21ed5df9b18342.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - os7Oqhmdu40x5Ezq2XAKVcQOdQcIBQTI-BWyJFi-e7TKwMfhebr4pQ==
+      - sD0dDy5Z21P3L4K1n19SOn6ioKq1JfOcObKt6sg-z5TkxKbQEWEefA==
     body:
       encoding: ASCII-8BIT
       string: '{"ok":true,"user":{"id":"U0TUWEY6R","team_id":"T0TUWCNF9","name":"wpp","deleted":false,"status":null,"color":"9f69e7","real_name":"Philipp
         Wei\u00dfensteiner","tz":"Europe\/Amsterdam","tz_label":"Central European
-        Time","tz_offset":3600,"profile":{"first_name":"Philipp","last_name":"Wei\u00dfensteiner","avatar_hash":"gb22e5a796f1","title":"PSN
+        Summer Time","tz_offset":7200,"profile":{"first_name":"Philipp","last_name":"Wei\u00dfensteiner","avatar_hash":"gb22e5a796f1","title":"PSN:
         wpp31","phone":"","skype":"","real_name":"Philipp Wei\u00dfensteiner","real_name_normalized":"Philipp
         Weisensteiner","email":"mail@philippweissensteiner.com","image_24":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-24.png","image_32":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-32.png","image_48":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-48.png","image_72":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0008-72.png","image_192":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-192.png","image_512":"https:\/\/secure.gravatar.com\/avatar\/b22e5a796f12aa2d867670e29c81a7bb.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2F7fa9%2Fimg%2Favatars%2Fava_0008-512.png"},"is_admin":true,"is_owner":true,"is_primary_owner":true,"is_restricted":false,"is_ultra_restricted":false,"is_bot":false}}'
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 11:23:49 GMT
+    http_version: 
+  recorded_at: Mon, 03 Oct 2016 18:44:50 GMT
 - request:
     method: get
     uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
@@ -80,31 +84,33 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
+      Host:
+      - proxy.guardian.gg
   response:
     status:
       code: 200
       message: OK
     headers:
       Server:
-      - nginx/1.4.6 (Ubuntu)
+      - nginx/1.10.0 (Ubuntu)
       Date:
-      - Sun, 20 Mar 2016 11:25:20 GMT
+      - Mon, 03 Oct 2016 18:44:50 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - __cfduid=da96b67afc1d2d5d836bf69d2676f26981458473120; expires=Mon, 20-Mar-17
-        11:25:20 GMT; path=/; domain=.bungie.net; HttpOnly
-      - bungled=2514132504410868618; path=/
-      - bungledid=ByGbxEKzCTFJt30XMiRLpR3P+jFTslDTCAAA; expires=Fri, 20-Mar-2026 11:25:21
+      - __cfduid=d3624de47c449a6bfbd5206e87d4871261475520290; expires=Tue, 03-Oct-17
+        18:44:50 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=3165085627849697128; expires=Thu, 03-Oct-2019 18:44:51 GMT; path=/
+      - bungledid=BxZn8l9uOKpHqaWkx1DMR+WFUjhcvevTCAAA; expires=Sat, 03-Oct-2026 18:44:51
         GMT; path=/; HttpOnly
-      - sto-id-sg_www.bungie.net=JOAKHPAK; Expires=Sun, 20-Mar-2016 12:25:21 GMT;
+      - sto-id-sg_www.bungie.net=OLAKHPAK; Expires=Mon, 03-Oct-2016 19:44:50 GMT;
         Path=/
       Cache-Control:
       - private
       Expires:
       - "-1"
       X-Bungienext-Mid2:
-      - 08
+      - '12'
       X-Bungienext-Renderer:
       - Frog Blast the Ventcore
       X-Ua-Compatible:
@@ -114,13 +120,13 @@ http_interactions:
       P3p:
       - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
       X-Selfurl:
-      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
+      - https://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/2/wpp31/
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - SAMEORIGIN
       Cf-Ray:
-      - 2868cd8db0b61f94-DFW
+      - 2ec28c390d2b5582-ORD
       Access-Control-Allow-Origin:
       - "*"
       Transfer-Encoding:
@@ -128,8 +134,8 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"Response":[{"iconPath":"/img/theme/destiny/icons/icon_psn.png","membershipType":2,"membershipId":"4611686018429229422","displayName":"wpp31"}],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 11:25:21 GMT
+    http_version: 
+  recorded_at: Mon, 03 Oct 2016 18:44:51 GMT
 - request:
     method: get
     uri: http://proxy.guardian.gg/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
@@ -143,31 +149,33 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
+      Host:
+      - proxy.guardian.gg
   response:
     status:
       code: 200
       message: OK
     headers:
       Server:
-      - nginx/1.4.6 (Ubuntu)
+      - nginx/1.10.0 (Ubuntu)
       Date:
-      - Sun, 20 Mar 2016 11:25:21 GMT
+      - Mon, 03 Oct 2016 18:44:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - __cfduid=dbc8b751ef34c4a79d0a5d260f645c0ba1458473121; expires=Mon, 20-Mar-17
-        11:25:21 GMT; path=/; domain=.bungie.net; HttpOnly
-      - bungled=8952352030191295951; path=/
-      - bungledid=B/U2uTlNgFZFl6mB4yjeh5oWoZpTslDTCAAA; expires=Fri, 20-Mar-2026 11:25:22
+      - __cfduid=de2c8d9896c752b7a6715f2257e7acaf31475520291; expires=Tue, 03-Oct-17
+        18:44:51 GMT; path=/; domain=.bungie.net; HttpOnly
+      - bungled=5840828025338034409; expires=Thu, 03-Oct-2019 18:44:52 GMT; path=/
+      - bungledid=B/27FI2VbJ1AhBDd00zlXHAQxapcvevTCAAA; expires=Sat, 03-Oct-2026 18:44:52
         GMT; path=/; HttpOnly
-      - sto-id-sg_www.bungie.net=JLAKHPAK; Expires=Sun, 20-Mar-2016 12:25:22 GMT;
+      - sto-id-sg_www.bungie.net=OLAKHPAK; Expires=Mon, 03-Oct-2016 19:44:51 GMT;
         Path=/
       Cache-Control:
       - private
       Expires:
       - "-1"
       X-Bungienext-Mid2:
-      - '05'
+      - '12'
       X-Bungienext-Renderer:
       - Frog Blast the Ventcore
       X-Ua-Compatible:
@@ -177,13 +185,13 @@ http_interactions:
       P3p:
       - CP="ALL DSP COR PSD PSA TAI ADM CUR SAM OUR IND UNI COM INT CNT PRE"
       X-Selfurl:
-      - http://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
+      - https://www.bungie.net/Platform/Destiny/SearchDestinyPlayer/1/wpp31/
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - SAMEORIGIN
       Cf-Ray:
-      - 2868cd9184e52036-DFW
+      - 2ec28c3e18f455e8-ORD
       Access-Control-Allow-Origin:
       - "*"
       Transfer-Encoding:
@@ -191,8 +199,8 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"Response":[],"ErrorCode":1,"ThrottleSeconds":0,"ErrorStatus":"Success","Message":"Ok","MessageData":{}}'
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 11:25:21 GMT
+    http_version: 
+  recorded_at: Mon, 03 Oct 2016 18:44:51 GMT
 - request:
     method: get
     uri: http://api.guardian.gg/elo/4611686018429229422
@@ -206,42 +214,44 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
+      Host:
+      - api.guardian.gg
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Sun, 20 Mar 2016 11:25:22 GMT
+      - Mon, 03 Oct 2016 18:44:52 GMT
       Content-Type:
       - application/json
       Set-Cookie:
-      - __cfduid=d14103c2e87a461bc46dae3e6fd57410f1458473122; expires=Mon, 20-Mar-17
-        11:25:22 GMT; path=/; domain=.guardian.gg; HttpOnly
+      - __cfduid=d8b6ab76e35d17d256c79b4bce1b1fb7c1475520292; expires=Tue, 03-Oct-17
+        18:44:52 GMT; path=/; domain=.guardian.gg; HttpOnly
       Access-Control-Allow-Headers:
       - Authorization, Content-Type
       Cache-Control:
       - max-age:0, private, no-store, no-cache
       Last-Modified:
-      - Sun, 20 Mar 2016 11:25:22 GMT
+      - Mon, 03 Oct 2016 18:44:52 GMT
+      Vary:
+      - Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Cf-Cache-Status:
       - MISS
-      Vary:
-      - Accept-Encoding
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 2868cd96975c1a78-VIE
+      - 2ec28c4157fc5a1a-VIE
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: |
-        [{"gamesPlayed":31,"gamesPlayedSolo":1,"mode":9,"elo":1119.889360569719,"eloSolo":1193.0039031119911,"rank":269295,"rankSolo":-1},{"gamesPlayed":91,"gamesPlayedSolo":0,"mode":10,"elo":1267.1376197394923,"eloSolo":1200,"rank":152614,"rankSolo":-1},{"gamesPlayed":15,"gamesPlayedSolo":2,"mode":11,"elo":1204.993653305643,"eloSolo":1229.5807316042246,"rank":-1,"rankSolo":-1},{"gamesPlayed":131,"gamesPlayedSolo":1,"mode":12,"elo":1230.303718950939,"eloSolo":1185.0414759641935,"rank":336807,"rankSolo":-1},{"gamesPlayed":39,"gamesPlayedSolo":0,"mode":13,"elo":1259.4673771037315,"eloSolo":1200,"rank":102331,"rankSolo":-1},{"gamesPlayed":301,"gamesPlayedSolo":0,"mode":14,"elo":1214.789429455032,"eloSolo":1200,"rank":258563,"rankSolo":-1},{"gamesPlayed":52,"gamesPlayedSolo":0,"mode":19,"elo":1235,"eloSolo":1200,"rank":213239,"rankSolo":-1},{"gamesPlayed":21,"gamesPlayedSolo":0,"mode":23,"elo":1142.2678159731863,"eloSolo":1200,"rank":183830,"rankSolo":-1},{"gamesPlayed":75,"gamesPlayedSolo":0,"mode":24,"elo":1128.5911536741164,"eloSolo":1200,"rank":642913,"rankSolo":-1},{"gamesPlayed":8,"gamesPlayedSolo":0,"mode":28,"elo":1181.8137973753996,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":20,"gamesPlayedSolo":0,"mode":29,"elo":1152,"eloSolo":1200,"rank":-2,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":0,"mode":523,"elo":1145,"eloSolo":1200,"rank":600291,"rankSolo":-1}]
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 11:25:22 GMT
+        [{"gamesPlayed":18,"gamesPlayedSolo":12,"mode":9,"elo":1412.9146159670727,"eloSolo":1287.3900533449846,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":8,"mode":10,"elo":1236.7526279532071,"eloSolo":1177.1170313893335,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":17,"mode":11,"elo":1327.9444086442345,"eloSolo":1313.6268246752788,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":12,"elo":1300.3864729767668,"eloSolo":1198.5473551010443,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":13,"elo":1271.5535340319675,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":18,"gamesPlayedSolo":0,"mode":14,"elo":1319.3542887525962,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":2,"mode":15,"elo":1200.8267408638508,"eloSolo":1197.5271863123282,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1235.9404840552154,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":7,"mode":23,"elo":1239.1838175201058,"eloSolo":1191.0019064255557,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":2,"mode":24,"elo":1133.0986700464175,"eloSolo":1172.3333037480354,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":14,"gamesPlayedSolo":0,"mode":31,"elo":1158.8468940358403,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":3,"gamesPlayedSolo":0,"mode":531,"elo":1216.1112276781773,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 03 Oct 2016 18:44:52 GMT
 - request:
     method: get
     uri: http://api.guardian.gg/elo/4611686018429229422
@@ -255,40 +265,42 @@ http_interactions:
       - "*/*"
       User-Agent:
       - Ruby
+      Host:
+      - api.guardian.gg
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Sun, 20 Mar 2016 12:43:22 GMT
+      - Mon, 03 Oct 2016 18:44:53 GMT
       Content-Type:
       - application/json
       Set-Cookie:
-      - __cfduid=de13476d8fdc67f5e0c354a4ecccf8cd21458477802; expires=Mon, 20-Mar-17
-        12:43:22 GMT; path=/; domain=.guardian.gg; HttpOnly
+      - __cfduid=d09646af3b89e0f5c3ff949fbb832ec281475520292; expires=Tue, 03-Oct-17
+        18:44:52 GMT; path=/; domain=.guardian.gg; HttpOnly
       Access-Control-Allow-Headers:
       - Authorization, Content-Type
       Cache-Control:
       - max-age:0, private, no-store, no-cache
       Last-Modified:
-      - Sun, 20 Mar 2016 12:43:22 GMT
+      - Mon, 03 Oct 2016 18:44:52 GMT
+      Vary:
+      - Accept-Encoding
       Access-Control-Allow-Origin:
       - "*"
       Cf-Cache-Status:
       - MISS
-      Vary:
-      - Accept-Encoding
       Server:
       - cloudflare-nginx
       Cf-Ray:
-      - 28693fd87c301a2a-VIE
+      - 2ec28c45a54e5966-VIE
       Transfer-Encoding:
       - chunked
     body:
       encoding: ASCII-8BIT
       string: |
-        [{"gamesPlayed":31,"gamesPlayedSolo":1,"mode":9,"elo":1119.889360569719,"eloSolo":1193.0039031119911,"rank":269371,"rankSolo":-1},{"gamesPlayed":91,"gamesPlayedSolo":0,"mode":10,"elo":1267.1376197394923,"eloSolo":1200,"rank":152644,"rankSolo":-1},{"gamesPlayed":15,"gamesPlayedSolo":2,"mode":11,"elo":1204.993653305643,"eloSolo":1229.5807316042246,"rank":-1,"rankSolo":-1},{"gamesPlayed":131,"gamesPlayedSolo":1,"mode":12,"elo":1230.303718950939,"eloSolo":1185.0414759641935,"rank":336833,"rankSolo":-1},{"gamesPlayed":39,"gamesPlayedSolo":0,"mode":13,"elo":1259.4673771037315,"eloSolo":1200,"rank":102344,"rankSolo":-1},{"gamesPlayed":301,"gamesPlayedSolo":0,"mode":14,"elo":1214.789429455032,"eloSolo":1200,"rank":258596,"rankSolo":-1},{"gamesPlayed":52,"gamesPlayedSolo":0,"mode":19,"elo":1235,"eloSolo":1200,"rank":213239,"rankSolo":-1},{"gamesPlayed":21,"gamesPlayedSolo":0,"mode":23,"elo":1142.2678159731863,"eloSolo":1200,"rank":183832,"rankSolo":-1},{"gamesPlayed":75,"gamesPlayedSolo":0,"mode":24,"elo":1128.5911536741164,"eloSolo":1200,"rank":642992,"rankSolo":-1},{"gamesPlayed":8,"gamesPlayedSolo":0,"mode":28,"elo":1181.8137973753996,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":20,"gamesPlayedSolo":0,"mode":29,"elo":1152,"eloSolo":1200,"rank":-2,"rankSolo":-1},{"gamesPlayed":34,"gamesPlayedSolo":0,"mode":523,"elo":1145,"eloSolo":1200,"rank":600291,"rankSolo":-1}]
-    http_version:
-  recorded_at: Sun, 20 Mar 2016 12:43:22 GMT
+        [{"gamesPlayed":18,"gamesPlayedSolo":12,"mode":9,"elo":1412.9146159670727,"eloSolo":1287.3900533449846,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":8,"mode":10,"elo":1236.7526279532071,"eloSolo":1177.1170313893335,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":17,"mode":11,"elo":1327.9444086442345,"eloSolo":1313.6268246752788,"rank":-1,"rankSolo":-1},{"gamesPlayed":2,"gamesPlayedSolo":2,"mode":12,"elo":1300.3864729767668,"eloSolo":1198.5473551010443,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":0,"mode":13,"elo":1271.5535340319675,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":18,"gamesPlayedSolo":0,"mode":14,"elo":1319.3542887525962,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":2,"mode":15,"elo":1200.8267408638508,"eloSolo":1197.5271863123282,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":19,"elo":1235.9404840552154,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":7,"mode":23,"elo":1239.1838175201058,"eloSolo":1191.0019064255557,"rank":-1,"rankSolo":-1},{"gamesPlayed":1,"gamesPlayedSolo":2,"mode":24,"elo":1133.0986700464175,"eloSolo":1172.3333037480354,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":28,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":29,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":14,"gamesPlayedSolo":0,"mode":31,"elo":1158.8468940358403,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":0,"gamesPlayedSolo":0,"mode":523,"elo":1200,"eloSolo":1200,"rank":-1,"rankSolo":-1},{"gamesPlayed":3,"gamesPlayedSolo":0,"mode":531,"elo":1216.1112276781773,"eloSolo":1200,"rank":-1,"rankSolo":-1}]
+    http_version: 
+  recorded_at: Mon, 03 Oct 2016 18:44:53 GMT
 recorded_with: VCR 3.0.1
