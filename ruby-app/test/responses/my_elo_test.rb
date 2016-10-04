@@ -19,7 +19,7 @@ class MyEloTest < Minitest::Test
     ].each do |my_elo|
       VCR.use_cassette('trials_map') do
         response = @xander.respond_to(my_elo, @user)
-        assert_equal "Hi <@#{@user}> your trials elo is: *1214*.", response.text
+        assert_equal "Hi <@#{@user}> your trials elo is: *1215*.", response.text
       end
     end
   end
@@ -27,14 +27,14 @@ class MyEloTest < Minitest::Test
   def test_my_elo_olly
     VCR.use_cassette('elo_olly') do
       response = @xander.respond_to("#{@bot} my elo", @user)
-      assert_equal "Hi <@U0TUWEY6R> your trials elo is: *1180* (PSN) *couldn’t find one* (XBOX).", response.text
+      assert_equal "Hi <@U0TUWEY6R> your trials elo is: *1181* (PSN) *couldn’t find one* (XBOX).", response.text
     end
   end
 
   def test_if_two_membership_ids_from_gg
     VCR.use_cassette('both_platforms_myelo') do
       response = @xander.respond_to("#{@bot} my elo", @user)
-      assert_equal "Hi <@#{@user}> your trials elo is: *1579* (PSN) *1704* (XBOX).", response.text
+      assert_equal "Hi <@#{@user}> your trials elo is: *1580* (PSN) *1704* (XBOX).", response.text
     end
   end
 
@@ -59,7 +59,7 @@ class MyEloTest < Minitest::Test
   def test_my_elo_unkown_gamemode_defaults_to_trials
     VCR.use_cassette('elo_fo_wpp31') do
       response = @xander.respond_to("#{@bot} my unkowngamemode elo", @user)
-      assert_equal "Hi <@#{@user}> your trials elo is: *1214*.", response.text
+      assert_equal "Hi <@#{@user}> your trials elo is: *1215*.", response.text
     end
   end
 

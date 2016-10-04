@@ -17,7 +17,7 @@ class EloRankingTest < Minitest::Test
       {
         "fallback"  => "Elo ranking for _trials_:",
         "pretext"   => "Elo ranking for _trials_:",
-        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/14|Rorith__>: 1455 :medal:\n2. <http://guardian.gg/en/profile/2/samsymons/14|samsymons>: 1358\n3. <http://guardian.gg/en/profile/2/kurzinator/14|kurzinator>: 1200",
+        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/14|Rorith__>: 1456 :medal:\n2. <http://guardian.gg/en/profile/2/samsymons/14|samsymons>: 1358\n3. <http://guardian.gg/en/profile/2/kurzinator/14|kurzinator>: 1200",
         "color"     => "#D2D42D",
         "thumb_url" =>"https://www.bungie.net/img/profile/avatars/bungiedayav4.jpg?cv=3727043970&av=1624003925",
         "mrkdwn_in" => [
@@ -52,7 +52,7 @@ class EloRankingTest < Minitest::Test
       {
         "fallback"  => "Elo ranking for _skirmish_:",
         "pretext"   => "Elo ranking for _skirmish_:",
-        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/9|Rorith__>: 1360 :medal:\n2. <http://guardian.gg/en/profile/2/samsymons/9|samsymons>: 1278\n3. <http://guardian.gg/en/profile/2/kurzinator/9|kurzinator>: 1189",
+        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/9|Rorith__>: 1361 :medal:\n2. <http://guardian.gg/en/profile/2/samsymons/9|samsymons>: 1279\n3. <http://guardian.gg/en/profile/2/kurzinator/9|kurzinator>: 1190",
         "color"     => "#97322D",
         "thumb_url" =>"https://www.bungie.net/common/destiny_content/icons/361235bb0cd9ae75ba98e77c1971db0f.jpg",
         "mrkdwn_in" => [
@@ -139,7 +139,7 @@ class EloRankingTest < Minitest::Test
       {
         "fallback"  => "Elo ranking for _trials_:",
         "pretext"   => "Elo ranking for _trials_:",
-        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/14|Rorith__>: 1455 :medal:\n2. <http://guardian.gg/en/profile/2/scssquatch/14|scssquatch>: 1421\n3. <http://guardian.gg/en/profile/1/scssquatch/14|scssquatch>: 1419\n4. <http://guardian.gg/en/profile/2/ollyc92/14|ollyc92>: 1306\n5. <http://guardian.gg/en/profile/1/ollyc92/14|ollyc92>: 0",
+        "text"      => "1. <http://guardian.gg/en/profile/2/Rorith__/14|Rorith__>: 1456 :medal:\n2. <http://guardian.gg/en/profile/2/scssquatch/14|scssquatch>: 1422\n3. <http://guardian.gg/en/profile/1/scssquatch/14|scssquatch>: 1419\n4. <http://guardian.gg/en/profile/2/ollyc92/14|ollyc92>: 1306\n5. <http://guardian.gg/en/profile/1/ollyc92/14|ollyc92>: 0",
         "color"     => "#D2D42D",
         "thumb_url" =>"https://www.bungie.net/img/profile/avatars/bungiedayav4.jpg?cv=3727043970&av=1624003925",
         "mrkdwn_in" => [

@@ -57,7 +57,7 @@ module Response
           if @gg_user.get_elos(mid[:id]).select { |r| r['mode'] == GG::MODES[@mode] }.empty?
             elos << { platform: mid[:platform_id], elo: 'couldn’t find one' }
           else
-            elo = @gg_user.get_elos(mid[:id]).select { |r| r['mode'] == GG::MODES[@mode] }.first['elo'].floor
+            elo = @gg_user.get_elos(mid[:id]).select { |r| r['mode'] == GG::MODES[@mode] }.first['elo'].round
             elos << { platform: mid[:platform_id], elo: elo }
           end
         end

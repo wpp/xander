@@ -14,19 +14,19 @@ class MyEloTest < Minitest::Test
   def test_elo_gamertag_unkown_gamemode
     VCR.use_cassette('elo_fo_samsymons') do
       response = @xander.respond_to("#{@bot} unkowngamemode elo for samsymons", @user)
-      assert_equal "Hi <@#{@user}> samsymons's elo for trials is: *1534*.", response.text
+      assert_equal "Hi <@#{@user}> samsymons's elo for trials is: *1535*.", response.text
     end
   end
 
   def test_elo_gamertag
     VCR.use_cassette('elo_fo_wpp31') do
       response = @xander.respond_to("#{@bot} elo for wpp31", @user)
-      assert_equal "Hi <@#{@user}> wpp31's elo for trials is: *1214*.", response.text
+      assert_equal "Hi <@#{@user}> wpp31's elo for trials is: *1215*.", response.text
     end
 
     VCR.use_cassette('elo_fo_samsymons') do
       response = @xander.respond_to("#{@bot} elo for samsymons", @user)
-      assert_equal "Hi <@#{@user}> samsymons's elo for trials is: *1534*.", response.text
+      assert_equal "Hi <@#{@user}> samsymons's elo for trials is: *1535*.", response.text
     end
   end
 
@@ -40,12 +40,12 @@ class MyEloTest < Minitest::Test
   def test_elo_gamertag_and_gametype
     VCR.use_cassette('elo_fo_samsymons') do
       response = @xander.respond_to("rumble elo for samsymons #{@bot}", @user)
-      assert_equal "Hi <@#{@user}> samsymons's elo for rumble is: *1313*.", response.text
+      assert_equal "Hi <@#{@user}> samsymons's elo for rumble is: *1314*.", response.text
     end
 
     VCR.use_cassette('elo_fo_kurzinator') do
       response = @xander.respond_to("rift elo for kurzinator #{@bot}", @user)
-      assert_equal "Hi <@#{@user}> kurzinator's elo for rift is: *1142*.", response.text
+      assert_equal "Hi <@#{@user}> kurzinator's elo for rift is: *1143*.", response.text
     end
 
     VCR.use_cassette('elo_fo_kurzinator') do
