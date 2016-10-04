@@ -4,9 +4,9 @@ require 'byebug'
 Slack.configure do |config|
   if ENV['SLACK_API_TOKEN']
     config.token = ENV['SLACK_API_TOKEN']
-    logger.info 'Using auth token from ENV'
+    puts 'Using auth token from ENV'
   else
-    puts "Missing slack token"
+    puts 'Missing slack token'
     exit
   end
 end
