@@ -5,7 +5,7 @@ module Response
     end
 
     def text
-      @dictionary.generate_sentences(rand(1..2)).downcase
+      @dictionary.generate_sentences(rand(1..2)).upcase
     end
   end
 end
