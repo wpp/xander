@@ -64,7 +64,11 @@ at the `Dockerfile` to see what's included. (In case you want timing/cron relate
 
 ## Resources
 
-- [Bungie API docs](http://destinyapi.wiki/)
+- [Community Wiki for API](https://destinydevs.github.io/BungieNetPlatform)
+- [Bungie Dev Group](https://www.bungie.net/en/Clan/Forum/39966)
+- Append `/help` to any service endpoint to view docs
+    - https://www.bungie.net/platform/destiny/help/
+    - https://www.bungie.net/platform/user/help/
 - [Slack API docs](https://api.slack.com/rtm)
 - [CircleCI](https://circleci.com/docs/gettingstarted/)
 - [How to Read the Manifest (Reference)](https://www.bungie.net/en/Clan/Post/39966/105901734/0/0)
