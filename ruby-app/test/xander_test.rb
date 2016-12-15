@@ -165,6 +165,17 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_srl
+    [
+      "#{@bot} srl elo",
+      "#{@bot} how many races",
+      "#{@bot} racing"
+    ].each do |msg|
+      assert_equal "I'm not gonna talk about SRL.",
+        @xander.respond_to(msg, @user).text
+    end
+  end
+
   def test_channel_join
     response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, 'C0CPS1MLH', 'channel_join')
     assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text

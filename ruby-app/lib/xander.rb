@@ -9,6 +9,7 @@ require_relative 'greeting'
 
 class Xander
   THX           = /thanks?|thx/i
+  SRL           = /srl|rac[e|ing]/i
   MAPS          = /maps?/i
   RANT          = /rant|problem|fault|blame|salt/i
   NICE          = /apologi(s|z)e|behave|nice|sorry|sry/i
@@ -48,6 +49,7 @@ class Xander
   def get_response_for(message, user)
     case message
     when THX            then Response::Thx.new
+    when SRL            then Response::Srl.new
     when MAPS           then Response::Maps.new
     when RANT           then Response::Rant.new
     when NICE           then Response::Nice.new
