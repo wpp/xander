@@ -1,13 +1,15 @@
 module Response
   class Perk < Base
     def initialize(message, user)
+      super()
       @message = message
       @user = user
       @db = SQLite3::Database.open('./db/world_sql_content_3393e6968b07cafc465169cf543d1bb6.content')
       @message_query = @message.downcase.gsub(/perk/, '').lstrip
+      @text = get_text
     end
 
-    def text
+    def get_text
       @json = []
       result = query
       result.each do |r|

@@ -5,14 +5,16 @@ module Response
     attr_reader :message, :user, :client, :mode
 
     def initialize(message, user, client)
+      super()
       @message = message
       @user = user
       @client = client
       get_mode
       @slack_user = client.web_client.users_info(user: user).user
+      @text = get_text
     end
 
-    def text
+    def get_text
       if slack_user_has_profile_title?
         get_gamertag
       else

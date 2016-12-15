@@ -1,11 +1,9 @@
 module Response
   class Morning < Base
     def initialize
+      super()
       @dictionary = MarkovChain.new("lib/dictionaries/morning.txt")
-    end
-
-    def response
-      @dictionary.generate_sentence
+      @text = @dictionary.generate_sentence
     end
   end
 end

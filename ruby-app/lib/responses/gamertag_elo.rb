@@ -3,15 +3,13 @@ module Response
     attr_reader :message, :user, :client
 
     def initialize(message, user, client)
+      super()
       @message = message
       @user = user
       @client = client
       get_mode
       get_gamertag
-    end
-
-    def text
-      get_membership_ids
+      @text = get_membership_ids
     end
 
     private

@@ -1,7 +1,9 @@
 module Response
   class Base
-    def text
-      'default response'
+    attr_reader :text
+
+    def initialize
+      @text = 'default response'
     end
 
     def respond(username, message)

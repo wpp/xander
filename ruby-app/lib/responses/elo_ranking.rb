@@ -13,6 +13,7 @@ module Response
     }
 
     def initialize(message, user, client)
+      super()
       @message = message
       @user = user
       @client = client
@@ -21,9 +22,10 @@ module Response
       get_mode
       get_gamertags
       get_membership_ids
+      @text = get_text
     end
 
-    def text
+    def get_text
       if @slack_users.length > 5
         "Hi <@#{user}> only 5 users are supported for a elo ranking."
       elsif @gamertags.empty?

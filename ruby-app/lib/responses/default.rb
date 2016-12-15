@@ -1,11 +1,9 @@
 module Response
   class Default < Base
     def initialize
+      super
       @dictionary = MarkovChain.new('lib/dictionaries/general.txt')
-    end
-
-    def text
-      @dictionary.generate_sentences(1)
+      @text = @dictionary.generate_sentences(1)
     end
   end
 end

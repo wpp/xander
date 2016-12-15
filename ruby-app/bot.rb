@@ -27,7 +27,7 @@ client.on :message do |data|
     response = xander.respond_to(data.text, data.user, data.channel, data.subtype)
     if response
       logger.info "#{data.user}: #{data.text}"
-      logger.info "response: #{resonse.text}"
+      logger.info "response: #{response.text}"
       client.web_client.chat_postMessage(text: response.text,
                                          attachments: response.attachments,
                                          channel: data.channel,

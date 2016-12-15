@@ -4,12 +4,14 @@ module Response
     TABLE = '(╯°□°）╯︵ ┻━┻'
 
     def initialize(user)
+      super()
       @api_key = ENV['BUNGIE_API_TOKEN'] || File.read('.bungie_token').chomp
       @user = user
       @xur_gone = true
+      @text = get_text
     end
 
-    def text
+    def get_text
       case get_xur_inventory
       when 5
         "Hi <@#{@user}> bungie's API is down for maintenance. Sorry."

@@ -1,7 +1,8 @@
 module Response
   class Faction < Base
-    def text
-      'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:'
+    def initialize
+      super
+      @text = 'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:'
     end
   end
 end

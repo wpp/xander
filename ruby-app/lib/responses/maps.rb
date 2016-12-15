@@ -4,11 +4,13 @@ module Response
     TABLE = '(╯°□°）╯︵ ┻━┻'
 
     def initialize
+      super()
       @callout_url = 'http://mattaltepeter.com/destiny/maps/'
       @trials_url  = 'http://destinytracker.com/destiny/trials-of-osiris-history'
+      @text = get_text
     end
 
-    def text
+    def get_text
       scrape_trials_map
       "Map is _#{@map}_ (#{@date}) #{@map_url}. Callouts are here: #{@callout_url}. Good luck!"
     rescue => e

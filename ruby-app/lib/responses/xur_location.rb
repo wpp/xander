@@ -4,11 +4,13 @@ module Response
     TABLE = '(╯°□°）╯︵ ┻━┻'
 
     def initialize(user)
+      super()
       @url = URI('http://www.destinylfg.com/findxur/')
       @user = user
+      @text = get_text
     end
 
-    def text
+    def get_text
       scrape_xur_location
       "Hi <@#{@user}> you asked for Xur's location:"
     rescue
