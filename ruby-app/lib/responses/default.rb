@@ -1,11 +1,11 @@
 module Response
   class Default < Base
     def initialize
-      @defaults = File.read('lib/dictionaries/defaults.txt').split("\n")
+      @dictionary = MarkovChain.new('lib/dictionaries/general.txt')
     end
 
     def text
-      @defaults[rand(0..@defaults.length - 1)]
+      @dictionary.generate_sentences(rand(1..2))
     end
   end
 end
