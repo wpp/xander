@@ -5,7 +5,7 @@ module Response
     end
 
     def text
-      @dictionary.generate_sentences(rand(1..2))
+      @dictionary.generate_sentences(1)
     end
   end
 end

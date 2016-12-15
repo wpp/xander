@@ -3,7 +3,7 @@ require 'logger'
 require_relative 'lib/xander'
 require 'byebug'
 
-logger = Logger.new(STDOUT)
+logger = ENV['SLACK_API_TOKEN'] ? Logger.new('log/xander.log') : Logger.new(STDOUT)
 
 Slack.configure do |config|
   if ENV['SLACK_API_TOKEN']
@@ -26,9 +26,8 @@ client.on :message do |data|
   if data.respond_to?(:text) && !data.text.nil? && (data.user != client.self.id)
     response = xander.respond_to(data.text, data.user, data.channel, data.subtype)
     if response
-      logger.info data.user
-      logger.info data.text
-      logger.info response.text
+      logger.info "#{data.user}: #{data.text}"
+      logger.info "response: #{resonse.text}"
       client.web_client.chat_postMessage(text: response.text,
                                          attachments: response.attachments,
                                          channel: data.channel,
