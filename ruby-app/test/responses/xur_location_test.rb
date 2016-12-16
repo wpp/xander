@@ -15,6 +15,7 @@ class MyEloTest < Minitest::Test
     [
       "#{@bot} where is xur?",
       "#{@bot} wher's xur",
+      "#{@bot} Where’s xur?",
       "#{@bot} where is xur at?",
       "#{@bot} wheres xur???",
       "#{@bot} xur's location",

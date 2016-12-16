@@ -23,7 +23,7 @@ class Xander
   CRUCIBLE      = /crucible|pvp/i
   STREAMERS     = /streamers|stream|twitch|twitch.tv/i
   ELO_RANKING   = /elo ranking/i
-  XUR_LOCATION  = /(wher([\w\s'])+xur.*|xur.* location)/i
+  XUR_LOCATION  = /(wher.+xur.*|xur.* location)/i
   XUR_INVENTORY = /.*xur.*(selling|inventory|stuff).*/i
 
   def initialize(client)
