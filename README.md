@@ -4,10 +4,10 @@
 
 ## Getting Started
 
-1. Install Ruby
-2. Install Bundler with `gem install bundler`
+1. Install [Ruby (ruby 2.2.3p173)](https://github.com/rbenv/ruby-build)
+2. Install [Bundler](https://bundler.io) with `gem install bundler`
 3. `cd ruby-app` to swap to the main directory
-4. `bundle install` in the root directory of the project to get the dependencies
+4. `bundle install` in the root directory of the project to install the required gems
 5. `touch .testbot` to create a blank API token file (you don't need a token unless you are running new tests)
 6. `rake` to run the tests!
 
@@ -20,7 +20,10 @@ Contains the main logic of Xander.
 #### `bot.rb`
 
 Initiates one instance of `Xander`, the `Slack::RealTime::Client` (web and rtm)
-and establishes the connection to the team. (Via `SLACK_API_TOKEN` environmental variable)
+and establishes the connection to the team.
+Make sure you have a valid [Slack API token](https://api.slack.com/tokens).
+
+    SLACK_API_TOKEN=xoxb-7776-LIVE-AM-MICROPHON ruby bot.rb
 
 #### `xander.rb`
 
