@@ -3,6 +3,7 @@ coverage
 .testbot
 .bungie_token
 ruby-app/cache/*.json
+ruby-app/log
 dictionaries
 build.sh
 push.sh
