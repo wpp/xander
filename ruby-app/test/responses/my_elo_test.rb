@@ -1,4 +1,5 @@
 require_relative '../test_helper'
+require_relative '../../lib/xander'
 
 class MyEloTest < Minitest::Test
   def setup
@@ -100,6 +101,14 @@ class MyEloTest < Minitest::Test
     VCR.use_cassette('gg_elo_for_game_mode_empty') do
       response = @xander.respond_to("#{@bot} my rift elo", @user)
       assert_equal "Hi <@U0TUWEY6R> I couldn’t get a rift elo for you on guardian.gg.", response.text
+    end
+  end
+
+  def test_unexpected_error
+    VCR.use_cassette('gg_elo_for_game_mode_empty') do
+      GG::User.expects(:new).raises(StandardError, 'asdf')
+      response = @xander.respond_to("#{@bot} my rift elo", @user)
+      assert_equal '(╯°□°）╯︵ ┻━┻', response.text
     end
   end
 end

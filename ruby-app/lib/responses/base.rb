@@ -1,5 +1,8 @@
 module Response
+  # Base response, couple of things every response needs.
   class Base
+    TABLE = '(╯°□°）╯︵ ┻━┻'.freeze
+
     attr_reader :text
 
     def initialize

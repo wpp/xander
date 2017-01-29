@@ -1,14 +1,10 @@
 module Response
   class MyElo < Base
-    # TODO extract, cleanup
-    TABLE = '(╯°□°）╯︵ ┻━┻'
     attr_reader :message, :user, :client, :mode
 
     def initialize(message, user, client)
       super()
-      @message = message
-      @user = user
-      @client = client
+      @message, @user, @client = message, user, client
       get_mode
       @slack_user = client.web_client.users_info(user: user).user
       @text = get_text
@@ -21,9 +17,8 @@ module Response
         respond user, "I can't get your gamertag. Please add a profile title. #{change_instructions}"
       end
     rescue => e
+      #puts "#{e.class.name} #{e.message}"
       TABLE
-      puts e.message
-      puts e.user
     end
 
     private

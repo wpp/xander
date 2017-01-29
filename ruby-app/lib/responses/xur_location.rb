@@ -1,8 +1,5 @@
 module Response
   class XurLocation < Base
-    # TODO extract, cleanup
-    TABLE = '(╯°□°）╯︵ ┻━┻'
-
     def initialize(user)
       super()
       @url = URI('http://www.destinylfg.com/findxur/')

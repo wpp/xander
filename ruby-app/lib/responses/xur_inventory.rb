@@ -1,7 +1,5 @@
 module Response
   class XurInventory < Base
-    # TODO extract, cleanup
-    TABLE = '(╯°□°）╯︵ ┻━┻'
 
     def initialize(user)
       super()

@@ -1,8 +1,5 @@
 module Response
   class Maps < Base
-    # TODO extract, cleanup
-    TABLE = '(╯°□°）╯︵ ┻━┻'
-
     def initialize
       super()
       @callout_url = 'http://mattaltepeter.com/destiny/maps/'
