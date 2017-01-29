@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class MyEloTest < Minitest::Test
+class GamertagEloTest < Minitest::Test
   def setup
     @client = Slack::RealTime::Client.new
     selfm = mock()
@@ -78,7 +78,7 @@ class MyEloTest < Minitest::Test
   def test_if_two_membership_ids_from_gg
     VCR.use_cassette('both_platforms') do
       response = @xander.respond_to("#{@bot} trials elo for scssquatch", @user)
-      assert_equal "Hi <@#{@user}> scssquatch's elo for trials is: *1579* (PSN) *1704* (XBOX).", response.text
+      assert_equal "Hi <@#{@user}> scssquatch's elo for trials is: *1580* (PSN) *1704* (XBOX).", response.text
     end
   end
 end

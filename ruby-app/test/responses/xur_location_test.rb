@@ -1,6 +1,6 @@
 require_relative '../test_helper'
 
-class MyEloTest < Minitest::Test
+class XurLocationTest < Minitest::Test
   def setup
     @client = Slack::RealTime::Client.new
     selfm = mock()
