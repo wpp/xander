@@ -50,18 +50,6 @@ class XanderTest < Minitest::Test
     assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text
   end
 
-  def test_streamers_response
-    [
-      "#{@bot} have some streamers for me?",
-      "#{@bot} good streamers",
-      "#{@bot} twitch streamers"
-    ].each do |msg|
-      response = @xander.respond_to(msg, @user)
-      assert_equal 'Here are some pretty cool streamers: https://usecanvas.com/imbriaco/low-sodium-streamers/4OuRsTOn8PithLvegHp3Df', response.text
-      assert_equal [], response.attachments
-    end
-  end
-
   def test_daily_challenge
     [
       "#{@bot} daily challenge",
