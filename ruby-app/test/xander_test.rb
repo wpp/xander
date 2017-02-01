@@ -108,20 +108,6 @@ class XanderTest < Minitest::Test
     end
   end
 
-  def test_thx
-    [
-      "thanks #{@bot}",
-      "thx #{@bot}",
-      "#{@bot} thank you"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('no worries')
-      Response::Thx.expects(:new).returns(response)
-
-      assert_equal 'no worries', @xander.respond_to(msg, @user).text
-    end
-  end
-
   def test_morning
     [
       "morning! #{@bot}",
