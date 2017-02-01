@@ -108,21 +108,6 @@ class XanderTest < Minitest::Test
     end
   end
 
-  def test_morning
-    [
-      "morning! #{@bot}",
-      "good morning #{@bot}",
-      "mornin #{@bot}"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('morning')
-      Response::Morning.expects(:new).returns(response)
-
-      assert_equal 'morning', @xander.respond_to(msg, @user).text
-    end
-
-  end
-
   def test_crucible_talk
     [
       "#{@bot} what do you think about the crucible?",
