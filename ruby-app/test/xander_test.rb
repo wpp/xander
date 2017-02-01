@@ -15,7 +15,7 @@ class XanderTest < Minitest::Test
   def test_ignores_normal_messages
     [
       'could be fun in void burn nightfalls',
-      "Cool. What's 13 strange coins anyway. :)",
+      'Cool. What’s 13 strange coins anyway. :)',
       'last week was heart of praxic fire, it’s a good time for warlocks'
     ].each { |message| refute @xander.respond_to(message, @user) }
   end
