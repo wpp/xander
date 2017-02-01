@@ -33,6 +33,16 @@ class XanderTest < Minitest::Test
     end
   end
 
+  def test_responds_to_at_mentions
+    [
+      "#{@bot} hi",
+      "#{@bot} what do you think?",
+      "maybe we can ask #{@bot}",
+      "#{@bot}: what do you say????"
+    ].each do |text|
+      assert_equal Response::Default, @xander.respond_to(text, @user).class
+    end
+  end
 
   def test_responds_to_channel_join
     response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, 'C0CPS1MLH', 'channel_join')
