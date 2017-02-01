@@ -40,7 +40,8 @@ class XanderTest < Minitest::Test
       "maybe we can ask #{@bot}",
       "#{@bot}: what do you say????"
     ].each do |text|
-      assert_equal Response::Default, @xander.respond_to(text, @user).class
+      Response::Default.expects(:new)
+      @xander.respond_to(text, @user)
     end
   end
 
