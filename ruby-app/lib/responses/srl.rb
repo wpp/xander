@@ -1,6 +1,6 @@
 module Response
   class Srl < Base
-    def initialize(message, user, client)
+    def initialize(message=nil, user=nil, client=nil)
       super()
       @text = "I'm not gonna talk about SRL."
     end

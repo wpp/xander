@@ -121,15 +121,4 @@ class XanderTest < Minitest::Test
       assert_equal 'dont get it', @xander.respond_to(msg, @user).text
     end
   end
-
-  def test_srl
-    [
-      "#{@bot} srl elo",
-      "#{@bot} how many races",
-      "#{@bot} racing"
-    ].each do |msg|
-      assert_equal "I'm not gonna talk about SRL.",
-        @xander.respond_to(msg, @user).text
-    end
-  end
 end
