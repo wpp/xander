@@ -12,7 +12,7 @@ class Xander
 
   def initialize(client)
     @client = client
-    @responses = get_responses
+    @responses = Response.all
   end
 
   def respond_to(message, user, channel='', subtype='')
@@ -38,14 +38,5 @@ class Xander
       end
     end
     Response::Default.new
-  end
-
-  private
-
-  def get_responses
-    Response.constants.map do |c|
-      const = Response.const_get(c)
-      const if const.is_a?(Class)
-    end
   end
 end

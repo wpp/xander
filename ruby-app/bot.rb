@@ -46,11 +46,6 @@ class Bot
 
   # unify what respond_to and might_respond_to? currently are
   # find one place where we decide to respond to a message
-  # what do we respond to? types of message vs message.text
-  # @bot messages
-  # Direct messages
-  # Someone joins bungie
-  # Someone posts a flipped table
   def get_response_for(data)
     xander.respond_to(data.text, data.user, data.channel, data.subtype)
   end
