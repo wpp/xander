@@ -1,6 +1,6 @@
 module Response
   class Faction < Base
-    def initialize(message, user, client)
+    def initialize(message, user=nil, client=nil)
       super()
       @text = 'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:'
     end

@@ -61,17 +61,6 @@ class XanderTest < Minitest::Test
     end
   end
 
-  def test_faction
-    [
-      "#{@bot} what is the best faction?",
-      "What is your faction #{@bot}"
-    ].each do |msg|
-      response = @xander.respond_to(msg, @user)
-      assert_equal 'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:', response.text
-      assert_equal [], response.attachments
-    end
-  end
-
   def test_daily_challenge
     [
       "#{@bot} daily challenge",
