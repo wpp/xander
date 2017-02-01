@@ -8,30 +8,15 @@ require_relative 'responses'
 require_relative 'greeting'
 
 class Xander
-  THX           = /thanks?|thx/i
-  SRL           = /srl|rac[e|ing]/i
-  MAPS          = /maps?/i
-  RANT          = /rant|problem|fault|blame|salt/i
-  NICE          = /apologi(s|z)e|behave|nice|sorry|sry/i
-  PERK          = /perk/i
-  DAILY         = /daily/i
-  TABLE         = /┸━┸|┻━┻/i
-  MY_ELO        = /^my *(\w|\s)* elo/i
-  GT_ELO        = /elo for *\w*/i
-  MORNING       = /(good\s)?morning?.*|yo slack-peeps/
-  FACTION       = /faction/i
-  CRUCIBLE      = /crucible|pvp/i
-  STREAMERS     = /streamers|stream|twitch|twitch.tv/i
-  ELO_RANKING   = /elo ranking/i
-  XUR_LOCATION  = /(wher.+xur.*|xur.* location)/i
-  XUR_INVENTORY = /.*xur.*(selling|inventory|stuff).*/i
+  attr_reader :client, :responses
 
   def initialize(client)
     @client = client
+    @responses = get_responses
   end
 
   def respond_to(message, user, channel='', subtype='')
-    @at_bot ||= /<@#{@client.self.id}>:?/
+    @at_bot ||= /<@#{client.self.id}>:?/
     if message =~ @at_bot
       message = message.gsub(@at_bot, '').lstrip.downcase
       get_response_for(message, user)
@@ -39,7 +24,7 @@ class Xander
       get_response_for(message.downcase, user)
     elsif subtype == 'channel_join' && channel == 'C0CPS1MLH'
       Response::Bungie.new(user)
-    elsif message =~ TABLE
+    elsif Response::Table.triggered_by?(message)
       Response::Table.new
     else
       nil
@@ -47,24 +32,20 @@ class Xander
   end
 
   def get_response_for(message, user)
-    case message
-    when THX            then Response::Thx.new
-    when SRL            then Response::Srl.new
-    when MAPS           then Response::Maps.new
-    when RANT           then Response::Rant.new
-    when NICE           then Response::Nice.new
-    when PERK           then Response::Perk.new(message, user)
-    when DAILY          then Response::Daily.new
-    when MY_ELO         then Response::MyElo.new(message, user, @client)
-    when GT_ELO         then Response::GamertagElo.new(message, user, @client)
-    when MORNING        then Response::Morning.new
-    when FACTION        then Response::Faction.new
-    when CRUCIBLE       then Response::Crucible.new
-    when STREAMERS      then Response::Streamers.new
-    when ELO_RANKING    then Response::EloRanking.new(message, user, @client)
-    when XUR_LOCATION   then Response::XurLocation.new(user)
-    when XUR_INVENTORY  then Response::XurInventory.new(user)
-    else Response::Default.new
+    responses.each do |response|
+      if response.triggered_by?(message)
+        return response.new(message, user, client)
+      end
+    end
+    Response::Default.new
+  end
+
+  private
+
+  def get_responses
+    Response.constants.map do |c|
+      const = Response.const_get(c)
+      const if const.is_a?(Class)
     end
   end
 end

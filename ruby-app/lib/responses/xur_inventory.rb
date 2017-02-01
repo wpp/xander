@@ -1,12 +1,16 @@
 module Response
   class XurInventory < Base
 
-    def initialize(user)
+    def initialize(message, user, client)
       super()
       @api_key = ENV['BUNGIE_API_TOKEN'] || File.read('.bungie_token').chomp
       @user = user
       @xur_gone = true
       @text = get_text
+    end
+
+    def self.triggered_by?(message)
+      message =~ /.*xur.*(selling|inventory|stuff).*/i
     end
 
     def get_text

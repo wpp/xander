@@ -5,5 +5,9 @@ module Response
       @dictionary = MarkovChain.new('lib/dictionaries/general.txt')
       @text = @dictionary.generate_sentences(1)
     end
+
+    def self.triggered_by?(message)
+      false
+    end
   end
 end

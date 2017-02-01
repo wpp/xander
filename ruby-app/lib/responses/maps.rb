@@ -1,6 +1,6 @@
 module Response
   class Maps < Base
-    def initialize
+    def initialize(*)
       super()
       @callout_url = 'http://mattaltepeter.com/destiny/maps/'
       @trials_url  = 'http://destinytracker.com/destiny/trials-of-osiris-history'
@@ -12,6 +12,10 @@ module Response
       "Map is _#{@map}_ (#{@date}) #{@map_url}. Callouts are here: #{@callout_url}. Good luck!"
     rescue => e
       TABLE
+    end
+
+    def self.triggered_by?(message)
+      message =~ /maps?/i
     end
 
     private

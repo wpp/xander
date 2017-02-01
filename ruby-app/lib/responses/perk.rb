@@ -9,6 +9,10 @@ module Response
       @text = get_text
     end
 
+    def self.triggered_by?(message)
+      message =~ /perk/i
+    end
+
     def get_text
       @json = []
       result = query

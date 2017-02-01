@@ -10,6 +10,10 @@ module Response
       @text = get_text
     end
 
+    def self.triggered_by?(message)
+      message =~ /^my *(\w|\s)* elo/i
+    end
+
     def get_text
       if slack_user_has_profile_title?
         get_gamertag

@@ -17,5 +17,13 @@ module Response
     def attachments
       []
     end
+
+    def self.triggered_by?(message)
+      unless self.name == "Response::Base"
+        puts "#{__method__} is not implemented in #{self.name}"
+      end
+
+      false
+    end
   end
 end

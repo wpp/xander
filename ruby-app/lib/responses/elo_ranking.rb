@@ -25,6 +25,10 @@ module Response
       @text = get_text
     end
 
+    def self.triggered_by?(message)
+      message =~ /elo ranking/i
+    end
+
     def get_text
       if @slack_users.length > 5
         "Hi <@#{user}> only 5 users are supported for a elo ranking."

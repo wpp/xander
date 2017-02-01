@@ -12,6 +12,10 @@ module Response
       @text = get_membership_ids
     end
 
+    def self.triggered_by?(message)
+      message =~ /elo for *\w*/i
+    end
+
     private
       def get_mode
         @mode, eloa, fora, gamertag = message.split(' ')

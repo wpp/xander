@@ -1,10 +1,14 @@
 module Response
   class XurLocation < Base
-    def initialize(user)
+    def initialize(message, user, client)
       super()
       @url = URI('http://www.destinylfg.com/findxur/')
       @user = user
       @text = get_text
+    end
+
+    def self.triggered_by?(message)
+      message =~ /(wher.+xur.*|xur.* location)/i
     end
 
     def get_text
