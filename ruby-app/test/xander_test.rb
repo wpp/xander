@@ -50,19 +50,6 @@ class XanderTest < Minitest::Test
     assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text
   end
 
-  def test_daily_challenge
-    [
-      "#{@bot} daily challenge",
-      "#{@bot} DAILY challenge",
-      "#{@bot} help with daily"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('sentence')
-      Response::Daily.expects(:new).returns(response)
-
-      assert_equal 'sentence', @xander.respond_to(msg, @user).text
-    end
-  end
 
   def test_rant
     [
