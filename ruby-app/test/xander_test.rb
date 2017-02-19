@@ -51,21 +51,6 @@ class XanderTest < Minitest::Test
   end
 
 
-  def test_rant
-    [
-      "#{@bot} whats your problem",
-      "this is your fault #{@bot}",
-      "I blame #{@bot}",
-      "#{@bot} is salty"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('sentence')
-      Response::Rant.expects(:new).returns(response)
-
-      assert_equal 'sentence', @xander.respond_to(msg, @user).text
-    end
-  end
-
   def test_nice
     [
       "#{@bot} behave",
