@@ -94,20 +94,6 @@ class XanderTest < Minitest::Test
     end
   end
 
-  def test_crucible_talk
-    [
-      "#{@bot} what do you think about the crucible?",
-      "crucible #{@bot}",
-      "state of pvp #{@bot}"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('meh')
-      Response::Crucible.expects(:new).returns(response)
-
-      assert_equal 'meh', @xander.respond_to(msg, @user).text
-    end
-  end
-
   def test_default_action
     [
       "#{@bot} what the heck?",
