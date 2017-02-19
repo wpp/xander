@@ -50,22 +50,6 @@ class XanderTest < Minitest::Test
     assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text
   end
 
-
-  def test_nice
-    [
-      "#{@bot} behave",
-      "say YOUR're sorry! #{@bot}",
-      "be nice #{@bot}",
-      "#{@bot} sry"
-    ].each do |msg|
-      response = mock()
-      response.expects(:text).returns('sentence')
-      Response::Nice.expects(:new).returns(response)
-
-      assert_equal 'sentence', @xander.respond_to(msg, @user).text
-    end
-  end
-
   def test_default_action
     [
       "#{@bot} what the heck?",
