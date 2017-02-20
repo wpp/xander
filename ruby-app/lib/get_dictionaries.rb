@@ -17,6 +17,7 @@ channels = client.web_client.channels_list.channels
 channels.each do |channel|
   puts "#{channel.name}"
   messages = client.web_client.channels_history({ channel: channel.id, count: 1000 }).messages
+
   puts "Got: #{messages.count} messages."
   File.open("dictionaries/#{channel.name}.txt", 'w') { |f| f.write(messages.map(&:text).join("\n")) }
 end
