@@ -1,6 +1,6 @@
 module Response
   class Thx < Base
-    def initialize
+    def initialize(*)
       super()
       @text = MarkovChain.new('lib/dictionaries/thx.txt').generate_sentence
     end
