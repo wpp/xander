@@ -10,7 +10,6 @@ class SrlTest < Minitest::Test
   end
 
   def test_text_response
-    response = Response::Srl.new
-    assert_equal "I'm not gonna talk about SRL.", response.text
+    assert_equal "I'm not gonna talk about SRL.", Response::Srl.new.text
   end
 end
