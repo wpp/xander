@@ -18,3 +18,13 @@ end
 Slack.configure do |config|
   config.token = ENV['SLACK_API_TOKEN'] || File.read('.testbot').chomp
 end
+
+def mock_sentences
+  dictionary = mock(generate_sentences: 'yolo')
+  MarkovChain.expects(:new).returns(dictionary)
+end
+
+def mock_sentence
+  dictionary = mock(generate_sentence: 'yolo')
+  MarkovChain.expects(:new).returns(dictionary)
+end
