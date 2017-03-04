@@ -1,6 +1,6 @@
 module Response
   class Perk < Base
-    def initialize(message, user)
+    def initialize(message, user, client=nil)
       super()
       @message = message
       @user = user
