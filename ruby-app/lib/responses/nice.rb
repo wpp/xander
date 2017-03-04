@@ -1,6 +1,6 @@
 module Response
   class Nice < Base
-    def initialize
+    def initialize(*)
       super()
       @dictionary = MarkovChain.new("lib/dictionaries/nice.txt")
       @text = @dictionary.generate_sentence
