@@ -28,3 +28,7 @@ def mock_sentence
   dictionary = mock(generate_sentence: 'yolo')
   MarkovChain.expects(:new).returns(dictionary)
 end
+
+def fixture(name)
+  JSON.parse(File.read("./test/fixtures/#{name}.json"))
+end

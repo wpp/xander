@@ -1,0 +1,14 @@
+Style/Documentation:
+  Enabled: false
+
+# Style/FrozenStringLiteralComment:
+  # Enabled: false
+
+# Rails/FindEach:
+  # Enabled: false
+
+# Rails:
+  # Enabled: true
+
+# Rails/FilePath:
+  # Enabled: false

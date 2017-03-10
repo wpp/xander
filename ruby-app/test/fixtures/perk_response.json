@@ -1,0 +1,11 @@
+[
+  {
+    "fallback" : "Perk description for the dance",
+    "fields" : [
+      {
+        "title" : "The Dance",
+        "value" :"You move more quickly while aiming your weapon."
+      }
+    ], "color" : "#FFCE1F"
+  }
+]

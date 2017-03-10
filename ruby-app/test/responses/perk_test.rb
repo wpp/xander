@@ -13,17 +13,11 @@ class PerkTest < Minitest::Test
 
   def test_text_response
     assert_equal 'Hi <@2> here is what I found for: *the dance*',
-      Response::Perk.new('the dance',2,3).text
+                 Response::Perk.new('the dance', 2, 3).text
   end
 
   def test_attachment_response
-    expected = [
-      {'fallback' => 'Perk description for the dance',
-        'fields' => [
-          {'title' => 'The Dance',
-            'value' => 'You move more quickly while aiming your weapon.'}
-        ], 'color' => '#FFCE1F'}
-    ]
-    assert_equal expected, Response::Perk.new('the dance',2,3).attachments
+    expected = fixture('perk_response')
+    assert_equal expected, Response::Perk.new('the dance', 2, 3).attachments
   end
 end
