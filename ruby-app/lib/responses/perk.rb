@@ -4,9 +4,6 @@ module Response
       super()
       @message = message
       @user = user
-      @db = SQLite3::Database.open(
-        './db/world_sql_content_3393e6968b07cafc465169cf543d1bb6.content'
-      )
       @message_query = @message.downcase.gsub(/perk/, '').lstrip
     end
 
@@ -42,7 +39,10 @@ module Response
     # for some reason some perks are duplicated
     def lookup
       json = []
-      results = @db.execute(query)
+      db = SQLite3::Database.open(
+        './db/world_sql_content_3393e6968b07cafc465169cf543d1bb6.content'
+      )
+      results = db.execute(query)
       results.each do |r|
         parsed = JSON.parse(r[1])
         if json.select { |j| j['displayName'] == parsed['displayName'] }.empty?
