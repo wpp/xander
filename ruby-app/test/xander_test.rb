@@ -4,7 +4,7 @@ require_relative '../lib/xander'
 class XanderTest < Minitest::Test
   def setup
     @client = Slack::RealTime::Client.new
-    selfm = mock()
+    selfm = mock
     selfm.expects(:id).returns('botid').at_least_once
     @client.expects(:self).returns(selfm).at_least_once
     @xander = Xander.new(@client)
@@ -46,8 +46,14 @@ class XanderTest < Minitest::Test
   end
 
   def test_responds_to_channel_join
-    response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel', @user, 'C0CPS1MLH', 'channel_join')
-    assert_equal "<@#{@user}> :notes: _\"We are programmed to receive. You can check-out any time you like, But you can never leave!\"_ :notes:", response.text
+    response = @xander.respond_to('<@U0TUN6XHS|xander> has joined the channel',
+                                  @user,
+                                  'C0CPS1MLH',
+                                  'channel_join')
+    expected = "<@#{@user}> :notes: _\"We are programmed to receive. " \
+               'You can check-out any time you like, But you can never ' \
+               'leave!"_ :notes:'
+    assert_equal expected, response.text
   end
 
   def test_default_action

@@ -11,6 +11,9 @@ class StreamersTest < Minitest::Test
 
   def test_text_response
     response = Response::Streamers.new('good stremers')
-    assert_equal 'Here are some pretty cool streamers: https://usecanvas.com/imbriaco/low-sodium-streamers/4OuRsTOn8PithLvegHp3Df', response.text
+    expected = 'Here are some pretty cool streamers: ' \
+               'https://usecanvas.com/imbriaco/low-sodium-streamers/' \
+               '4OuRsTOn8PithLvegHp3Df'
+    assert_equal expected, response.text
   end
 end
