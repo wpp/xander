@@ -13,19 +13,19 @@ end
 
 client = Slack::RealTime::Client.new
 channels = client.web_client.channels_list.channels
-groups = client.web_client.groups_list.groups
+# groups = client.web_client.groups_list.groups
 
 count = 1000
 
 channels.each do |channel|
-  puts "#{channel.name}"
+  puts channel.name.to_s
   channel_history = []
-  ts = 318297600
+  ts = 318_297_600
   response = OpenStruct.new(has_more: true)
 
   while response.has_more
-    response = client.web_client.channels_history({ channel: channel.id, count: count, oldest: ts  })
-    # response = client.web_client.groups_history({ channel: channel.id, count: count, oldest: ts  })
+    response = client.web_client.channels_history(channel: channel.id, count: count, oldest: ts)
+    # response = client.web_client.groups_history(channel: channel.id, count: count, oldest: ts)
     messages = response.messages
     channel_history += messages.reverse
     ts = messages[0].ts

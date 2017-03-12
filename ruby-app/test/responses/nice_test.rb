@@ -14,6 +14,6 @@ class NiceTest < Minitest::Test
 
   def test_text_response
     mock_sentence
-    assert_equal 'yolo', Response::Nice.new(1,2,3).text
+    assert_equal 'yolo', Response::Nice.new(1, 2, 3).text
   end
 end

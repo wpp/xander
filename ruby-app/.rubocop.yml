@@ -1,3 +1,7 @@
+AllCops:
+  Exclude:
+    - lib/get_dictionaries.rb
+
 Style/Documentation:
   Enabled: false
 

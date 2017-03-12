@@ -13,6 +13,6 @@ class DailyTest < Minitest::Test
 
   def test_text_response
     mock_sentences
-    assert_equal 'yolo', Response::Daily.new(1,2,3).text
+    assert_equal 'yolo', Response::Daily.new(1, 2, 3).text
   end
 end
