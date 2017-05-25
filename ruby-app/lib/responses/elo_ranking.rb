@@ -29,6 +29,11 @@ module Response
       message =~ /elo ranking/i
     end
 
+    def self.help
+      'elo ranking gametype for @user1 @user2 @user3 - rank slack users by elo' \
+      ' for a specific gametype (trials, iron banner, clash, ...)'
+    end
+
     def get_text
       if @slack_users.length > 5
         "Hi <@#{user}> only 5 users are supported for a elo ranking."

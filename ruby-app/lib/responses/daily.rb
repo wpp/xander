@@ -9,5 +9,9 @@ module Response
     def self.triggered_by?(message)
       message =~ /daily/i
     end
+
+    def self.help
+      'daily - suggest a topic for the #dailychallenge'
+    end
   end
 end

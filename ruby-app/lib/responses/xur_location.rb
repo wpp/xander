@@ -11,6 +11,10 @@ module Response
       message =~ /(wher.+xur.*|xur.* location)/i
     end
 
+    def self.help
+      'where\'s xur? - fetches Xûr\s location from destinylfg.com'
+    end
+
     def get_text
       scrape_xur_location
       "Hi <@#{@user}> you asked for Xur's location:"

@@ -11,6 +11,10 @@ module Response
       message =~ /perk/i
     end
 
+    def self.help
+      'perk perkname - returns description for a perkname (quickdraw)'
+    end
+
     def text
       "Hi <@#{@user}> here is what I found for: *#{@message_query}*"
     end

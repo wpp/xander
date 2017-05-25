@@ -38,10 +38,10 @@ wins.
 
 #### `responses/`
 
-The directory containing all of the possible Xander responses.
+The directory containing all responses.
 
 If you want to add a new response, drop it in here.  Your `Response` should
-inherit from `Base` and implement the `triggered_by?` method.
+inherit from `Base` and implement `triggered_by?`, `help` and `text`.
 
 ### `config/`
 
@@ -54,7 +54,8 @@ So in summary, if you want to add a new response:
 
 1. Create a new test `test/responses/my_new_response_test.rb`
 2. Create a new response `lib/responses/`
-3. Run tests `rake test`
+3. Run tests `rake test` or a single test
+   (`ruby -I lib -I test/ test/responses/help_test.rb`)
 4. Commit
 5. Push
 

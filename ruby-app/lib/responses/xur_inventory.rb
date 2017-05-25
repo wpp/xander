@@ -13,6 +13,10 @@ module Response
       message =~ /.*xur.*(selling|inventory|stuff).*/i
     end
 
+    def self.help
+      'xur\'s inventory - lists Xûr\'s inventory if he has arrived'
+    end
+
     def get_text
       case get_xur_inventory
       when 5
