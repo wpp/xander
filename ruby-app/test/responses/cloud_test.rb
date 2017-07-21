@@ -14,8 +14,8 @@ class CloudTest < Minitest::Test
   end
 
   def test_text_response
-    assert_equal 'Butt IX would', Response::Cloud.new('Cloud IX would' ).text
-    assert_equal 'in the butt', Response::Cloud.new('in the cloud').text
-    assert_equal 'in the iButt', Response::Cloud.new('in the iCloud').text
+    assert_equal '_Butt IX would_', Response::Cloud.new('Cloud IX would' ).text
+    assert_equal '_in the butt_', Response::Cloud.new('in the cloud').text
+    assert_equal '_in the iButt_', Response::Cloud.new('in the iCloud').text
   end
 end

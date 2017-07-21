@@ -36,7 +36,7 @@ class XanderTest < Minitest::Test
     assert_equal '┬─┬ノ( º _ ºノ)', @xander.respond_to(msg, @user, 'D').text
 
     msg = 'the Cloud is good'
-    assert_equal 'the Butt is good', @xander.respond_to(msg, @user, 'D').text
+    assert_equal '_the Butt is good_', @xander.respond_to(msg, @user, 'D').text
   end
 
   def test_responds_to_at_mentions
@@ -81,6 +81,6 @@ class XanderTest < Minitest::Test
     assert_equal '┬─┬ノ( º _ ºノ)', @xander.respond_to(msg, @user).text
 
     msg = 'the Cloud is good'
-    assert_equal 'the Butt is good', @xander.respond_to(msg, @user).text
+    assert_equal '_the Butt is good_', @xander.respond_to(msg, @user).text
   end
 end

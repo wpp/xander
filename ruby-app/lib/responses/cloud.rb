@@ -3,7 +3,8 @@ module Response
     def initialize(*args)
       super()
       message = args[0]
-      @text = message.gsub(/cloud/i, message.include?('Cloud') ? 'Butt' : 'butt')
+      tmp = message.gsub(/cloud/i, message.include?('Cloud') ? 'Butt' : 'butt')
+      @text = "_#{tmp}_"
     end
 
     def self.triggered_by?(message)
