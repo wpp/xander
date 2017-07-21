@@ -21,7 +21,7 @@ class Xander
       message = message.gsub(@at_bot, '').lstrip.downcase
       get_response_for(message, user)
     elsif channel.respond_to?(:first) && (channel.first == 'D')
-      get_response_for(message.downcase, user)
+      get_response_for(message, user)
     elsif subtype == 'channel_join' && channel == 'C0CPS1MLH'
       Response::Bungie.new(user)
     elsif Response::Table.triggered_by?(message)
