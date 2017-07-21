@@ -1,6 +1,6 @@
 module Response
   class Table < Base
-    def initialize
+    def initialize(*)
       super()
       @text = '┬─┬ノ( º _ ºノ)'
     end

@@ -1,7 +1,8 @@
 module Response
   class Cloud < Base
-    def initialize(message)
+    def initialize(*args)
       super()
+      message = args[0]
       @text = message.gsub(/cloud/i, "butt")
     end
 
