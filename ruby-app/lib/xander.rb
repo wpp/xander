@@ -26,6 +26,8 @@ class Xander
       Response::Bungie.new(user)
     elsif Response::Table.triggered_by?(message)
       Response::Table.new
+    elsif Response::Cloud.triggered_by?(message)
+      Response::Cloud.new(message)
     else
       nil
     end
