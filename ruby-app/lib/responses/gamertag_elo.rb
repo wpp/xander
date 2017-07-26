@@ -17,7 +17,7 @@ module Response
     end
 
     def self.help
-      'elo for gamertag - fetch the elo from guardian.gg for a specific gamertag'
+      '`@xander elo for gamertag` - fetch the elo from guardian.gg for a specific gamertag'
     end
 
     private

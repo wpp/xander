@@ -14,7 +14,7 @@ module Response
     end
 
     def self.help
-      'xur\'s inventory - lists Xûr\'s inventory if he has arrived'
+      '`@xander xur\'s inventory` - lists Xûr\'s inventory, if he has arrived'
     end
 
     def get_text

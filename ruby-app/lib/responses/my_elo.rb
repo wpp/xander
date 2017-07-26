@@ -14,6 +14,10 @@ module Response
       message =~ /^my *(\w|\s)* elo/i
     end
 
+    def self.help
+      '`@xander my gametype elo` - fetches your elo from guardian.gg, defaults to trials'
+    end
+
     def get_text
       if slack_user_has_profile_title?
         get_gamertag

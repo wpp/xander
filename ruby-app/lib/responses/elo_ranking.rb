@@ -30,8 +30,7 @@ module Response
     end
 
     def self.help
-      'elo ranking gametype for @user1 @user2 @user3 - rank slack users by elo' \
-      ' for a specific gametype (trials, iron banner, clash, ...)'
+      '`@xander elo ranking gametype for @user1 @user2 @user3` - rank slack users by elo'
     end
 
     def get_text

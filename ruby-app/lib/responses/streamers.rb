@@ -12,7 +12,7 @@ module Response
     end
 
     def self.help
-      'streamers - returns a list of streamers we like'
+      '`@xander streamers` - returns a list of streamers we like'
     end
   end
 end

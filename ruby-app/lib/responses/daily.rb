@@ -11,7 +11,7 @@ module Response
     end
 
     def self.help
-      'daily - suggest a topic for the #dailychallenge'
+      '`@xander daily` - suggest a topic for the #dailychallenge'
     end
   end
 end

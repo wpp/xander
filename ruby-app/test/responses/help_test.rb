@@ -17,7 +17,7 @@ class HelpTest < Minitest::Test
   def test_text_response
     response = Response::Help.new('what is your faction')
     assert_equal(
-      'My allegiance is with Dead Orbit. All hail Severus Snape. :metal:',
+      'Here is how I could help you out:',
       response.text
     )
   end
