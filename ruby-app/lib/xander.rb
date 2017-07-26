@@ -1,4 +1,3 @@
-require 'sqlite3'
 require 'nokogiri'
 require 'open-uri'
 require_relative 'markov_chain'

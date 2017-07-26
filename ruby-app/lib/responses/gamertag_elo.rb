@@ -16,6 +16,10 @@ module Response
       message =~ /elo for *\w*/i
     end
 
+    def self.help
+      '`@xander elo for gamertag` - fetch the elo from guardian.gg for a specific gamertag'
+    end
+
     private
       def get_mode
         @mode, eloa, fora, gamertag = message.split(' ')

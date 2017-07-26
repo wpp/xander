@@ -10,5 +10,9 @@ module Response
     def self.triggered_by?(message)
       message =~ /streamers|stream|twitch|twitch.tv/i
     end
+
+    def self.help
+      '`@xander streamers` - returns a list of streamers we like'
+    end
   end
 end
